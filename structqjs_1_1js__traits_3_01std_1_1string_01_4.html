@@ -88,7 +88,7 @@ struct qjs::js_traits&lt; std::string &gt;</h3>
 
 <p>Conversion traits for std::string. </p>
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00216">216</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00217">217</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a9511dd47284884284b365ff1bd3de9d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9511dd47284884284b365ff1bd3de9d5">&#9670;&nbsp;</a></span>unwrap()</h2>
@@ -124,10 +124,10 @@ struct qjs::js_traits&lt; std::string &gt;</h3>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00218">218</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00219">219</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="structqjs_1_1js__traits_3_01std_1_1string__view_01_4.html#a722fb92e222abf0655072de681e46b23">qjs::js_traits&lt; std::string_view &gt;::unwrap()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    {</div><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keyword">auto</span> str_view = <a class="code" href="structqjs_1_1js__traits.html#a351e7d3aeaf80ffd371672b517e0c7c5">js_traits&lt;std::string_view&gt;::unwrap</a>(ctx, v);</div><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keywordflow">return</span> std::string{str_view.data(), str_view.size()};</div><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    }</div><div class="ttc" id="structqjs_1_1js__traits_html_a351e7d3aeaf80ffd371672b517e0c7c5"><div class="ttname"><a href="structqjs_1_1js__traits.html#a351e7d3aeaf80ffd371672b517e0c7c5">qjs::js_traits::unwrap</a></div><div class="ttdeci">static R unwrap(JSContext *ctx, JSValueConst v)</div><div class="ttdoc">Create an object of C++ type R given JSValue v and JSContext. </div></div>
+<div class="fragment"><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    {</div><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keyword">auto</span> str_view = <a class="code" href="structqjs_1_1js__traits.html#a351e7d3aeaf80ffd371672b517e0c7c5">js_traits&lt;std::string_view&gt;::unwrap</a>(ctx, v);</div><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="keywordflow">return</span> std::string{str_view.data(), str_view.size()};</div><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    }</div><div class="ttc" id="structqjs_1_1js__traits_html_a351e7d3aeaf80ffd371672b517e0c7c5"><div class="ttname"><a href="structqjs_1_1js__traits.html#a351e7d3aeaf80ffd371672b517e0c7c5">qjs::js_traits::unwrap</a></div><div class="ttdeci">static R unwrap(JSContext *ctx, JSValueConst v)</div><div class="ttdoc">Create an object of C++ type R given JSValue v and JSContext. </div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -171,10 +171,10 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00224">224</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00225">225</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8c.html#ac34cc554aab1e98c45a7f845fff64385">JS_NewStringLen()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    {</div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#a71f0aae471c9811e816c974e0f6d2607">JS_NewStringLen</a>(ctx, str.data(), str.size());</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a71f0aae471c9811e816c974e0f6d2607"><div class="ttname"><a href="quickjs_8h.html#a71f0aae471c9811e816c974e0f6d2607">JS_NewStringLen</a></div><div class="ttdeci">JSValue JS_NewStringLen(JSContext *ctx, const char *str1, size_t len1)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l03515">quickjs.c:3515</a></div></div>
+<div class="fragment"><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    {</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#a71f0aae471c9811e816c974e0f6d2607">JS_NewStringLen</a>(ctx, str.data(), str.size());</div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a71f0aae471c9811e816c974e0f6d2607"><div class="ttname"><a href="quickjs_8h.html#a71f0aae471c9811e816c974e0f6d2607">JS_NewStringLen</a></div><div class="ttdeci">JSValue JS_NewStringLen(JSContext *ctx, const char *str1, size_t len1)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l03515">quickjs.c:3515</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

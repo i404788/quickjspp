@@ -100,7 +100,7 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p>Thin wrapper over <a class="el" href="structJSRuntime.html">JSRuntime</a> * rt Calls JS_FreeRuntime on destruction. </p>
 <p>noncopyable. </p>
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00872">872</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00873">873</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0860a1339ff567f9f603c7bed4d670f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0860a1339ff567f9f603c7bed4d670f9">&#9670;&nbsp;</a></span>Runtime() <span class="overload">[1/2]</span></h2>
@@ -125,11 +125,11 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00877">877</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00878">878</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8c.html#afc1ca27a266094085ebb43e2eea0dda2">JS_NewRuntime()</a>, and <a class="el" href="classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4">rt</a>.</p>
-<div class="fragment"><div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;    {</div><div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;        <a class="code" href="classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4">rt</a> = <a class="code" href="quickjs_8h.html#afc1ca27a266094085ebb43e2eea0dda2">JS_NewRuntime</a>();</div><div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4">rt</a>)</div><div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;            <span class="keywordflow">throw</span> std::runtime_error{<span class="stringliteral">&quot;qjs: Cannot create runtime&quot;</span>};</div><div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_afc1ca27a266094085ebb43e2eea0dda2"><div class="ttname"><a href="quickjs_8h.html#afc1ca27a266094085ebb43e2eea0dda2">JS_NewRuntime</a></div><div class="ttdeci">JSRuntime * JS_NewRuntime(void)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l01430">quickjs.c:1430</a></div></div>
-<div class="ttc" id="classqjs_1_1Runtime_html_a3b498d71f948fb1e1dff1b1d34159fb4"><div class="ttname"><a href="classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4">qjs::Runtime::rt</a></div><div class="ttdeci">JSRuntime * rt</div><div class="ttdef"><b>Definition:</b> <a href="quickjspp_8hpp_source.html#l00875">quickjspp.hpp:875</a></div></div>
+<div class="fragment"><div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;    {</div><div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;        <a class="code" href="classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4">rt</a> = <a class="code" href="quickjs_8h.html#afc1ca27a266094085ebb43e2eea0dda2">JS_NewRuntime</a>();</div><div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4">rt</a>)</div><div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;            <span class="keywordflow">throw</span> std::runtime_error{<span class="stringliteral">&quot;qjs: Cannot create runtime&quot;</span>};</div><div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_afc1ca27a266094085ebb43e2eea0dda2"><div class="ttname"><a href="quickjs_8h.html#afc1ca27a266094085ebb43e2eea0dda2">JS_NewRuntime</a></div><div class="ttdeci">JSRuntime * JS_NewRuntime(void)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l01430">quickjs.c:1430</a></div></div>
+<div class="ttc" id="classqjs_1_1Runtime_html_a3b498d71f948fb1e1dff1b1d34159fb4"><div class="ttname"><a href="classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4">qjs::Runtime::rt</a></div><div class="ttdeci">JSRuntime * rt</div><div class="ttdef"><b>Definition:</b> <a href="quickjspp_8hpp_source.html#l00876">quickjspp.hpp:876</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -188,11 +188,11 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00887">887</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00888">888</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8c.html#ad80a65b72c3a346d8a0047858a5f0b13">JS_FreeRuntime()</a>, and <a class="el" href="classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4">rt</a>.</p>
-<div class="fragment"><div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;    {</div><div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;        <a class="code" href="quickjs_8h.html#ad80a65b72c3a346d8a0047858a5f0b13">JS_FreeRuntime</a>(<a class="code" href="classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4">rt</a>);</div><div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_ad80a65b72c3a346d8a0047858a5f0b13"><div class="ttname"><a href="quickjs_8h.html#ad80a65b72c3a346d8a0047858a5f0b13">JS_FreeRuntime</a></div><div class="ttdeci">void JS_FreeRuntime(JSRuntime *rt)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l01584">quickjs.c:1584</a></div></div>
-<div class="ttc" id="classqjs_1_1Runtime_html_a3b498d71f948fb1e1dff1b1d34159fb4"><div class="ttname"><a href="classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4">qjs::Runtime::rt</a></div><div class="ttdeci">JSRuntime * rt</div><div class="ttdef"><b>Definition:</b> <a href="quickjspp_8hpp_source.html#l00875">quickjspp.hpp:875</a></div></div>
+<div class="fragment"><div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;    {</div><div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;        <a class="code" href="quickjs_8h.html#ad80a65b72c3a346d8a0047858a5f0b13">JS_FreeRuntime</a>(<a class="code" href="classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4">rt</a>);</div><div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_ad80a65b72c3a346d8a0047858a5f0b13"><div class="ttname"><a href="quickjs_8h.html#ad80a65b72c3a346d8a0047858a5f0b13">JS_FreeRuntime</a></div><div class="ttdeci">void JS_FreeRuntime(JSRuntime *rt)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l01584">quickjs.c:1584</a></div></div>
+<div class="ttc" id="classqjs_1_1Runtime_html_a3b498d71f948fb1e1dff1b1d34159fb4"><div class="ttname"><a href="classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4">qjs::Runtime::rt</a></div><div class="ttdeci">JSRuntime * rt</div><div class="ttdef"><b>Definition:</b> <a href="quickjspp_8hpp_source.html#l00876">quickjspp.hpp:876</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -215,7 +215,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00875">875</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00876">876</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classqjs_1_1Context.html#af725fb8083d8c33a37198d6acaf1a836">qjs::Context::Context()</a>, <a class="el" href="qjs_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>, <a class="el" href="classqjs_1_1Runtime.html#a0860a1339ff567f9f603c7bed4d670f9">Runtime()</a>, and <a class="el" href="classqjs_1_1Runtime.html#a44c5deb57118d67e36f2e002f393ff43">~Runtime()</a>.</p>
 
