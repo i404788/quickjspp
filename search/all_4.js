@@ -29,7 +29,7 @@ var searchData=
   ['debug',['debug',['../structJSFunctionBytecode.html#a466d381770397da0f0d2962c94cb5368',1,'JSFunctionBytecode']]],
   ['decl_5fmask_5fall',['DECL_MASK_ALL',['../quickjs_8c.html#a2906d94847f5c59eda4f9a8c612d06f7',1,'quickjs.c']]],
   ['decl_5fmask_5ffunc',['DECL_MASK_FUNC',['../quickjs_8c.html#a12c8083899522cbc604a9222a8b0634f',1,'quickjs.c']]],
-  ['decl_5fmask_5flabel',['DECL_MASK_LABEL',['../quickjs_8c.html#ab2b7f7532c7e8c735ed1b4cec5bac684',1,'quickjs.c']]],
+  ['decl_5fmask_5ffunc_5fwith_5flabel',['DECL_MASK_FUNC_WITH_LABEL',['../quickjs_8c.html#a029546b2e2cd86cdd28515f2653c1daa',1,'quickjs.c']]],
   ['decl_5fmask_5fother',['DECL_MASK_OTHER',['../quickjs_8c.html#a9e3adc3a70d9caf9d3a161571485ff85',1,'quickjs.c']]],
   ['decomp_5ftype_5fb1',['DECOMP_TYPE_B1',['../libunicode_8c.html#a2216ccfa4464f75b8a98f75ba4607645af8154c49cb82d862dda59322c568a8ed',1,'libunicode.c']]],
   ['decomp_5ftype_5fb18',['DECOMP_TYPE_B18',['../libunicode_8c.html#a2216ccfa4464f75b8a98f75ba4607645a725f7ddece8e8f23ddb83cd1daba7d73',1,'libunicode.c']]],
