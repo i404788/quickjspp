@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 830;
+var viewWidth = 663;
 var viewHeight = 220;
 var sectionId = 'dynsection-0';
 </script>
@@ -57,165 +57,151 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="727.5,-110.5 727.5,-129.5 815.5,-129.5 815.5,-110.5 727.5,-110.5"/>
-<text text-anchor="middle" x="771.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSResolveEntry</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="560.5,-110.5 560.5,-129.5 648.5,-129.5 648.5,-110.5 560.5,-110.5"/>
+<text text-anchor="middle" x="604.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSResolveEntry</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="structJSModuleDef.html" target="_top" xlink:title="JSModuleDef">
-<polygon fill="none" stroke="#000000" points="521,-76.5 521,-95.5 597,-95.5 597,-76.5 521,-76.5"/>
-<text text-anchor="middle" x="559" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSModuleDef</text>
+<polygon fill="none" stroke="#000000" points="354,-76.5 354,-95.5 430,-95.5 430,-76.5 354,-76.5"/>
+<text text-anchor="middle" x="392" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSModuleDef</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M607.307,-94.7033C609.9081,-95.1479 612.4851,-95.5827 615,-96 652.8282,-102.2771 695.9006,-108.8397 727.2692,-113.5127"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="607.6866,-91.217 597.2356,-92.9568 606.4905,-98.1141 607.6866,-91.217"/>
-<text text-anchor="middle" x="659" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> module</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M440.3194,-93.7686C442.9173,-94.1853 445.4903,-94.5979 448,-95 485.8995,-101.0726 528.9655,-107.9505 560.3135,-112.9529"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="440.6848,-90.2825 430.2564,-92.1533 439.5753,-97.194 440.6848,-90.2825"/>
+<text text-anchor="middle" x="492" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> module</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="structJSReqModuleEntry.html" target="_top" xlink:title="JSReqModuleEntry">
-<polygon fill="none" stroke="#000000" points="721,-57.5 721,-76.5 822,-76.5 822,-57.5 721,-57.5"/>
-<text text-anchor="middle" x="771.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSReqModuleEntry</text>
+<polygon fill="none" stroke="#000000" points="554,-57.5 554,-76.5 655,-76.5 655,-57.5 554,-57.5"/>
+<text text-anchor="middle" x="604.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSReqModuleEntry</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node6 -->
 <g id="edge7" class="edge">
 <title>Node2&#45;&gt;Node6</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M607.6123,-81.6535C641.4922,-78.6242 686.5842,-74.5925 720.8931,-71.5249"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="607.1307,-78.1825 597.4821,-82.5592 607.7541,-85.1547 607.1307,-78.1825"/>
-<text text-anchor="middle" x="659" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> module</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M440.6123,-81.6535C474.4922,-78.6242 519.5842,-74.5925 553.8931,-71.5249"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="440.1307,-78.1825 430.4821,-82.5592 440.7541,-85.1547 440.1307,-78.1825"/>
+<text text-anchor="middle" x="492" y="-83" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> module</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="structlist__head.html" target="_top" xlink:title="list_head">
-<polygon fill="none" stroke="#000000" points="23,-152.5 23,-171.5 79,-171.5 79,-152.5 23,-152.5"/>
-<text text-anchor="middle" x="51" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">list_head</text>
+<polygon fill="none" stroke="#000000" points="152,-152.5 152,-171.5 208,-171.5 208,-152.5 152,-152.5"/>
+<text text-anchor="middle" x="180" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">list_head</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M89.2922,-161.1983C108.4331,-160.7149 131.9471,-159.9967 153,-159 308.9513,-151.6167 358.8178,-188.89 503,-129 521.5648,-121.2886 539.3259,-105.8102 549.694,-95.6811"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="89.0643,-157.7026 79.1517,-161.4429 89.2332,-164.7006 89.0643,-157.7026"/>
-<text text-anchor="middle" x="265" y="-164" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> link</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M218.288,-159.1065C250.8503,-155.5057 298.2029,-147.5245 336,-130 354.3962,-121.4706 372.2047,-105.8119 382.6287,-95.6588"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="217.8599,-155.6319 208.2665,-160.1282 218.5699,-162.5958 217.8599,-155.6319"/>
+<text text-anchor="middle" x="292.5" y="-157" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> link</text>
 </g>
 <!-- Node3&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node3</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M35.5309,-181.7663C36.7459,-186.4965 41.9022,-190 51,-190 65.9297,-190 70.2453,-180.5653 63.9468,-171.7571"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="39.0034,-182.3092 38.0532,-171.7571 32.2156,-180.5986 39.0034,-182.3092"/>
-<text text-anchor="middle" x="51" y="-204" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> prev</text>
-<text text-anchor="middle" x="51" y="-193" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">next</text>
-</g>
-<!-- Node9 -->
-<g id="node9" class="node">
-<title>Node9</title>
-<g id="a_node9"><a xlink:href="structJSVarRef.html" target="_top" xlink:title="JSVarRef">
-<polygon fill="none" stroke="#ff0000" points="171,-114.5 171,-133.5 230,-133.5 230,-114.5 171,-114.5"/>
-<text text-anchor="middle" x="200.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSVarRef</text>
-</a>
-</g>
-</g>
-<!-- Node3&#45;&gt;Node9 -->
-<g id="edge11" class="edge">
-<title>Node3&#45;&gt;Node9</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M88.8228,-152.3862C114.3043,-145.9093 147.4315,-137.489 170.972,-131.5054"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="87.9494,-148.9968 79.1198,-154.8525 89.6739,-155.7811 87.9494,-148.9968"/>
-<text text-anchor="middle" x="136.5" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> link</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M164.0749,-181.4C165.1384,-186.3146 170.4468,-190 180,-190 195.2852,-190 199.7035,-180.5653 193.2551,-171.7571"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="167.4494,-182.3284 166.7449,-171.7571 160.7032,-180.4604 167.4494,-182.3284"/>
+<text text-anchor="middle" x="180" y="-204" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> prev</text>
+<text text-anchor="middle" x="180" y="-193" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">next</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="structJSRefCountHeader.html" target="_top" xlink:title="JSRefCountHeader">
-<polygon fill="none" stroke="#000000" points="0,-100.5 0,-119.5 102,-119.5 102,-100.5 0,-100.5"/>
-<text text-anchor="middle" x="51" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSRefCountHeader</text>
+<polygon fill="none" stroke="#000000" points="129,-114.5 129,-133.5 231,-133.5 231,-114.5 129,-114.5"/>
+<text text-anchor="middle" x="180" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSRefCountHeader</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M112.2664,-107.1055C218.3995,-102.0914 433.4607,-91.931 520.8199,-87.8038"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="111.8586,-103.6208 102.0349,-107.5889 112.189,-110.613 111.8586,-103.6208"/>
-<text text-anchor="middle" x="265" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> header</text>
-</g>
-<!-- Node4&#45;&gt;Node9 -->
-<g id="edge12" class="edge">
-<title>Node4&#45;&gt;Node9</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M112.1109,-115.7228C132.288,-117.6123 153.8375,-119.6303 170.6072,-121.2007"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="112.3141,-112.2266 102.0313,-114.7788 111.6614,-119.1961 112.3141,-112.2266"/>
-<text text-anchor="middle" x="136.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> header</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M241.1538,-116.6451C270.0522,-112.7461 304.9449,-107.4261 336,-101 343.4907,-99.45 351.4693,-97.4983 358.986,-95.52"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="240.6517,-113.1809 231.1982,-117.9645 241.5714,-120.1203 240.6517,-113.1809"/>
+<text text-anchor="middle" x="292.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> header</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="structJSStarExportEntry.html" target="_top" xlink:title="JSStarExportEntry">
-<polygon fill="none" stroke="#000000" points="300,-38.5 300,-57.5 398,-57.5 398,-38.5 300,-38.5"/>
-<text text-anchor="middle" x="349" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSStarExportEntry</text>
+<polygon fill="none" stroke="#000000" points="131,-76.5 131,-95.5 229,-95.5 229,-76.5 131,-76.5"/>
+<text text-anchor="middle" x="180" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSStarExportEntry</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node2 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M408.5986,-48.392C437.4852,-49.7504 472.4532,-53.1335 503,-61 516.4038,-64.4518 530.6353,-70.8447 541.3974,-76.3015"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="408.3826,-44.8806 398.2508,-47.9785 408.1031,-51.875 408.3826,-44.8806"/>
-<text text-anchor="middle" x="459.5" y="-64" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> star_export_entries</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M239.2316,-86C275.8493,-86 321.7805,-86 353.6698,-86"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="239.17,-82.5001 229.1699,-86 239.1699,-89.5001 239.17,-82.5001"/>
+<text text-anchor="middle" x="292.5" y="-89" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> star_export_entries</text>
 </g>
 <!-- Node6&#45;&gt;Node2 -->
 <g id="edge6" class="edge">
 <title>Node6&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M728.6519,-55.1631C696.789,-48.274 652.5209,-42.767 615,-53 598.4516,-57.5132 581.8123,-68.3008 571.0239,-76.3208"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="728.0074,-58.6061 738.5368,-57.4302 729.5723,-51.7833 728.0074,-58.6061"/>
-<text text-anchor="middle" x="659" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> req_module_entries</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M561.6519,-55.1631C529.789,-48.274 485.5209,-42.767 448,-53 431.4516,-57.5132 414.8123,-68.3008 404.0239,-76.3208"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="561.0074,-58.6061 571.5368,-57.4302 562.5723,-51.7833 561.0074,-58.6061"/>
+<text text-anchor="middle" x="492" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> req_module_entries</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="structJSImportEntry.html" target="_top" xlink:title="JSImportEntry">
-<polygon fill="none" stroke="#000000" points="309,-.5 309,-19.5 389,-19.5 389,-.5 309,-.5"/>
-<text text-anchor="middle" x="349" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSImportEntry</text>
+<polygon fill="none" stroke="#000000" points="140,-38.5 140,-57.5 220,-57.5 220,-38.5 140,-38.5"/>
+<text text-anchor="middle" x="180" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSImportEntry</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node2 -->
 <g id="edge8" class="edge">
 <title>Node7&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M399.4033,-10.4448C430.6073,-12.4761 470.7348,-18.3548 503,-34 523.5332,-43.9564 541.7542,-64.0075 551.501,-76.0941"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="399.3612,-6.9376 389.1875,-9.8949 398.9849,-13.9275 399.3612,-6.9376"/>
-<text text-anchor="middle" x="459.5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> import_entries</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M230.3347,-53.9233C261.0243,-57.9054 300.9556,-63.7484 336,-71 343.4907,-72.55 351.4693,-74.5017 358.986,-76.48"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="230.6638,-50.437 220.3016,-52.6449 229.7789,-57.3809 230.6638,-50.437"/>
+<text text-anchor="middle" x="292.5" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> import_entries</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="structJSExportEntry.html" target="_top" xlink:title="JSExportEntry">
-<polygon fill="none" stroke="#000000" points="309,-114.5 309,-133.5 389,-133.5 389,-114.5 309,-114.5"/>
-<text text-anchor="middle" x="349" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSExportEntry</text>
+<polygon fill="none" stroke="#000000" points="140,-.5 140,-19.5 220,-19.5 220,-.5 140,-.5"/>
+<text text-anchor="middle" x="180" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSExportEntry</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node2 -->
 <g id="edge9" class="edge">
 <title>Node8&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M399.344,-117.3258C429.5259,-113.0337 468.6009,-106.9655 503,-100 509.4826,-98.6873 516.3448,-97.121 522.9599,-95.519"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="398.4781,-113.9129 389.0614,-118.7684 399.4507,-120.845 398.4781,-113.9129"/>
-<text text-anchor="middle" x="459.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> export_entries</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M230.4054,-13.8413C261.9317,-17.7153 302.7267,-25.4761 336,-41 354.7623,-49.7537 372.7386,-66.0762 383.0593,-76.471"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="230.4244,-10.3211 220.0934,-12.671 229.6349,-17.2765 230.4244,-10.3211"/>
+<text text-anchor="middle" x="292.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> export_entries</text>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node">
+<title>Node9</title>
+<g id="a_node9"><a xlink:href="structJSVarRef.html" target="_top" xlink:title="JSVarRef">
+<polygon fill="none" stroke="#ff0000" points="0,-.5 0,-19.5 59,-19.5 59,-.5 0,-.5"/>
+<text text-anchor="middle" x="29.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JSVarRef</text>
+</a>
+</g>
 </g>
 <!-- Node9&#45;&gt;Node8 -->
 <g id="edge10" class="edge">
 <title>Node9&#45;&gt;Node8</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M240.2043,-124C261.4781,-124 287.6209,-124 308.9475,-124"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="240.1943,-120.5001 230.1943,-124 240.1942,-127.5001 240.1943,-120.5001"/>
-<text text-anchor="middle" x="265" y="-127" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> var_ref</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M69.4524,-10C91.1893,-10 118.0069,-10 139.7846,-10"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="69.234,-6.5001 59.234,-10 69.2339,-13.5001 69.234,-6.5001"/>
+<text text-anchor="middle" x="94" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> var_ref</text>
 </g>
 </g>
 </svg>

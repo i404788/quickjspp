@@ -9,6 +9,8 @@ var searchData=
   ['_5f_5fbf_5fsqrt',['__bf_sqrt',['../libbf_8c.html#a662e03ccb9ec7e7f83eac12e084af566',1,'libbf.c']]],
   ['_5f_5fbf_5fsub',['__bf_sub',['../libbf_8c.html#aa3b3bc85aee9c531439d5fbc92986dfe',1,'libbf.c']]],
   ['_5f_5fexception',['__exception',['../quickjs_8c.html#a33da4ebe179bcb9ed632e675fc5f2349',1,'quickjs.c']]],
+  ['_5f_5fgc_5fmark',['__gc_mark',['../structJSVarRef.html#ab2dcb74ee71c107a95809268e68ace39',1,'JSVarRef::__gc_mark()'],['../structJSObject.html#a14ac54fc16a55d7492f179d4927502de',1,'JSObject::__gc_mark()']]],
+  ['_5f_5fgc_5fref_5fcount',['__gc_ref_count',['../structJSVarRef.html#af67e52589b05fcb879b7a0fad4dcfd64',1,'JSVarRef::__gc_ref_count()'],['../structJSObject.html#a051c27d762603ee55fc3f43bb012c993',1,'JSObject::__gc_ref_count()']]],
   ['_5f_5fjs_5fatomfromuint32',['__JS_AtomFromUInt32',['../quickjs_8c.html#a877fcb7651d95b411ce70e62b7f4a1f0',1,'quickjs.c']]],
   ['_5f_5fjs_5fatomisconst',['__JS_AtomIsConst',['../quickjs_8c.html#a7f6796ee7a195631366f57c713a33f65',1,'quickjs.c']]],
   ['_5f_5fjs_5fatomistaggedint',['__JS_AtomIsTaggedInt',['../quickjs_8c.html#a288254c06a39c9fca740a7abdad2834e',1,'quickjs.c']]],

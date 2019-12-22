@@ -145,6 +145,6 @@ var searchData=
   ['bswap32',['bswap32',['../cutils_8h.html#acc2d0d790271933eb5f1b1b70edb98ba',1,'cutils.h']]],
   ['bswap64',['bswap64',['../cutils_8h.html#a099a2e37a35e9b2fe832c74cdeadfe2c',1,'cutils.h']]],
   ['build_5farg_5flist',['build_arg_list',['../quickjs_8c.html#a4956f45ffd2849b96dc051277264f87a',1,'quickjs.c']]],
-  ['build_5fbacktrace',['build_backtrace',['../quickjs_8c.html#a80b89f140c8e343469b5c98482a4310d',1,'quickjs.c']]],
+  ['build_5fbacktrace',['build_backtrace',['../quickjs_8c.html#a61c8dfb5e807af1b6ff7d8ca61576dda',1,'quickjs.c']]],
   ['build_5ffor_5fin_5fiterator',['build_for_in_iterator',['../quickjs_8c.html#aa40a5354bee3b56e05a71244910bcc78',1,'quickjs.c']]]
 ];

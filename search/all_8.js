@@ -3,7 +3,6 @@ var searchData=
   ['handler',['handler',['../structJSProxyData.html#ada562a97d079c27c222b714ff8ec2b8b',1,'JSProxyData::handler()'],['../structJSPromiseReactionData.html#a73996caab1584c01199e7440ce0b2db6',1,'JSPromiseReactionData::handler()']]],
   ['has_5farguments_5fbinding',['has_arguments_binding',['../structJSFunctionDef.html#a6194935cd846fbda57ac267ad05d9c49',1,'JSFunctionDef']]],
   ['has_5fbrand',['has_brand',['../structClassFieldsDef.html#af7ef873d0d602c6bac51566522f4204d',1,'ClassFieldsDef']]],
-  ['has_5fchildren',['has_children',['../quickjs_8c.html#ad52a7f002b34af567e43530397d0e46e',1,'quickjs.c']]],
   ['has_5fdebug',['has_debug',['../structJSFunctionBytecode.html#ac1c097df8e73ed4ea0a7ff51df8eab2f',1,'JSFunctionBytecode']]],
   ['has_5fescape',['has_escape',['../structJSToken.html#a4f42417cd9cdf222634e7a7d68410dcf',1,'JSToken']]],
   ['has_5feval_5fcall',['has_eval_call',['../structJSFunctionDef.html#aff2ca9ebb9f5bd6e32b0a636530f83d5',1,'JSFunctionDef']]],
@@ -28,7 +27,7 @@ var searchData=
   ['hash_5fstring16',['hash_string16',['../quickjs_8c.html#a8f1b36a26bf6d179e43696a67e8e0fff',1,'quickjs.c']]],
   ['hash_5fstring8',['hash_string8',['../quickjs_8c.html#a7f3a538c8f7ee373cfe88625181739ad',1,'quickjs.c']]],
   ['hash_5ftable',['hash_table',['../structJSMapState.html#ae1d651b640a412bd74240ec0837fbacd',1,'JSMapState']]],
-  ['header',['header',['../structJSVarRef.html#a41d145790dcfef7f4088a6a863de03a7',1,'JSVarRef::header()'],['../structJSString.html#afe3192eb89cb8411334281d0b6bf6cf4',1,'JSString::header()'],['../structJSFunctionBytecode.html#a47d763fea9f1a928bdf026c82c7eae7b',1,'JSFunctionBytecode::header()'],['../structJSAsyncFunctionData.html#abaa7f7c99e733bb3a9c1b20e1d150928',1,'JSAsyncFunctionData::header()'],['../structJSModuleDef.html#a65b6528c13c442e56501714d43f08be4',1,'JSModuleDef::header()'],['../structJSShape.html#ad012320f2ae1c6c113ed0193863de8a5',1,'JSShape::header()'],['../structJSObject.html#a32dbc064d83254abd9a448d91a4ae1a5',1,'JSObject::header()']]],
+  ['header',['header',['../structJSVarRef.html#a3174c7471781f478b1fd2db316dff3af',1,'JSVarRef::header()'],['../structJSString.html#afe3192eb89cb8411334281d0b6bf6cf4',1,'JSString::header()'],['../structJSFunctionBytecode.html#aced8b4857468962480b264bd0046ecc8',1,'JSFunctionBytecode::header()'],['../structJSAsyncFunctionData.html#a54badae116ea9df2f031c6fcf28423fa',1,'JSAsyncFunctionData::header()'],['../structJSModuleDef.html#a65b6528c13c442e56501714d43f08be4',1,'JSModuleDef::header()'],['../structJSShape.html#ad044e619f4f4eb9d4cbf70129a56fe7d',1,'JSShape::header()'],['../structJSObject.html#a91b078e5cd931f0ac1b97d793ae6471f',1,'JSObject::header()']]],
   ['heapsortx',['heapsortx',['../cutils_8c.html#aa6e8a53df43412e3eec4a1bba277acf2',1,'cutils.c']]],
   ['hex_5fdecode',['hex_decode',['../quickjs_8c.html#a8a7c186e12bc42411f459e3ebb1ba8d4',1,'quickjs.c']]],
   ['hint_5fforce_5fordinary',['HINT_FORCE_ORDINARY',['../quickjs_8c.html#a549bcaa69b82d67ba1d06cc3a0245fa7',1,'quickjs.c']]],
@@ -40,6 +39,8 @@ var searchData=
   ['hoisted_5fdef_5fsize',['hoisted_def_size',['../structJSFunctionDef.html#a8dab2dd4bed818083a3f2018da8dc959',1,'JSFunctionDef']]],
   ['home_5fobject',['home_object',['../structJSObject.html#a108c8a8c1832d53e0ae122f97859cbdc',1,'JSObject']]],
   ['home_5fobject_5fvar_5fidx',['home_object_var_idx',['../structJSFunctionDef.html#a2517c095c464b6d4a05f2ef6cf0ba522',1,'JSFunctionDef']]],
+  ['host_5fpromise_5frejection_5ftracker',['host_promise_rejection_tracker',['../structJSRuntime.html#a2a567a440d71b63ee42d80671d599e4c',1,'JSRuntime']]],
+  ['host_5fpromise_5frejection_5ftracker_5fopaque',['host_promise_rejection_tracker_opaque',['../structJSRuntime.html#a354f55033276cfe0754f7649a5494e90',1,'JSRuntime']]],
   ['http_5fget_5fheader_5fline',['http_get_header_line',['../quickjs-libc_8c.html#a05faf7ad5bf041ae72b75bf310302de2',1,'quickjs-libc.c']]],
   ['http_5fget_5fstatus',['http_get_status',['../quickjs-libc_8c.html#aba868ba34ac6269e167db5369274cd89',1,'quickjs-libc.c']]]
 ];

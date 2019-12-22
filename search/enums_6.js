@@ -7,6 +7,8 @@ var searchData=
   ['jsexporttypeenum',['JSExportTypeEnum',['../quickjs_8c.html#a8e2f8ed266796e5961d07d5ed673fda1',1,'quickjs.c']]],
   ['jsfreemoduleenum',['JSFreeModuleEnum',['../quickjs_8c.html#a90bd331c16dc6252418524dba696002c',1,'quickjs.c']]],
   ['jsfunctionkindenum',['JSFunctionKindEnum',['../quickjs_8c.html#a80baa64a2bb2a25e5fd51a8a697583e2',1,'quickjs.c']]],
+  ['jsgcobjecttypeenum',['JSGCObjectTypeEnum',['../quickjs_8c.html#a27412f61257ebf08478578f643d947ee',1,'quickjs.c']]],
+  ['jsgcphaseenum',['JSGCPhaseEnum',['../quickjs_8c.html#a048c046fb967219321238b1165ff36d8',1,'quickjs.c']]],
   ['jsgeneratorstateenum',['JSGeneratorStateEnum',['../quickjs_8c.html#ad8b0d869d8bbfe13bf5f09ad73ba713d',1,'quickjs.c']]],
   ['jsiteratorkindenum',['JSIteratorKindEnum',['../quickjs_8c.html#a1382f794ad1970bdb22d8805be011027',1,'quickjs.c']]],
   ['jsparseexportenum',['JSParseExportEnum',['../quickjs_8c.html#a876dcb326f162474255ef53e3aac429f',1,'quickjs.c']]],

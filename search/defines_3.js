@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['call_5fflag_5fconstructor',['CALL_FLAG_CONSTRUCTOR',['../quickjs_8c.html#a620048f9c02278f5fe77f17b941051c8',1,'quickjs.c']]],
-  ['call_5fflag_5fcopy_5fargv',['CALL_FLAG_COPY_ARGV',['../quickjs_8c.html#a0e8afc9f9fe7aa55ed2acd38e307c9b9',1,'quickjs.c']]],
-  ['call_5fflag_5fgenerator',['CALL_FLAG_GENERATOR',['../quickjs_8c.html#afed77801689e29c0d4483fd9f3ce5a12',1,'quickjs.c']]],
   ['capture_5fcount_5fmax',['CAPTURE_COUNT_MAX',['../libregexp_8c.html#ac81935ce86efe1f78f8e108ac01c1ba4',1,'libregexp.c']]],
   ['case',['CASE',['../quickjs_8c.html#a2a19c7805dc0486d364840338f75268f',1,'quickjs.c']]],
   ['case_5ff',['CASE_F',['../libunicode_8c.html#a50fbfa0ffd609c9cabca609a05ed8ac7',1,'libunicode.c']]],

@@ -12,7 +12,6 @@ var searchData=
   ['bf_5fatof_5fint_5fprec_5finf',['BF_ATOF_INT_PREC_INF',['../libbf_8h.html#aae63246d295ebfcad0c352fddc8ac497',1,'libbf.h']]],
   ['bf_5fatof_5fjs_5fquirks',['BF_ATOF_JS_QUIRKS',['../libbf_8h.html#adf28a602fb4a3a5408ce886668dc7b5d',1,'libbf.h']]],
   ['bf_5fatof_5flegacy_5foctal',['BF_ATOF_LEGACY_OCTAL',['../libbf_8h.html#a9ac789b0e2f96c41f6269d01e585f6f7',1,'libbf.h']]],
-  ['bf_5fatof_5fnan_5fif_5fempty',['BF_ATOF_NAN_IF_EMPTY',['../libbf_8h.html#ada7a2619c08ed468fa30419c714bfd64',1,'libbf.h']]],
   ['bf_5fatof_5fno_5fhex',['BF_ATOF_NO_HEX',['../libbf_8h.html#ad269eaa65ada8b1c6ff5ec88a0d5b43c',1,'libbf.h']]],
   ['bf_5fatof_5fno_5fprefix_5fafter_5fsign',['BF_ATOF_NO_PREFIX_AFTER_SIGN',['../libbf_8h.html#a976b64527bcacbe9a7e19189a816797d',1,'libbf.h']]],
   ['bf_5fatof_5fonly_5fdec_5ffloat',['BF_ATOF_ONLY_DEC_FLOAT',['../libbf_8h.html#a09ee7f322a4b26656929973c6807a7a3',1,'libbf.h']]],

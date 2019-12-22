@@ -11,6 +11,7 @@ var searchData=
   ['int_5fto_5fntt_5flimb',['int_to_ntt_limb',['../libbf_8c.html#a6c30084a16801134189895607bf3f0b2',1,'libbf.c']]],
   ['internalize_5fjson_5fproperty',['internalize_json_property',['../quickjs_8c.html#a624282391413d4c5a030adbd8b77aa80',1,'quickjs.c']]],
   ['interrupt_5fhandler',['interrupt_handler',['../quickjs-libc_8c.html#af2fadf4855b14f52fc834dfb86811fe3',1,'quickjs-libc.c']]],
+  ['is_5fbacktrace_5fneeded',['is_backtrace_needed',['../quickjs_8c.html#a2bb0a2ca3b8320f3ff778c65034fce49',1,'quickjs.c']]],
   ['is_5fchild_5fscope',['is_child_scope',['../quickjs_8c.html#a58d52131a3c2240818c58fd0f18bf700',1,'quickjs.c']]],
   ['is_5fdigit',['is_digit',['../libregexp_8c.html#ab3ca6381d29dea396b12acd7f755c51a',1,'is_digit(int c):&#160;libregexp.c'],['../quickjs_8c.html#ab3ca6381d29dea396b12acd7f755c51a',1,'is_digit(int c):&#160;quickjs.c']]],
   ['is_5flabel',['is_label',['../quickjs_8c.html#a48aae2fff87c2c80a0fe495d4dd4d9ab',1,'quickjs.c']]],

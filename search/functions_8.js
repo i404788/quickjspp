@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['has_5fchildren',['has_children',['../quickjs_8c.html#ad52a7f002b34af567e43530397d0e46e',1,'quickjs.c']]],
   ['has_5fsuffix',['has_suffix',['../cutils_8c.html#a6ba0ed81ba200dfb3deaaff79932a5b0',1,'has_suffix(const char *str, const char *suffix):&#160;cutils.c'],['../cutils_8h.html#a6ba0ed81ba200dfb3deaaff79932a5b0',1,'has_suffix(const char *str, const char *suffix):&#160;cutils.c']]],
   ['has_5fwith_5fscope',['has_with_scope',['../quickjs_8c.html#aafa56260b34d1559fb7eb4fa9fb958b0',1,'quickjs.c']]],
   ['hash_5fstring',['hash_string',['../quickjs_8c.html#a745328cb78cc898a3e105bc7bd7aee38',1,'quickjs.c']]],

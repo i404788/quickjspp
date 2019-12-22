@@ -9,6 +9,7 @@ var searchData=
   ['operator_5b_5d',['operator[]',['../classqjs_1_1Value.html#af11fd023b991d7d6adc5c18142ded292',1,'qjs::Value']]],
   ['optimize_5fscope_5fmake_5fglobal_5fref',['optimize_scope_make_global_ref',['../quickjs_8c.html#adeab43cd3441f3747a2af76709a4dd69',1,'quickjs.c']]],
   ['optimize_5fscope_5fmake_5fref',['optimize_scope_make_ref',['../quickjs_8c.html#a7c152c8f95a5338351e7f99447d6aea4',1,'quickjs.c']]],
+  ['optional_5fchain_5ftest',['optional_chain_test',['../quickjs_8c.html#a964237617fb99ed93ebe4abda62d6c84',1,'quickjs.c']]],
   ['os_5fsignal_5fhandler',['os_signal_handler',['../quickjs-libc_8c.html#af1d90f85a4341bd6129f52d705cd30d3',1,'quickjs-libc.c']]],
   ['output_5fdigits',['output_digits',['../libbf_8c.html#ad822be23230b2b31b63bbc893881aa25',1,'libbf.c']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['el_5fnext',['el_next',['../structJSRuntime.html#aa7d735d2ec182aa7bb8166529e9b6e1c',1,'JSRuntime']]],
   ['elt_5fsize',['elt_size',['../structTA__sort__context.html#ac93da5f0a3bbc48ff0d890b1c670a530',1,'TA_sort_context']]],
   ['emit_5fatom',['emit_atom',['../quickjs_8c.html#aa57b449a878287663249bb7ab23ed8e9',1,'quickjs.c']]],
   ['emit_5fbreak',['emit_break',['../quickjs_8c.html#abb105b8bb34f4bf0a39ade5bc0252191',1,'quickjs.c']]],
@@ -33,7 +32,6 @@ var searchData=
   ['evalfile',['evalFile',['../classqjs_1_1Context.html#a003bfbb1ead4106d2f1fad18cedbdad1',1,'qjs::Context']]],
   ['evaluated',['evaluated',['../structJSModuleDef.html#abedceb07df7cda974d875e1145b47e50',1,'JSModuleDef']]],
   ['exception',['exception',['../classqjs_1_1exception.html',1,'qjs::exception'],['../structarray__sort__context.html#a10588d8dd375d8d730b1198944eb1dcc',1,'array_sort_context::exception()'],['../structTA__sort__context.html#a5bea97202b99d2c21baf9e07656c0249',1,'TA_sort_context::exception()']]],
-  ['exception_5fneeds_5fbacktrace',['exception_needs_backtrace',['../structJSContext.html#a227d3a66022844d9d7b840c7b76f959a',1,'JSContext']]],
   ['exchange_5fbytes',['exchange_bytes',['../cutils_8c.html#a38116dcc9c69a798d20d49fbb6887eb4',1,'cutils.c']]],
   ['exchange_5ff',['exchange_f',['../cutils_8c.html#aa911f7f4d629b982a6fe0d2d3d59c2f5',1,'cutils.c']]],
   ['exchange_5ffunc',['exchange_func',['../cutils_8c.html#a63eda529b002830d1b553dec4d5c728e',1,'cutils.c']]],

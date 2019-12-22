@@ -1,6 +1,7 @@
 var searchData=
 [
   ['b',['b',['../structJSONStringifyContext.html#a4af84072cf8ea175abe5759a8aafa6c6',1,'JSONStringifyContext']]],
+  ['backtrace_5fbarrier',['backtrace_barrier',['../structJSFunctionBytecode.html#afbf5434ee09efc1fc7a8e77fadc1568c',1,'JSFunctionBytecode::backtrace_barrier()'],['../structJSFunctionDef.html#a781870c4b88273c07d9fab6b3982dee8',1,'JSFunctionDef::backtrace_barrier()']]],
   ['base',['Base',['../classqjs_1_1detail_1_1js__string.html#a69d039720d686a15cc29ced649f0645e',1,'qjs::detail::js_string::Base()'],['../structJSCFunctionListEntry.html#a01267d8dc54f0ec22003ae88d7c5c793',1,'JSCFunctionListEntry::base()']]],
   ['basecase_5fdiv_5fthreshold_5fb',['BASECASE_DIV_THRESHOLD_B',['../libbf_8c.html#acbc8e05cc89a51902eca401002386791',1,'libbf.c']]],
   ['basecase_5fdiv_5fthreshold_5fq',['BASECASE_DIV_THRESHOLD_Q',['../libbf_8c.html#ae3597c9be0a98f53522ca615f273e9aa',1,'libbf.c']]],
@@ -71,7 +72,6 @@ var searchData=
   ['bf_5fatof_5fint_5fprec_5finf',['BF_ATOF_INT_PREC_INF',['../libbf_8h.html#aae63246d295ebfcad0c352fddc8ac497',1,'libbf.h']]],
   ['bf_5fatof_5fjs_5fquirks',['BF_ATOF_JS_QUIRKS',['../libbf_8h.html#adf28a602fb4a3a5408ce886668dc7b5d',1,'libbf.h']]],
   ['bf_5fatof_5flegacy_5foctal',['BF_ATOF_LEGACY_OCTAL',['../libbf_8h.html#a9ac789b0e2f96c41f6269d01e585f6f7',1,'libbf.h']]],
-  ['bf_5fatof_5fnan_5fif_5fempty',['BF_ATOF_NAN_IF_EMPTY',['../libbf_8h.html#ada7a2619c08ed468fa30419c714bfd64',1,'libbf.h']]],
   ['bf_5fatof_5fno_5fhex',['BF_ATOF_NO_HEX',['../libbf_8h.html#ad269eaa65ada8b1c6ff5ec88a0d5b43c',1,'libbf.h']]],
   ['bf_5fatof_5fno_5fprefix_5fafter_5fsign',['BF_ATOF_NO_PREFIX_AFTER_SIGN',['../libbf_8h.html#a976b64527bcacbe9a7e19189a816797d',1,'libbf.h']]],
   ['bf_5fatof_5fonly_5fdec_5ffloat',['BF_ATOF_ONLY_DEC_FLOAT',['../libbf_8h.html#a09ee7f322a4b26656929973c6807a7a3',1,'libbf.h']]],
@@ -244,7 +244,7 @@ var searchData=
   ['buf_5fstart',['buf_start',['../structREParseState.html#aa7a84ccdbcbce035010056aa863410e4',1,'REParseState::buf_start()'],['../structBCReaderState.html#a6cfe1fbe32f50d8cab48775d9710afb9',1,'BCReaderState::buf_start()']]],
   ['buffer',['buffer',['../structJSTypedArray.html#a99bf8ff3cb60abb5d075b579f73baa19',1,'JSTypedArray']]],
   ['build_5farg_5flist',['build_arg_list',['../quickjs_8c.html#a4956f45ffd2849b96dc051277264f87a',1,'quickjs.c']]],
-  ['build_5fbacktrace',['build_backtrace',['../quickjs_8c.html#a80b89f140c8e343469b5c98482a4310d',1,'quickjs.c']]],
+  ['build_5fbacktrace',['build_backtrace',['../quickjs_8c.html#a61c8dfb5e807af1b6ff7d8ca61576dda',1,'quickjs.c']]],
   ['build_5ffor_5fin_5fiterator',['build_for_in_iterator',['../quickjs_8c.html#aa40a5354bee3b56e05a71244910bcc78',1,'quickjs.c']]],
   ['byte_5fcode',['byte_code',['../structREParseState.html#a33d80b2a92446d5864bbb4cdf1007aa7',1,'REParseState::byte_code()'],['../structJSFunctionDef.html#a8796783dc4b34f7da272498b6e4a85c3',1,'JSFunctionDef::byte_code()']]],
   ['byte_5fcode_5fbuf',['byte_code_buf',['../structJSFunctionBytecode.html#a9cfa5574ffe98485f2f53bf1b487407a',1,'JSFunctionBytecode']]],

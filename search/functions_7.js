@@ -1,15 +1,11 @@
 var searchData=
 [
   ['gc_5fdecref',['gc_decref',['../quickjs_8c.html#ae09ca4f159971d3c1f1dafc8682ba04b',1,'quickjs.c']]],
-  ['gc_5fdecref_5fchild',['gc_decref_child',['../quickjs_8c.html#a42de5f90ee5997d6dc40f631e2ba0e33',1,'quickjs.c']]],
-  ['gc_5fdecref_5fmark',['gc_decref_mark',['../quickjs_8c.html#addb72dbb3fd476d2b5b0e7f7a0817ce3',1,'quickjs.c']]],
+  ['gc_5fdecref_5fchild',['gc_decref_child',['../quickjs_8c.html#a765db9341ea8163ebb7b0b61c7127752',1,'quickjs.c']]],
   ['gc_5ffree_5fcycles',['gc_free_cycles',['../quickjs_8c.html#af7c53b26778d6b7e155fab5349a4585e',1,'quickjs.c']]],
   ['gc_5fscan',['gc_scan',['../quickjs_8c.html#adee2db09b659dd2c1a1a3c408658a753',1,'quickjs.c']]],
-  ['gc_5fscan_5fincref',['gc_scan_incref',['../quickjs_8c.html#a49a3423e82488411a47d02debf679259',1,'quickjs.c']]],
-  ['gc_5fscan_5fincref_5fchild',['gc_scan_incref_child',['../quickjs_8c.html#ae2ed536316bfc30384fa38ebd4eb6453',1,'quickjs.c']]],
-  ['gc_5fscan_5fincref_5fchild2',['gc_scan_incref_child2',['../quickjs_8c.html#acece6e56d760a5ddf169021d2d508a49',1,'quickjs.c']]],
-  ['gc_5fscan_5fobj',['gc_scan_obj',['../quickjs_8c.html#a116f2b63a89379ccf1c92168338f0f80',1,'quickjs.c']]],
-  ['gc_5fscan_5fobj2',['gc_scan_obj2',['../quickjs_8c.html#a005228ed4bbf7b09b0db1467310b49e3',1,'quickjs.c']]],
+  ['gc_5fscan_5fincref_5fchild',['gc_scan_incref_child',['../quickjs_8c.html#abc20b88e7a87b45b51a6dc6ff24f9a9a',1,'quickjs.c']]],
+  ['gc_5fscan_5fincref_5fchild2',['gc_scan_incref_child2',['../quickjs_8c.html#aa76a7a61c337651e4cadfcac05db5cb6',1,'quickjs.c']]],
   ['get',['get',['../structqjs_1_1detail_1_1get__set_3_01M_01_4.html#ad78011ef0001019a971c3b4e00db756f',1,'qjs::detail::get_set&lt; M &gt;::get()'],['../classqjs_1_1Context.html#abfd1fa6f49f2743081f7d4ee80bcad90',1,'qjs::Context::get()']]],
   ['get_5falloc_5ffrom_5fshape',['get_alloc_from_shape',['../quickjs_8c.html#a7da0cfa6f27af0e1b9599d7f359edbe2',1,'quickjs.c']]],
   ['get_5fbit',['get_bit',['../libbf_8c.html#a7e1a60c84d638cde1ac9aabd01d266e1',1,'libbf.c']]],

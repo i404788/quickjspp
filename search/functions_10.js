@@ -22,6 +22,7 @@ var searchData=
   ['reject_5fpromise',['reject_promise',['../quickjs_8c.html#ad6fab8e31674a32ca02feee02f99347b',1,'quickjs.c']]],
   ['release',['release',['../classqjs_1_1Value.html#ad7677a3e42f8c82bb64b5633a611f2f6',1,'qjs::Value']]],
   ['remainingelementscount_5fadd',['remainingElementsCount_add',['../quickjs_8c.html#ae34b58b803dc65ed20305c6201ca711b',1,'quickjs.c']]],
+  ['remove_5fgc_5fobject',['remove_gc_object',['../quickjs_8c.html#adfb3133f30938e2db9b525ade5fc09cf',1,'quickjs.c']]],
   ['reset_5fweak_5fref',['reset_weak_ref',['../quickjs_8c.html#a818cf98b25b3e462b79b5d8f8c6517da',1,'quickjs.c']]],
   ['resize_5fproperties',['resize_properties',['../quickjs_8c.html#aa80740ff93b724ea7e0c280826f4a25a',1,'quickjs.c']]],
   ['resize_5fshape_5fhash',['resize_shape_hash',['../quickjs_8c.html#ac05a95a74726df4e854747a64d7d0407',1,'quickjs.c']]],

@@ -68,16 +68,14 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for JSFunctionBytecode:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structJSFunctionBytecode__coll__graph.svg" width="502" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structJSFunctionBytecode__coll__graph.svg" width="402" height="219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a47d763fea9f1a928bdf026c82c7eae7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJSRefCountHeader.html">JSRefCountHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSFunctionBytecode.html#a47d763fea9f1a928bdf026c82c7eae7b">header</a></td></tr>
-<tr class="separator:a47d763fea9f1a928bdf026c82c7eae7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a692f73bfa485d2e8bf68124944e6464c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJSGCHeader.html">JSGCHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSFunctionBytecode.html#a692f73bfa485d2e8bf68124944e6464c">gc_header</a></td></tr>
-<tr class="separator:a692f73bfa485d2e8bf68124944e6464c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced8b4857468962480b264bd0046ecc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJSGCObjectHeader.html">JSGCObjectHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSFunctionBytecode.html#aced8b4857468962480b264bd0046ecc8">header</a></td></tr>
+<tr class="separator:aced8b4857468962480b264bd0046ecc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01aed36f42fe3578d243d93123c83327"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSFunctionBytecode.html#a01aed36f42fe3578d243d93123c83327">js_mode</a></td></tr>
 <tr class="separator:a01aed36f42fe3578d243d93123c83327"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8e7de5120041c12e25463d765af4945"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSFunctionBytecode.html#aa8e7de5120041c12e25463d765af4945">has_prototype</a>: 1</td></tr>
@@ -100,6 +98,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:acff771f6e79a759baf9159c503e02654"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1c097df8e73ed4ea0a7ff51df8eab2f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSFunctionBytecode.html#ac1c097df8e73ed4ea0a7ff51df8eab2f">has_debug</a>: 1</td></tr>
 <tr class="separator:ac1c097df8e73ed4ea0a7ff51df8eab2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbf5434ee09efc1fc7a8e77fadc1568c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSFunctionBytecode.html#afbf5434ee09efc1fc7a8e77fadc1568c">backtrace_barrier</a>: 1</td></tr>
+<tr class="separator:afbf5434ee09efc1fc7a8e77fadc1568c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0698e53ea4732689f447e30fb07adc1"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSFunctionBytecode.html#ac0698e53ea4732689f447e30fb07adc1">read_only_bytecode</a>: 1</td></tr>
 <tr class="separator:ac0698e53ea4732689f447e30fb07adc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cfa5574ffe98485f2f53bf1b487407a"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSFunctionBytecode.html#a9cfa5574ffe98485f2f53bf1b487407a">byte_code_buf</a></td></tr>
@@ -126,59 +126,41 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a66c9fdae218149fd8e740d46fabed294"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05ccabecd32302eb4f875296a83f1ae0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSFunctionBytecode.html#a05ccabecd32302eb4f875296a83f1ae0">closure_var_count</a></td></tr>
 <tr class="separator:a05ccabecd32302eb4f875296a83f1ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a466d381770397da0f0d2962c94cb5368"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:ad254876ee17c1f7fe4f1b0d764ea21ba"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="quickjs_8h.html#a33f123cee4ffe71e0ceb3a14d424c9ff">JSAtom</a>&#160;&#160;&#160;<a class="el" href="structJSFunctionBytecode.html#aae1de9b655fd4aa70fb5c357b7c5496a">filename</a></td></tr>
-<tr class="separator:ad254876ee17c1f7fe4f1b0d764ea21ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8c6cd0d8cf2362596fd422f53f2dad5"><td class="memItemLeft" >&#160;&#160;&#160;int&#160;&#160;&#160;<a class="el" href="structJSFunctionBytecode.html#a61339ce6829eb6ed44b8634cbf115b4b">line_num</a></td></tr>
-<tr class="separator:aa8c6cd0d8cf2362596fd422f53f2dad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a108558d79654796d52993e5b7ac703b9"><td class="memItemLeft" >&#160;&#160;&#160;int&#160;&#160;&#160;<a class="el" href="structJSFunctionBytecode.html#af7f52ed9a4705da1824df6ecae640ed1">source_len</a></td></tr>
-<tr class="separator:a108558d79654796d52993e5b7ac703b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfa5217bfa02de2ae9a692b4c02e2da4"><td class="memItemLeft" >&#160;&#160;&#160;int&#160;&#160;&#160;<a class="el" href="structJSFunctionBytecode.html#ab9cc2d0d8eabf54bcbcaaee1463db140">pc2line_len</a></td></tr>
-<tr class="separator:adfa5217bfa02de2ae9a692b4c02e2da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60dfa72f0bef1ccb1363d609c9fc8545"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t *&#160;&#160;&#160;<a class="el" href="structJSFunctionBytecode.html#aacf20b2b5a404c52fba267d1ac2960e8">pc2line_buf</a></td></tr>
-<tr class="separator:a60dfa72f0bef1ccb1363d609c9fc8545"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f1decf1c01cbcf37989c790075da41b"><td class="memItemLeft" >&#160;&#160;&#160;char *&#160;&#160;&#160;<a class="el" href="structJSFunctionBytecode.html#aa53904a1632eb5ace2f98e809cf1c836">source</a></td></tr>
-<tr class="separator:a3f1decf1c01cbcf37989c790075da41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a466d381770397da0f0d2962c94cb5368"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSFunctionBytecode.html#a466d381770397da0f0d2962c94cb5368">debug</a></td></tr>
-<tr class="separator:a466d381770397da0f0d2962c94cb5368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4182dcce0de9bdbc4e83ebf4d79e0d8"><td class="memItemLeft" >struct {</td></tr>
+<tr class="memitem:a8b78f84d7125e77430aa1f5e8f028358"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="quickjs_8h.html#a33f123cee4ffe71e0ceb3a14d424c9ff">JSAtom</a>&#160;&#160;&#160;<a class="el" href="structJSFunctionBytecode.html#aae1de9b655fd4aa70fb5c357b7c5496a">filename</a></td></tr>
+<tr class="separator:a8b78f84d7125e77430aa1f5e8f028358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c8dd05ea0e4a0da9b605bc8b11e2982"><td class="memItemLeft" >&#160;&#160;&#160;int&#160;&#160;&#160;<a class="el" href="structJSFunctionBytecode.html#a61339ce6829eb6ed44b8634cbf115b4b">line_num</a></td></tr>
+<tr class="separator:a1c8dd05ea0e4a0da9b605bc8b11e2982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af61500a2e97bf3f457903d46df1b2918"><td class="memItemLeft" >&#160;&#160;&#160;int&#160;&#160;&#160;<a class="el" href="structJSFunctionBytecode.html#af7f52ed9a4705da1824df6ecae640ed1">source_len</a></td></tr>
+<tr class="separator:af61500a2e97bf3f457903d46df1b2918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07fe28ba43d89122aaf82a714dd4c63c"><td class="memItemLeft" >&#160;&#160;&#160;int&#160;&#160;&#160;<a class="el" href="structJSFunctionBytecode.html#ab9cc2d0d8eabf54bcbcaaee1463db140">pc2line_len</a></td></tr>
+<tr class="separator:a07fe28ba43d89122aaf82a714dd4c63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46383c4b6128b0ce74989af38179300e"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t *&#160;&#160;&#160;<a class="el" href="structJSFunctionBytecode.html#aacf20b2b5a404c52fba267d1ac2960e8">pc2line_buf</a></td></tr>
+<tr class="separator:a46383c4b6128b0ce74989af38179300e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e0907fa8ccd45479e65be74aafab4a"><td class="memItemLeft" >&#160;&#160;&#160;char *&#160;&#160;&#160;<a class="el" href="structJSFunctionBytecode.html#aa53904a1632eb5ace2f98e809cf1c836">source</a></td></tr>
+<tr class="separator:a62e0907fa8ccd45479e65be74aafab4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4182dcce0de9bdbc4e83ebf4d79e0d8"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSFunctionBytecode.html#ac4182dcce0de9bdbc4e83ebf4d79e0d8">debug</a></td></tr>
+<tr class="separator:ac4182dcce0de9bdbc4e83ebf4d79e0d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00480">480</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00512">512</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a47d763fea9f1a928bdf026c82c7eae7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47d763fea9f1a928bdf026c82c7eae7b">&#9670;&nbsp;</a></span>header</h2>
+<a id="aced8b4857468962480b264bd0046ecc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aced8b4857468962480b264bd0046ecc8">&#9670;&nbsp;</a></span>header</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structJSRefCountHeader.html">JSRefCountHeader</a> JSFunctionBytecode::header</td>
+          <td class="memname"><a class="el" href="structJSGCObjectHeader.html">JSGCObjectHeader</a> JSFunctionBytecode::header</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00481">481</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00513">513</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#a2d91a9da16cf07ff3b9ec053b870c335">js_create_module_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
-
-</div>
-</div>
-<a id="a692f73bfa485d2e8bf68124944e6464c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a692f73bfa485d2e8bf68124944e6464c">&#9670;&nbsp;</a></span>gc_header</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structJSGCHeader.html">JSGCHeader</a> JSFunctionBytecode::gc_header</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00482">482</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#a2d91a9da16cf07ff3b9ec053b870c335">js_create_module_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
 </div>
 </div>
@@ -194,7 +176,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00483">483</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00514">514</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a46a8a7e155cfd0af984f6725f060f0d6">__JS_EvalInternal()</a>, <a class="el" href="quickjs_8c.html#a4bd986b91b68c6aa485f57c6142acccb">async_func_init()</a>, <a class="el" href="quickjs_8c.html#ac2894ff4edcdb4e6841bcce9c76081e3">JS_CallInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#adaeef1b86e37da5560f25b630c2d090c">js_function_proto_caller()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -212,7 +194,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00484">484</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00515">515</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#aab4130a4c3108a127681be821818528a">js_closure()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#adaeef1b86e37da5560f25b630c2d090c">js_function_proto_caller()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -230,7 +212,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00485">485</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00516">516</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -248,7 +230,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00486">486</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00517">517</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#ad35594576a14c10812efaf958c99af8a">JS_CallConstructorInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -266,7 +248,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00488">488</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00519">519</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#a2d5c3143055af5f45dab61f1006dc5c4">js_method_set_home_object()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -284,7 +266,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00489">489</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00520">520</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#ac2894ff4edcdb4e6841bcce9c76081e3">JS_CallInternal()</a>, <a class="el" href="quickjs_8c.html#aab4130a4c3108a127681be821818528a">js_closure()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#a36322a209de4ef17f939e6d128578d7f">js_op_define_class()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -302,7 +284,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00490">490</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00521">521</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a46a8a7e155cfd0af984f6725f060f0d6">__JS_EvalInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -320,7 +302,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00491">491</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00522">522</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a46a8a7e155cfd0af984f6725f060f0d6">__JS_EvalInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -338,7 +320,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00492">492</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00523">523</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a46a8a7e155cfd0af984f6725f060f0d6">__JS_EvalInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -356,7 +338,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00493">493</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00524">524</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a46a8a7e155cfd0af984f6725f060f0d6">__JS_EvalInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -374,9 +356,27 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00494">494</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00525">525</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a80b89f140c8e343469b5c98482a4310d">build_backtrace()</a>, <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#af139f102b1c52111bc98af4ba935bf18">find_line_num()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#a9605bd425a349d4b00391cb6f5d5cfd8">js_function_proto_fileName()</a>, <a class="el" href="quickjs_8c.html#acd4bb9514182c7152570ca80a1a0650d">js_function_proto_lineNumber()</a>, <a class="el" href="quickjs_8c.html#a9876c37aa1b715e05e0e5fe1b46bcf3d">js_function_toString()</a>, <a class="el" href="quickjs_8c.html#a348e00fd4b934a113cb954052ec33a13">js_get_script_or_module_name()</a>, <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>, and <a class="el" href="quickjs_8c.html#a02cfe5cb28b149c2fe5fd30951c0737a">patch_function_constructor_source()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a61c8dfb5e807af1b6ff7d8ca61576dda">build_backtrace()</a>, <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#af139f102b1c52111bc98af4ba935bf18">find_line_num()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#a9605bd425a349d4b00391cb6f5d5cfd8">js_function_proto_fileName()</a>, <a class="el" href="quickjs_8c.html#acd4bb9514182c7152570ca80a1a0650d">js_function_proto_lineNumber()</a>, <a class="el" href="quickjs_8c.html#a9876c37aa1b715e05e0e5fe1b46bcf3d">js_function_toString()</a>, <a class="el" href="quickjs_8c.html#a348e00fd4b934a113cb954052ec33a13">js_get_script_or_module_name()</a>, <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>, and <a class="el" href="quickjs_8c.html#a02cfe5cb28b149c2fe5fd30951c0737a">patch_function_constructor_source()</a>.</p>
+
+</div>
+</div>
+<a id="afbf5434ee09efc1fc7a8e77fadc1568c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbf5434ee09efc1fc7a8e77fadc1568c">&#9670;&nbsp;</a></span>backtrace_barrier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t JSFunctionBytecode::backtrace_barrier</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00526">526</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a61c8dfb5e807af1b6ff7d8ca61576dda">build_backtrace()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
 </div>
 </div>
@@ -392,7 +392,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00495">495</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00527">527</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -410,9 +410,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00497">497</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00529">529</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a4bd986b91b68c6aa485f57c6142acccb">async_func_init()</a>, <a class="el" href="quickjs_8c.html#a80b89f140c8e343469b5c98482a4310d">build_backtrace()</a>, <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#ac2894ff4edcdb4e6841bcce9c76081e3">JS_CallInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#ab64e04b510d4c4073aa468fc0a3ac0b1">JS_ReadFunctionBytecode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a4bd986b91b68c6aa485f57c6142acccb">async_func_init()</a>, <a class="el" href="quickjs_8c.html#a61c8dfb5e807af1b6ff7d8ca61576dda">build_backtrace()</a>, <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#ac2894ff4edcdb4e6841bcce9c76081e3">JS_CallInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#ab64e04b510d4c4073aa468fc0a3ac0b1">JS_ReadFunctionBytecode()</a>.</p>
 
 </div>
 </div>
@@ -428,7 +428,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00498">498</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00530">530</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#ac2894ff4edcdb4e6841bcce9c76081e3">JS_CallInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#ab64e04b510d4c4073aa468fc0a3ac0b1">JS_ReadFunctionBytecode()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -446,7 +446,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00499">499</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00531">531</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#aab4130a4c3108a127681be821818528a">js_closure()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -464,7 +464,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00500">500</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00532">532</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a7949e036beb1ce2a2ce1337539536166">add_closure_variables()</a>, <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -482,7 +482,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00501">501</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00533">533</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a7949e036beb1ce2a2ce1337539536166">add_closure_variables()</a>, <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#abc3c566f6ced6ad29f99e7db6ab3b75b">js_closure2()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#a2d91a9da16cf07ff3b9ec053b870c335">js_create_module_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -500,7 +500,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00502">502</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00534">534</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a7949e036beb1ce2a2ce1337539536166">add_closure_variables()</a>, <a class="el" href="quickjs_8c.html#a4bd986b91b68c6aa485f57c6142acccb">async_func_init()</a>, <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#ac2894ff4edcdb4e6841bcce9c76081e3">JS_CallInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -518,7 +518,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00503">503</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00535">535</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a7949e036beb1ce2a2ce1337539536166">add_closure_variables()</a>, <a class="el" href="quickjs_8c.html#a4bd986b91b68c6aa485f57c6142acccb">async_func_init()</a>, <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#ac2894ff4edcdb4e6841bcce9c76081e3">JS_CallInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -536,7 +536,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00504">504</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00536">536</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#aab4130a4c3108a127681be821818528a">js_closure()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#a36322a209de4ef17f939e6d128578d7f">js_op_define_class()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -554,7 +554,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00505">505</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00537">537</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a4bd986b91b68c6aa485f57c6142acccb">async_func_init()</a>, <a class="el" href="quickjs_8c.html#ac2894ff4edcdb4e6841bcce9c76081e3">JS_CallInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -572,9 +572,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00506">506</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00538">538</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#ac2894ff4edcdb4e6841bcce9c76081e3">JS_CallInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#ac2894ff4edcdb4e6841bcce9c76081e3">JS_CallInternal()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>, and <a class="el" href="quickjs_8c.html#aa863a9d565bac49a2a76d10009eabd5c">mark_children()</a>.</p>
 
 </div>
 </div>
@@ -590,9 +590,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00507">507</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00539">539</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>, and <a class="el" href="quickjs_8c.html#aa863a9d565bac49a2a76d10009eabd5c">mark_children()</a>.</p>
 
 </div>
 </div>
@@ -608,7 +608,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00508">508</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00540">540</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a7949e036beb1ce2a2ce1337539536166">add_closure_variables()</a>, <a class="el" href="quickjs_8c.html#a51b10d99e4f9d2ee75d7a68d6a1ab6b1">compute_bytecode_size()</a>, <a class="el" href="quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075">free_function_bytecode()</a>, <a class="el" href="quickjs_8c.html#a21648ca38448a0bc9b61e102f7b46d25">js_bytecode_function_finalizer()</a>, <a class="el" href="quickjs_8c.html#aeb353cd4219d604d1703cb933d84edd5">js_bytecode_function_mark()</a>, <a class="el" href="quickjs_8c.html#abc3c566f6ced6ad29f99e7db6ab3b75b">js_closure2()</a>, <a class="el" href="quickjs_8c.html#a58d5c786f2a45040f0c81149e92c2378">JS_ComputeMemoryUsage()</a>, <a class="el" href="quickjs_8c.html#a97fcc747d8b1c3644174745d2e2739be">js_create_function()</a>, <a class="el" href="quickjs_8c.html#a2d91a9da16cf07ff3b9ec053b870c335">js_create_module_function()</a>, <a class="el" href="quickjs_8c.html#a315f18f552c506d05a36ab22649c8e3f">JS_DumpObject()</a>, and <a class="el" href="quickjs_8c.html#a4b8ef2bb3b35e4a5f6ed8bd837a50e7c">JS_ReadObjectRec()</a>.</p>
 
@@ -626,7 +626,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00511">511</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00543">543</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 </div>
 </div>
@@ -642,7 +642,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00512">512</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00544">544</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 </div>
 </div>
@@ -658,7 +658,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00513">513</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00545">545</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 </div>
 </div>
@@ -674,7 +674,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00514">514</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00546">546</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 </div>
 </div>
@@ -690,7 +690,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00515">515</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00547">547</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 </div>
 </div>
@@ -706,12 +706,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00516">516</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00548">548</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 </div>
 </div>
-<a id="a466d381770397da0f0d2962c94cb5368"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a466d381770397da0f0d2962c94cb5368">&#9670;&nbsp;</a></span>debug</h2>
+<a id="ac4182dcce0de9bdbc4e83ebf4d79e0d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4182dcce0de9bdbc4e83ebf4d79e0d8">&#9670;&nbsp;</a></span>debug</h2>
 
 <div class="memitem">
 <div class="memproto">

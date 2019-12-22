@@ -76,10 +76,8 @@ Collaboration diagram for JSShape:</div>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aee60794676434867847b78d3007a9f05"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSShape.html#aee60794676434867847b78d3007a9f05">prop_hash_end</a> [0]</td></tr>
 <tr class="separator:aee60794676434867847b78d3007a9f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad012320f2ae1c6c113ed0193863de8a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJSRefCountHeader.html">JSRefCountHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSShape.html#ad012320f2ae1c6c113ed0193863de8a5">header</a></td></tr>
-<tr class="separator:ad012320f2ae1c6c113ed0193863de8a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81d139ebd1e45f687f31c62ef98aed59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJSGCHeader.html">JSGCHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSShape.html#a81d139ebd1e45f687f31c62ef98aed59">gc_header</a></td></tr>
-<tr class="separator:a81d139ebd1e45f687f31c62ef98aed59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad044e619f4f4eb9d4cbf70129a56fe7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJSGCObjectHeader.html">JSGCObjectHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSShape.html#ad044e619f4f4eb9d4cbf70129a56fe7d">header</a></td></tr>
+<tr class="separator:ad044e619f4f4eb9d4cbf70129a56fe7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a141bbaa87868b464b4bd09b04e57921f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSShape.html#a141bbaa87868b464b4bd09b04e57921f">is_hashed</a></td></tr>
 <tr class="separator:a141bbaa87868b464b4bd09b04e57921f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a555a9fc2d08074bd6a143bafdadb3dab"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJSShape.html#a555a9fc2d08074bd6a143bafdadb3dab">has_small_array_index</a></td></tr>
@@ -101,7 +99,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00691">691</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00722">722</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="aee60794676434867847b78d3007a9f05"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee60794676434867847b78d3007a9f05">&#9670;&nbsp;</a></span>prop_hash_end</h2>
@@ -115,45 +113,27 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00692">692</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00723">723</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a3cadcaa2bd1e3f9359f1c006f396cfa0">add_shape_property()</a>, <a class="el" href="quickjs_8c.html#a2b9a2014cb970af5b5b7dde00afbdffa">delete_property()</a>, <a class="el" href="quickjs_8c.html#a06b76f5124fd985e35f4c652fd018d6d">find_own_property()</a>, <a class="el" href="quickjs_8c.html#afdc6d90129958f6258bae1505495869f">find_own_property1()</a>, <a class="el" href="quickjs_8c.html#a7da0cfa6f27af0e1b9599d7f359edbe2">get_alloc_from_shape()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, and <a class="el" href="quickjs_8c.html#aa80740ff93b724ea7e0c280826f4a25a">resize_properties()</a>.</p>
 
 </div>
 </div>
-<a id="ad012320f2ae1c6c113ed0193863de8a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad012320f2ae1c6c113ed0193863de8a5">&#9670;&nbsp;</a></span>header</h2>
+<a id="ad044e619f4f4eb9d4cbf70129a56fe7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad044e619f4f4eb9d4cbf70129a56fe7d">&#9670;&nbsp;</a></span>header</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structJSRefCountHeader.html">JSRefCountHeader</a> JSShape::header</td>
+          <td class="memname"><a class="el" href="structJSGCObjectHeader.html">JSGCObjectHeader</a> JSShape::header</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00694">694</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00725">725</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a74547db03bf739a52c83a326b32db997">add_property()</a>, <a class="el" href="quickjs_8c.html#a8e34657169da77ae6a386311351ed3de">js_clone_shape()</a>, <a class="el" href="quickjs_8c.html#a315f18f552c506d05a36ab22649c8e3f">JS_DumpObject()</a>, <a class="el" href="quickjs_8c.html#adc98d8b63e5b752b814ca91abb7f2a00">JS_DumpShape()</a>, <a class="el" href="quickjs_8c.html#aed229eb80b3b03a2275471dee93c69d6">js_dup_shape()</a>, <a class="el" href="quickjs_8c.html#a3a9f27520d96cf58aa5bd7359e9cddee">js_free_shape()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, and <a class="el" href="quickjs_8c.html#a3dd8e78607dbc729614deacf55901b95">js_shape_prepare_update()</a>.</p>
-
-</div>
-</div>
-<a id="a81d139ebd1e45f687f31c62ef98aed59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81d139ebd1e45f687f31c62ef98aed59">&#9670;&nbsp;</a></span>gc_header</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structJSGCHeader.html">JSGCHeader</a> JSShape::gc_header</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00695">695</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a8e34657169da77ae6a386311351ed3de">js_clone_shape()</a>, and <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a74547db03bf739a52c83a326b32db997">add_property()</a>, <a class="el" href="quickjs_8c.html#a8e34657169da77ae6a386311351ed3de">js_clone_shape()</a>, <a class="el" href="quickjs_8c.html#a315f18f552c506d05a36ab22649c8e3f">JS_DumpObject()</a>, <a class="el" href="quickjs_8c.html#adc98d8b63e5b752b814ca91abb7f2a00">JS_DumpShape()</a>, <a class="el" href="quickjs_8c.html#aed229eb80b3b03a2275471dee93c69d6">js_dup_shape()</a>, <a class="el" href="quickjs_8c.html#a3a9f27520d96cf58aa5bd7359e9cddee">js_free_shape()</a>, <a class="el" href="quickjs_8c.html#a6f921a6312ada5c7da7b485e24d37f54">js_free_shape0()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, <a class="el" href="quickjs_8c.html#a3dd8e78607dbc729614deacf55901b95">js_shape_prepare_update()</a>, <a class="el" href="quickjs_8c.html#aa863a9d565bac49a2a76d10009eabd5c">mark_children()</a>, and <a class="el" href="quickjs_8c.html#aa80740ff93b724ea7e0c280826f4a25a">resize_properties()</a>.</p>
 
 </div>
 </div>
@@ -169,9 +149,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00698">698</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00728">728</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a74547db03bf739a52c83a326b32db997">add_property()</a>, <a class="el" href="quickjs_8c.html#a3cadcaa2bd1e3f9359f1c006f396cfa0">add_shape_property()</a>, <a class="el" href="quickjs_8c.html#a8e34657169da77ae6a386311351ed3de">js_clone_shape()</a>, <a class="el" href="quickjs_8c.html#a58d5c786f2a45040f0c81149e92c2378">JS_ComputeMemoryUsage()</a>, <a class="el" href="quickjs_8c.html#a315f18f552c506d05a36ab22649c8e3f">JS_DumpObject()</a>, <a class="el" href="quickjs_8c.html#adc98d8b63e5b752b814ca91abb7f2a00">JS_DumpShape()</a>, <a class="el" href="quickjs_8c.html#ac4df713e496f8c3ee627c8bc008964a5">JS_DumpShapes()</a>, <a class="el" href="quickjs_8c.html#a3a9f27520d96cf58aa5bd7359e9cddee">js_free_shape()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, and <a class="el" href="quickjs_8c.html#a3dd8e78607dbc729614deacf55901b95">js_shape_prepare_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a74547db03bf739a52c83a326b32db997">add_property()</a>, <a class="el" href="quickjs_8c.html#a3cadcaa2bd1e3f9359f1c006f396cfa0">add_shape_property()</a>, <a class="el" href="quickjs_8c.html#a8e34657169da77ae6a386311351ed3de">js_clone_shape()</a>, <a class="el" href="quickjs_8c.html#a58d5c786f2a45040f0c81149e92c2378">JS_ComputeMemoryUsage()</a>, <a class="el" href="quickjs_8c.html#a315f18f552c506d05a36ab22649c8e3f">JS_DumpObject()</a>, <a class="el" href="quickjs_8c.html#adc98d8b63e5b752b814ca91abb7f2a00">JS_DumpShape()</a>, <a class="el" href="quickjs_8c.html#ac4df713e496f8c3ee627c8bc008964a5">JS_DumpShapes()</a>, <a class="el" href="quickjs_8c.html#a6f921a6312ada5c7da7b485e24d37f54">js_free_shape0()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, and <a class="el" href="quickjs_8c.html#a3dd8e78607dbc729614deacf55901b95">js_shape_prepare_update()</a>.</p>
 
 </div>
 </div>
@@ -187,7 +167,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00702">702</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00732">732</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a3cadcaa2bd1e3f9359f1c006f396cfa0">add_shape_property()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, and <a class="el" href="quickjs_8c.html#aee75cc1546e19479e3ccda58f3b50a96">JS_SetPropertyValue()</a>.</p>
 
@@ -205,7 +185,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00703">703</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00733">733</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a3cadcaa2bd1e3f9359f1c006f396cfa0">add_shape_property()</a>, <a class="el" href="quickjs_8c.html#ac0c5dbb01d6082796c44b1c7f7c170f1">find_hashed_shape_prop()</a>, <a class="el" href="quickjs_8c.html#aad24bdf2bcbb0ce55462fe6074dac8a5">find_hashed_shape_proto()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, <a class="el" href="quickjs_8c.html#a82dbe63adeac7849406fd48d96f39f7b">js_shape_hash_link()</a>, <a class="el" href="quickjs_8c.html#ae5e76f4be6214208cc91f10a192fc810">js_shape_hash_unlink()</a>, and <a class="el" href="quickjs_8c.html#ac05a95a74726df4e854747a64d7d0407">resize_shape_hash()</a>.</p>
 
@@ -223,7 +203,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00704">704</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00734">734</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a3cadcaa2bd1e3f9359f1c006f396cfa0">add_shape_property()</a>, <a class="el" href="quickjs_8c.html#a2b9a2014cb970af5b5b7dde00afbdffa">delete_property()</a>, <a class="el" href="quickjs_8c.html#a06b76f5124fd985e35f4c652fd018d6d">find_own_property()</a>, <a class="el" href="quickjs_8c.html#afdc6d90129958f6258bae1505495869f">find_own_property1()</a>, <a class="el" href="quickjs_8c.html#a7da0cfa6f27af0e1b9599d7f359edbe2">get_alloc_from_shape()</a>, <a class="el" href="quickjs_8c.html#a8e34657169da77ae6a386311351ed3de">js_clone_shape()</a>, <a class="el" href="quickjs_8c.html#a58d5c786f2a45040f0c81149e92c2378">JS_ComputeMemoryUsage()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, and <a class="el" href="quickjs_8c.html#aa80740ff93b724ea7e0c280826f4a25a">resize_properties()</a>.</p>
 
@@ -241,7 +221,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00705">705</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00735">735</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a74547db03bf739a52c83a326b32db997">add_property()</a>, <a class="el" href="quickjs_8c.html#a3cadcaa2bd1e3f9359f1c006f396cfa0">add_shape_property()</a>, <a class="el" href="quickjs_8c.html#ac93c982cb636a5430b191d104083af3e">convert_fast_array_to_array()</a>, <a class="el" href="quickjs_8c.html#a8e34657169da77ae6a386311351ed3de">js_clone_shape()</a>, <a class="el" href="quickjs_8c.html#a58d5c786f2a45040f0c81149e92c2378">JS_ComputeMemoryUsage()</a>, <a class="el" href="quickjs_8c.html#adc98d8b63e5b752b814ca91abb7f2a00">JS_DumpShape()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, and <a class="el" href="quickjs_8c.html#aa80740ff93b724ea7e0c280826f4a25a">resize_properties()</a>.</p>
 
@@ -259,9 +239,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00706">706</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00736">736</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a74547db03bf739a52c83a326b32db997">add_property()</a>, <a class="el" href="quickjs_8c.html#a3cadcaa2bd1e3f9359f1c006f396cfa0">add_shape_property()</a>, <a class="el" href="quickjs_8c.html#aa40a5354bee3b56e05a71244910bcc78">build_for_in_iterator()</a>, <a class="el" href="quickjs_8c.html#ac93c982cb636a5430b191d104083af3e">convert_fast_array_to_array()</a>, <a class="el" href="quickjs_8c.html#ac0c5dbb01d6082796c44b1c7f7c170f1">find_hashed_shape_prop()</a>, <a class="el" href="quickjs_8c.html#aad24bdf2bcbb0ce55462fe6074dac8a5">find_hashed_shape_proto()</a>, <a class="el" href="quickjs_8c.html#ad0024a55f68035452880ee86d78d40f3">free_object_struct()</a>, <a class="el" href="quickjs_8c.html#a8e34657169da77ae6a386311351ed3de">js_clone_shape()</a>, <a class="el" href="quickjs_8c.html#a58d5c786f2a45040f0c81149e92c2378">JS_ComputeMemoryUsage()</a>, <a class="el" href="quickjs_8c.html#a315f18f552c506d05a36ab22649c8e3f">JS_DumpObject()</a>, <a class="el" href="quickjs_8c.html#adc98d8b63e5b752b814ca91abb7f2a00">JS_DumpShape()</a>, <a class="el" href="quickjs_8c.html#ad4da6445b7b08b23f5464ae9b51705bc">js_for_in_next()</a>, <a class="el" href="quickjs_8c.html#a3a9f27520d96cf58aa5bd7359e9cddee">js_free_shape()</a>, <a class="el" href="quickjs_8c.html#a176ac5ff56a118a0b1b2566798d28823">JS_GetOwnPropertyNamesInternal()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, <a class="el" href="quickjs_8c.html#aa9342f7444c1c9f8743d43aa4d7f89e3">JS_WriteObjectRec()</a>, <a class="el" href="quickjs_8c.html#a3e45efa5c25304a002f4c0c3e8215fe8">mark_children()</a>, <a class="el" href="quickjs_8c.html#aa80740ff93b724ea7e0c280826f4a25a">resize_properties()</a>, and <a class="el" href="quickjs_8c.html#aeb73aae9c3ad7daaf7646e3f2f89245a">set_array_length()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#a74547db03bf739a52c83a326b32db997">add_property()</a>, <a class="el" href="quickjs_8c.html#a3cadcaa2bd1e3f9359f1c006f396cfa0">add_shape_property()</a>, <a class="el" href="quickjs_8c.html#aa40a5354bee3b56e05a71244910bcc78">build_for_in_iterator()</a>, <a class="el" href="quickjs_8c.html#ac93c982cb636a5430b191d104083af3e">convert_fast_array_to_array()</a>, <a class="el" href="quickjs_8c.html#ac0c5dbb01d6082796c44b1c7f7c170f1">find_hashed_shape_prop()</a>, <a class="el" href="quickjs_8c.html#aad24bdf2bcbb0ce55462fe6074dac8a5">find_hashed_shape_proto()</a>, <a class="el" href="quickjs_8c.html#a41a4918c15192dc3489dc3ecb3fdc24d">free_object()</a>, <a class="el" href="quickjs_8c.html#a8e34657169da77ae6a386311351ed3de">js_clone_shape()</a>, <a class="el" href="quickjs_8c.html#a58d5c786f2a45040f0c81149e92c2378">JS_ComputeMemoryUsage()</a>, <a class="el" href="quickjs_8c.html#a315f18f552c506d05a36ab22649c8e3f">JS_DumpObject()</a>, <a class="el" href="quickjs_8c.html#adc98d8b63e5b752b814ca91abb7f2a00">JS_DumpShape()</a>, <a class="el" href="quickjs_8c.html#ad4da6445b7b08b23f5464ae9b51705bc">js_for_in_next()</a>, <a class="el" href="quickjs_8c.html#a6f921a6312ada5c7da7b485e24d37f54">js_free_shape0()</a>, <a class="el" href="quickjs_8c.html#a176ac5ff56a118a0b1b2566798d28823">JS_GetOwnPropertyNamesInternal()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, <a class="el" href="quickjs_8c.html#aa9342f7444c1c9f8743d43aa4d7f89e3">JS_WriteObjectRec()</a>, <a class="el" href="quickjs_8c.html#aa863a9d565bac49a2a76d10009eabd5c">mark_children()</a>, <a class="el" href="quickjs_8c.html#aa80740ff93b724ea7e0c280826f4a25a">resize_properties()</a>, and <a class="el" href="quickjs_8c.html#aeb73aae9c3ad7daaf7646e3f2f89245a">set_array_length()</a>.</p>
 
 </div>
 </div>
@@ -277,7 +257,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00707">707</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00737">737</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#ac0c5dbb01d6082796c44b1c7f7c170f1">find_hashed_shape_prop()</a>, <a class="el" href="quickjs_8c.html#aad24bdf2bcbb0ce55462fe6074dac8a5">find_hashed_shape_proto()</a>, <a class="el" href="quickjs_8c.html#a58d5c786f2a45040f0c81149e92c2378">JS_ComputeMemoryUsage()</a>, <a class="el" href="quickjs_8c.html#ac4df713e496f8c3ee627c8bc008964a5">JS_DumpShapes()</a>, <a class="el" href="quickjs_8c.html#a82dbe63adeac7849406fd48d96f39f7b">js_shape_hash_link()</a>, <a class="el" href="quickjs_8c.html#ae5e76f4be6214208cc91f10a192fc810">js_shape_hash_unlink()</a>, and <a class="el" href="quickjs_8c.html#ac05a95a74726df4e854747a64d7d0407">resize_shape_hash()</a>.</p>
 
@@ -295,9 +275,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00708">708</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00738">738</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#aa40a5354bee3b56e05a71244910bcc78">build_for_in_iterator()</a>, <a class="el" href="quickjs_8c.html#ac0c5dbb01d6082796c44b1c7f7c170f1">find_hashed_shape_prop()</a>, <a class="el" href="quickjs_8c.html#aad24bdf2bcbb0ce55462fe6074dac8a5">find_hashed_shape_proto()</a>, <a class="el" href="quickjs_8c.html#a8e34657169da77ae6a386311351ed3de">js_clone_shape()</a>, <a class="el" href="quickjs_8c.html#a315f18f552c506d05a36ab22649c8e3f">JS_DumpObject()</a>, <a class="el" href="quickjs_8c.html#adc98d8b63e5b752b814ca91abb7f2a00">JS_DumpShape()</a>, <a class="el" href="quickjs_8c.html#a3a9f27520d96cf58aa5bd7359e9cddee">js_free_shape()</a>, <a class="el" href="quickjs_8c.html#a5762c57ae0c9937e986040c01222833a">JS_GetPropertyInternal()</a>, <a class="el" href="quickjs_8c.html#a23a30fec3b10bfa38c3dc29b4cb1c99d">JS_GetPrototype()</a>, <a class="el" href="quickjs_8c.html#a9d6d0a9704951d01c128975e0d2213f8">JS_HasProperty()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, <a class="el" href="quickjs_8c.html#aa0b5c1a59ff4832154e2a98d7c63a4b2">JS_OrdinaryIsInstanceOf()</a>, <a class="el" href="quickjs_8c.html#a638e637d492ee889691691baba33c4bd">JS_SetPropertyGeneric()</a>, <a class="el" href="quickjs_8c.html#ad7f03358a8088ca920ab308225c6b2e6">JS_SetPropertyInternal()</a>, <a class="el" href="quickjs_8c.html#aee75cc1546e19479e3ccda58f3b50a96">JS_SetPropertyValue()</a>, and <a class="el" href="quickjs_8c.html#a11b9662411b5b3f631925a0ca708ce25">JS_SetPrototypeInternal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="quickjs_8c.html#aa40a5354bee3b56e05a71244910bcc78">build_for_in_iterator()</a>, <a class="el" href="quickjs_8c.html#ac0c5dbb01d6082796c44b1c7f7c170f1">find_hashed_shape_prop()</a>, <a class="el" href="quickjs_8c.html#aad24bdf2bcbb0ce55462fe6074dac8a5">find_hashed_shape_proto()</a>, <a class="el" href="quickjs_8c.html#a8e34657169da77ae6a386311351ed3de">js_clone_shape()</a>, <a class="el" href="quickjs_8c.html#a315f18f552c506d05a36ab22649c8e3f">JS_DumpObject()</a>, <a class="el" href="quickjs_8c.html#adc98d8b63e5b752b814ca91abb7f2a00">JS_DumpShape()</a>, <a class="el" href="quickjs_8c.html#a6f921a6312ada5c7da7b485e24d37f54">js_free_shape0()</a>, <a class="el" href="quickjs_8c.html#a5762c57ae0c9937e986040c01222833a">JS_GetPropertyInternal()</a>, <a class="el" href="quickjs_8c.html#a23a30fec3b10bfa38c3dc29b4cb1c99d">JS_GetPrototype()</a>, <a class="el" href="quickjs_8c.html#a9d6d0a9704951d01c128975e0d2213f8">JS_HasProperty()</a>, <a class="el" href="quickjs_8c.html#a1030d2020be7d911eb62869f21cc3b70">js_new_shape2()</a>, <a class="el" href="quickjs_8c.html#aa0b5c1a59ff4832154e2a98d7c63a4b2">JS_OrdinaryIsInstanceOf()</a>, <a class="el" href="quickjs_8c.html#a638e637d492ee889691691baba33c4bd">JS_SetPropertyGeneric()</a>, <a class="el" href="quickjs_8c.html#ad7f03358a8088ca920ab308225c6b2e6">JS_SetPropertyInternal()</a>, <a class="el" href="quickjs_8c.html#aee75cc1546e19479e3ccda58f3b50a96">JS_SetPropertyValue()</a>, <a class="el" href="quickjs_8c.html#a11b9662411b5b3f631925a0ca708ce25">JS_SetPrototypeInternal()</a>, and <a class="el" href="quickjs_8c.html#aa863a9d565bac49a2a76d10009eabd5c">mark_children()</a>.</p>
 
 </div>
 </div>
@@ -313,7 +293,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00709">709</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjs_8c_source.html#l00739">739</a> of file <a class="el" href="quickjs_8c_source.html">quickjs.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="quickjs_8c.html#ac0c5dbb01d6082796c44b1c7f7c170f1">find_hashed_shape_prop()</a>, <a class="el" href="quickjs_8c.html#a643df594b75933007bcdbb071b5ea8c5">get_shape_prop()</a>, <a class="el" href="quickjs_8c.html#adc98d8b63e5b752b814ca91abb7f2a00">JS_DumpShape()</a>, and <a class="el" href="quickjs_8c.html#aa80740ff93b724ea7e0c280826f4a25a">resize_properties()</a>.</p>
 

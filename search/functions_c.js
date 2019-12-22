@@ -10,7 +10,7 @@ var searchData=
   ['map_5fhash_5fkey',['map_hash_key',['../quickjs_8c.html#afb9a1fc639adfdb47472d92b9f9bf2f8',1,'quickjs.c']]],
   ['map_5fhash_5fresize',['map_hash_resize',['../quickjs_8c.html#aeccf925ab52fbc5faf1877795ba4e6a7',1,'quickjs.c']]],
   ['map_5fnormalize_5fkey',['map_normalize_key',['../quickjs_8c.html#a6e07161e854c5b51edf4112a23c1b3d7',1,'quickjs.c']]],
-  ['mark_5fchildren',['mark_children',['../quickjs_8c.html#a3e45efa5c25304a002f4c0c3e8215fe8',1,'quickjs.c']]],
+  ['mark_5fchildren',['mark_children',['../quickjs_8c.html#aa863a9d565bac49a2a76d10009eabd5c',1,'quickjs.c']]],
   ['mark_5feval_5fcaptured_5fvariables',['mark_eval_captured_variables',['../quickjs_8c.html#a746d07cb861bcbe4c4c917701a3c9212',1,'quickjs.c']]],
   ['math_5fmod',['math_mod',['../quickjs_8c.html#a5fe9e1898e97028fbd772ebc1e914ba8',1,'quickjs.c']]],
   ['max_5fint',['max_int',['../cutils_8h.html#a94f155fcce337a2b9d4719ed8042cbbe',1,'cutils.h']]],

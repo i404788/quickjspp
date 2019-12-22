@@ -2,7 +2,6 @@ var searchData=
 [
   ['obj',['obj',['../structJSForInIterator.html#a27fa42cf47d937c26fa630613b3010e9',1,'JSForInIterator::obj()'],['../structJSTypedArray.html#a5211400a23af9ce8a5eaa515e93419c0',1,'JSTypedArray::obj()'],['../structJSArrayIteratorData.html#ae00f973a927d1a40616ecc7bd563b373',1,'JSArrayIteratorData::obj()'],['../structJSMapIteratorData.html#ae26f97a2e749ffdf7b001a012b87d8cb',1,'JSMapIteratorData::obj()']]],
   ['obj_5fcount',['obj_count',['../structJSMemoryUsage.html#ab24eb67d46dad118d3aa5db661ffee39',1,'JSMemoryUsage']]],
-  ['obj_5flist',['obj_list',['../structJSRuntime.html#aa7f85d721f6be9a4d9feee402e927b18',1,'JSRuntime']]],
   ['obj_5fsize',['obj_size',['../structJSMemoryUsage.html#ac62318da8e5f056e53d04d392a16566e',1,'JSMemoryUsage']]],
   ['object_5fdata',['object_data',['../structJSObject.html#aa3f2c052a99261948d16c36ac5c132ef',1,'JSObject']]],
   ['offset',['offset',['../structJSTypedArray.html#a2dbff483c3f2c19af4ec90bd8dc2c9fb',1,'JSTypedArray']]],
@@ -39,6 +38,7 @@ var searchData=
   ['optimize',['OPTIMIZE',['../quickjs_8c.html#a2de39943dd0f3b71b30194081ea4dbe6',1,'quickjs.c']]],
   ['optimize_5fscope_5fmake_5fglobal_5fref',['optimize_scope_make_global_ref',['../quickjs_8c.html#adeab43cd3441f3747a2af76709a4dd69',1,'quickjs.c']]],
   ['optimize_5fscope_5fmake_5fref',['optimize_scope_make_ref',['../quickjs_8c.html#a7c152c8f95a5338351e7f99447d6aea4',1,'quickjs.c']]],
+  ['optional_5fchain_5ftest',['optional_chain_test',['../quickjs_8c.html#a964237617fb99ed93ebe4abda62d6c84',1,'quickjs.c']]],
   ['os_5fflag',['OS_FLAG',['../quickjs-libc_8c.html#ac534d76690f1ac36fec6f82eb401b005',1,'quickjs-libc.c']]],
   ['os_5fpending_5fsignals',['os_pending_signals',['../quickjs-libc_8c.html#a9b6755c38aba8bdbbdbc361b0d7a5f01',1,'quickjs-libc.c']]],
   ['os_5fplatform',['OS_PLATFORM',['../quickjs-libc_8c.html#a5d2e8c3cf9f4882946acfe462e748778',1,'quickjs-libc.c']]],

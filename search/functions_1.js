@@ -11,6 +11,7 @@ var searchData=
   ['add_5fexport_5fentry2',['add_export_entry2',['../quickjs_8c.html#aaea4bacf94d0db93f4a13f6e88860ad0',1,'quickjs.c']]],
   ['add_5ffast_5farray_5felement',['add_fast_array_element',['../quickjs_8c.html#adbffd820afae76d09c641b5b911e3600',1,'quickjs.c']]],
   ['add_5ffunc_5fvar',['add_func_var',['../quickjs_8c.html#afe834031fad358f2fbd7d71cfe8ac19c',1,'quickjs.c']]],
+  ['add_5fgc_5fobject',['add_gc_object',['../quickjs_8c.html#a9780456a71703c53244b88831bc8fb7a',1,'quickjs.c']]],
   ['add_5fhoisted_5fdef',['add_hoisted_def',['../quickjs_8c.html#a3a87a000ddf41fa41010eff583aa9b28',1,'quickjs.c']]],
   ['add_5fimport',['add_import',['../quickjs_8c.html#a3ff40fe185637ba5525078d1cbedbefa',1,'quickjs.c']]],
   ['add_5fmod',['add_mod',['../libbf_8c.html#a2e6bcb5fb69893fe5938e244113d8b66',1,'libbf.c']]],

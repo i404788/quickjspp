@@ -45,7 +45,7 @@ var searchData=
   ['jsforiniterator',['JSForInIterator',['../structJSForInIterator.html',1,'']]],
   ['jsfunctionbytecode',['JSFunctionBytecode',['../structJSFunctionBytecode.html',1,'']]],
   ['jsfunctiondef',['JSFunctionDef',['../structJSFunctionDef.html',1,'']]],
-  ['jsgcheader',['JSGCHeader',['../structJSGCHeader.html',1,'']]],
+  ['jsgcobjectheader',['JSGCObjectHeader',['../structJSGCObjectHeader.html',1,'']]],
   ['jsgeneratordata',['JSGeneratorData',['../structJSGeneratorData.html',1,'']]],
   ['jshoisteddef',['JSHoistedDef',['../structJSHoistedDef.html',1,'']]],
   ['jsimportentry',['JSImportEntry',['../structJSImportEntry.html',1,'']]],
