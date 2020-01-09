@@ -1,6 +1,7 @@
 var searchData=
 [
   ['bc_5ftag_5farray',['BC_TAG_ARRAY',['../quickjs_8c.html#aad12de956ba27a1bc9d0435e751d61f0ac60bd431f44629c578cf5a898a557b0e',1,'quickjs.c']]],
+  ['bc_5ftag_5fbig_5fdecimal',['BC_TAG_BIG_DECIMAL',['../quickjs_8c.html#aad12de956ba27a1bc9d0435e751d61f0aaf7ddf5bafe3550f994536b047e73e43',1,'quickjs.c']]],
   ['bc_5ftag_5fbig_5ffloat',['BC_TAG_BIG_FLOAT',['../quickjs_8c.html#aad12de956ba27a1bc9d0435e751d61f0aa4aef687bacac46142bc6d1d5d423e3f',1,'quickjs.c']]],
   ['bc_5ftag_5fbig_5fint',['BC_TAG_BIG_INT',['../quickjs_8c.html#aad12de956ba27a1bc9d0435e751d61f0a30dbb1599515e07cd556f902d746c998',1,'quickjs.c']]],
   ['bc_5ftag_5fbool_5ffalse',['BC_TAG_BOOL_FALSE',['../quickjs_8c.html#aad12de956ba27a1bc9d0435e751d61f0a70f66d65b89e5d863c67725034d26845',1,'quickjs.c']]],

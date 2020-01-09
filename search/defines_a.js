@@ -2,6 +2,7 @@ var searchData=
 [
   ['likely',['likely',['../cutils_8h.html#a217a0bd562b98ae8c2ffce44935351e1',1,'cutils.h']]],
   ['limb_5fbits',['LIMB_BITS',['../libbf_8h.html#adda5c1e66c2b1099eee5706f3550ae07',1,'libbf.h']]],
+  ['limb_5fdigits',['LIMB_DIGITS',['../libbf_8h.html#a757645450ccd0c284d902a6455fa2391',1,'libbf.h']]],
   ['limb_5flog2_5fbits',['LIMB_LOG2_BITS',['../libbf_8h.html#aa10a53b5d4e1d6088b4fd9d0bf24a3b5',1,'libbf.h']]],
   ['list_5fentry',['list_entry',['../list_8h.html#a345ac01c1c20b30cf95fe42ae34de9f6',1,'list.h']]],
   ['list_5ffor_5feach',['list_for_each',['../list_8h.html#a74efe9930ee6d4b6b20d4035196a9f48',1,'list.h']]],

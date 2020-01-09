@@ -43,6 +43,8 @@ var searchData=
   ['tok_5flor',['TOK_LOR',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9ea51a3b1f5754313aa48e260ce4dd7da23',1,'quickjs.c']]],
   ['tok_5flt',['TOK_LT',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9ea8181df7f20dc6c02df00f3f60bfdaba7',1,'quickjs.c']]],
   ['tok_5flte',['TOK_LTE',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9eaba51df57966e17e41e329d83f7a4b931',1,'quickjs.c']]],
+  ['tok_5fmath_5fpow',['TOK_MATH_POW',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9ead463b2c3fc296f91531ecfce7c607559',1,'quickjs.c']]],
+  ['tok_5fmath_5fpow_5fassign',['TOK_MATH_POW_ASSIGN',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9eac8f8ad3c5e2c548e9f1c10dd31f25f99',1,'quickjs.c']]],
   ['tok_5fminus_5fassign',['TOK_MINUS_ASSIGN',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9eab9273c0c1c65825be0e704e903e22398',1,'quickjs.c']]],
   ['tok_5fmod_5fassign',['TOK_MOD_ASSIGN',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9eafa7cc3d9349ce00cced8814deb55a76f',1,'quickjs.c']]],
   ['tok_5fmul_5fassign',['TOK_MUL_ASSIGN',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9ea89005a9f21c7caf2086aed180f384f53',1,'quickjs.c']]],

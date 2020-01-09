@@ -9,5 +9,6 @@ var searchData=
   ['malloc',['malloc',['../libbf_8c.html#a6bb12c9cae32ecd32a4584a86c4c6c99',1,'malloc():&#160;libbf.c'],['../quickjs_8c.html#a6bb12c9cae32ecd32a4584a86c4c6c99',1,'malloc():&#160;quickjs.c']]],
   ['malloc_5foverhead',['MALLOC_OVERHEAD',['../quickjs_8c.html#a8a1de2acbce09a64ea6dac9acd191c5b',1,'quickjs.c']]],
   ['max_5fsafe_5finteger',['MAX_SAFE_INTEGER',['../quickjs_8c.html#a88be590bb3fe770156c46e5879beae7c',1,'quickjs.c']]],
-  ['mr',['MR',['../libunicode_8c.html#a0874eb7c3eaf13a5d190b501b2e1bdef',1,'libunicode.c']]]
+  ['mr',['MR',['../libunicode_8c.html#a0874eb7c3eaf13a5d190b501b2e1bdef',1,'libunicode.c']]],
+  ['muldq',['muldq',['../libbf_8c.html#acad80327db3f231c540eb41635e39277',1,'libbf.c']]]
 ];

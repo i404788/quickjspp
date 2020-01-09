@@ -1,13 +1,14 @@
 var searchData=
 [
-  ['u',['u',['../structJSCFunctionListEntry.html#a64652fb5dc87c49fbca059a8dace6916',1,'JSCFunctionListEntry::u()'],['../unionFloat64Union.html#ad1e2e15e44336a56d4a939f51f3a3f87',1,'Float64Union::u()'],['../structREParseState.html#a44eb0bc761980a83e76884f2d1822fbb',1,'REParseState::u()'],['../structJSString.html#a6cee8c0d08f46e77d1fc0cc3f6c7640f',1,'JSString::u()'],['../structJSExportEntry.html#aacba2394fd1e38e60b7036068f6e773e',1,'JSExportEntry::u()'],['../structJSProperty.html#a0f7f1e591c70d01188cd779a413ad267',1,'JSProperty::u()'],['../structJSObject.html#a8bd8b69b0242d56c0d4c8ee3d48e60cd',1,'JSObject::u()'],['../structJSObject.html#a0f26157b67ca01678049c37336560ebe',1,'JSObject::u()'],['../structJSToken.html#a55e892d9a2b7abc7f62641e84a968ae7',1,'JSToken::u()'],['../structExportedNameEntry.html#a31153704a00bc82b71c8e190bd196cb8',1,'ExportedNameEntry::u()']]],
-  ['u1',['u1',['../structJSObject.html#abfd9feb4cd2dc57ab83514571da6ebaf',1,'JSObject']]],
+  ['u',['u',['../structJSCFunctionListEntry.html#a64652fb5dc87c49fbca059a8dace6916',1,'JSCFunctionListEntry::u()'],['../unionFloat64Union.html#ad1e2e15e44336a56d4a939f51f3a3f87',1,'Float64Union::u()'],['../structREParseState.html#a44eb0bc761980a83e76884f2d1822fbb',1,'REParseState::u()'],['../structJSString.html#a01e1edbfc74b49e64ac7b097c7938d6a',1,'JSString::u()'],['../structJSExportEntry.html#a3649053abf49895813657c929f28d1dd',1,'JSExportEntry::u()'],['../structJSProperty.html#a09c3dd39e6a1976bc2317e6913d7e76c',1,'JSProperty::u()'],['../structJSObject.html#a5c603edb850513b2042462fec7f0554c',1,'JSObject::u()'],['../structJSObject.html#a561a6356db8381c7b23b27a5e69b54d6',1,'JSObject::u()'],['../structJSToken.html#aab7da502287ff6f7694074891ffeaaa6',1,'JSToken::u()'],['../structExportedNameEntry.html#ad4bb775a6bc28b674d1c495991a2f0ef',1,'ExportedNameEntry::u()']]],
+  ['u1',['u1',['../structJSObject.html#a2bf841c0bf37f41ae774e1a248b9f018',1,'JSObject']]],
   ['u32',['u32',['../unionJSFloat64Union.html#a12fc53fb862bb255f453829f3e1a6eac',1,'JSFloat64Union']]],
   ['u64',['u64',['../unionJSFloat64Union.html#ade7805c2335a58aa2469e313b8b05dd5',1,'JSFloat64Union']]],
   ['uint16_5fptr',['uint16_ptr',['../structJSObject.html#a985fed0d8fed051f1f7406c699f0c863',1,'JSObject']]],
   ['uint32_5fptr',['uint32_ptr',['../structJSObject.html#a6cdc4fba6d46d15beaef2cbe5157ce19',1,'JSObject']]],
   ['uint64_5fptr',['uint64_ptr',['../structJSObject.html#a56dd8f92015ef4c4ae41baea918af248',1,'JSObject']]],
   ['uint8_5fptr',['uint8_ptr',['../structJSObject.html#abd334806e99155db1e46e1870b6c8892',1,'JSObject']]],
+  ['unary_5farith',['unary_arith',['../structJSNumericOperations.html#a1e95fbed23349ff4cab183e8f502701b',1,'JSNumericOperations']]],
   ['unicode',['unicode',['../structJSRegExpStringIteratorData.html#a628fce3c052a19309a952b87a4be7cb0',1,'JSRegExpStringIteratorData']]],
   ['unicode_5fgc_5fmask_5ftable',['unicode_gc_mask_table',['../libunicode_8c.html#a7849f75c0b0cf6d80092cb4ee2451ec5',1,'libunicode.c']]],
   ['unicode_5fprop_5fcase_5fignorable_5findex',['unicode_prop_Case_Ignorable_index',['../libunicode-table_8h.html#a4292d23c05bedacbab49d385f9df1b6d',1,'libunicode-table.h']]],

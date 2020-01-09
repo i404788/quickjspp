@@ -18,5 +18,6 @@ var searchData=
   ['stack_5fsize_5fmax',['STACK_SIZE_MAX',['../libregexp_8c.html#a3cf2adfc19aeed9956dd64407aba2f75',1,'libregexp.c']]],
   ['stringify',['stringify',['../cutils_8h.html#ad21edfbf3d91d1af380e8d842e35960f',1,'cutils.h']]],
   ['strip_5flen',['STRIP_LEN',['../libbf_8c.html#a5bbff2458bb3447ba98f643dd91e5552',1,'libbf.c']]],
+  ['subdq',['subdq',['../libbf_8c.html#ab378fd223e73049603ee9c40dec14063',1,'libbf.c']]],
   ['switch',['SWITCH',['../quickjs_8c.html#a365f1cb04dff60b188becbc6522627af',1,'quickjs.c']]]
 ];

@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['d',['d',['../unionFloat64Union.html#a315a576a15a69f63c3df7791855fe9d4',1,'Float64Union::d()'],['../unionJSFloat64Union.html#a492bbe4af1272e7050114c13565f1fc9',1,'JSFloat64Union::d()']]],
+  ['d',['d',['../unionFloat64Union.html#a315a576a15a69f63c3df7791855fe9d4',1,'Float64Union::d()'],['../structFastDivData.html#a52b4ad6d260fd215410b045c57e8ecc1',1,'FastDivData::d()'],['../unionJSFloat64Union.html#a492bbe4af1272e7050114c13565f1fc9',1,'JSFloat64Union::d()']]],
   ['data',['data',['../structJSArrayBuffer.html#abb4d8240128d46d4b45b7d9e2a52586e',1,'JSArrayBuffer::data()'],['../structJSCFunctionDataRecord.html#a7e50ac35ab60900783a48ca763209cf3',1,'JSCFunctionDataRecord::data()']]],
   ['data_5flen',['data_len',['../structJSCFunctionDataRecord.html#aa234ba050321465dd6855a5c023dd540',1,'JSCFunctionDataRecord']]],
   ['day_5fnames',['day_names',['../quickjs_8c.html#a6bdc92c3352c1d255d5224ca24fa5251',1,'quickjs.c']]],
   ['dbuf',['dbuf',['../structBCWriterState.html#a2242bcc2ab23c22f761fc52ede399fb5',1,'BCWriterState']]],
-  ['debug',['debug',['../structJSFunctionBytecode.html#ac4182dcce0de9bdbc4e83ebf4d79e0d8',1,'JSFunctionBytecode']]],
+  ['debug',['debug',['../structJSFunctionBytecode.html#a7cbedc8a94bf6f12e7e564c644fd9192',1,'JSFunctionBytecode']]],
   ['def',['def',['../structValueBuffer.html#ae0d1a67daa108c8e86d6d05bebc173b1',1,'ValueBuffer']]],
   ['def_5fmalloc_5ffuncs',['def_malloc_funcs',['../quickjs_8c.html#acc3468bffc116a160c38987e2218ba62',1,'quickjs.c']]],
   ['def_5fscope_5farray',['def_scope_array',['../structJSFunctionDef.html#a2d02fceabd957d059e4851899d2a97bb',1,'JSFunctionDef']]],

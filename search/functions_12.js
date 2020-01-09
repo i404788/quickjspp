@@ -1,7 +1,9 @@
 var searchData=
 [
+  ['tag_5fis_5fnumber',['tag_is_number',['../quickjs_8c.html#af8fc35196748d05c8618e8713790dae0',1,'quickjs.c']]],
   ['term_5fexit',['term_exit',['../quickjs-libc_8c.html#ad567c3c111f38b01d8521064d8a266ea',1,'quickjs-libc.c']]],
   ['test_5ffinal_5fsigma',['test_final_sigma',['../quickjs_8c.html#a25c987b41af7258a902ade042499d54a',1,'quickjs.c']]],
+  ['throw_5fbf_5fexception',['throw_bf_exception',['../quickjs_8c.html#aede914d44979f89370794cbc8086e743',1,'quickjs.c']]],
   ['time_5fclip',['time_clip',['../quickjs_8c.html#a478ea24cf629522a55e209b2619334c7',1,'quickjs.c']]],
   ['timespec_5fto_5fms',['timespec_to_ms',['../quickjs-libc_8c.html#af47948b7bcfc358b6148b01c21c28b63',1,'quickjs-libc.c']]],
   ['to_5fdigit',['to_digit',['../libbf_8c.html#aee06949e4c5ec85b3da174509b93dc65',1,'to_digit(int c):&#160;libbf.c'],['../quickjs_8c.html#aee06949e4c5ec85b3da174509b93dc65',1,'to_digit(int c):&#160;quickjs.c']]],

@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['value_5ftype',['value_type',['../structqjs_1_1allocator.html#a4f1a419a019f08b1b2ff3e44be227d34',1,'qjs::allocator']]],
-  ['valuebuffer',['ValueBuffer',['../quickjs_8c.html#a6abe7e729931f9786d4b01a0fb8118eb',1,'quickjs.c']]],
-  ['valueslot',['ValueSlot',['../quickjs_8c.html#a588c4900699e48dd28d37299d8b6dd21',1,'quickjs.c']]]
+  ['slimb_5ft',['slimb_t',['../libbf_8h.html#a937ccc2d41c10717ba039d38d7af129e',1,'libbf.h']]],
+  ['stackint',['StackInt',['../libregexp_8c.html#a5004e19d3b3e20c79826719fbb672d05',1,'libregexp.c']]],
+  ['stacksizestate',['StackSizeState',['../quickjs_8c.html#ad24a6bd4c3b7abf57ab0b1d4b74315e6',1,'quickjs.c']]],
+  ['stringbuffer',['StringBuffer',['../quickjs_8c.html#a0059f1a4d933eb4922114a781087e284',1,'quickjs.c']]]
 ];

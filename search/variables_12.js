@@ -9,7 +9,7 @@ var searchData=
   ['record_5fcount_5fthreshold',['record_count_threshold',['../structJSMapState.html#a6e084768ae131266725718738f361cce',1,'JSMapState']]],
   ['records',['records',['../structJSMapState.html#a062f20aa939f31058812658a6dcc6f24',1,'JSMapState']]],
   ['ref_5fcount',['ref_count',['../structJSRefCountHeader.html#a2ea2679eb94693e181e4d760a019cdc0',1,'JSRefCountHeader::ref_count()'],['../structJSGCObjectHeader.html#a0ce0d8038db4cbbba7559703db2ddabf',1,'JSGCObjectHeader::ref_count()'],['../structLabelSlot.html#a411015b107f1c634eb3d5e66386d448c',1,'LabelSlot::ref_count()'],['../structJSMapRecord.html#a7506e2c8717b0dd2e2cecd6b80af39e4',1,'JSMapRecord::ref_count()'],['../structJSPromiseFunctionDataResolved.html#a2f958c7b9bf8fc6a22e80ddaeb6a3f32',1,'JSPromiseFunctionDataResolved::ref_count()']]],
-  ['regexp',['regexp',['../structJSObject.html#ac402835d8c9c5b4d49a92cc94ba6a201',1,'JSObject::regexp()'],['../structJSToken.html#a300d4ac67f1c08f3c36ef42b3e3b8b32',1,'JSToken::regexp()']]],
+  ['regexp',['regexp',['../structJSObject.html#ac402835d8c9c5b4d49a92cc94ba6a201',1,'JSObject::regexp()'],['../structJSToken.html#a10ae9747b041432f61387ccbc2881a69',1,'JSToken::regexp()']]],
   ['regexp_5fctor',['regexp_ctor',['../structJSContext.html#a04ddd188b3961b65595e900af147e97a',1,'JSContext']]],
   ['regexp_5fstring_5fiterator_5fdata',['regexp_string_iterator_data',['../structJSObject.html#a9ea4d09f3dfe2fba312ab14c7a091ae5',1,'JSObject']]],
   ['reopcode_5finfo',['reopcode_info',['../libregexp_8c.html#a5a2e8b6a2444e6f7d1d2778641f1ae21',1,'libregexp.c']]],
@@ -21,7 +21,6 @@ var searchData=
   ['resolved',['resolved',['../structJSModuleDef.html#a4daa573319974c0ac0c34d148f785d01',1,'JSModuleDef']]],
   ['resolving_5ffuncs',['resolving_funcs',['../structJSAsyncFunctionData.html#aa8343fefd3b7ace944313746649dae04',1,'JSAsyncFunctionData::resolving_funcs()'],['../structJSAsyncGeneratorRequest.html#a20d68bf76988e917b32f768c544a564e',1,'JSAsyncGeneratorRequest::resolving_funcs()'],['../structJSPromiseReactionData.html#af0664e88f87f3e3ec6b1439521f49d03',1,'JSPromiseReactionData::resolving_funcs()']]],
   ['result',['result',['../structJSAsyncGeneratorRequest.html#ae46731c5132e420ed567eb79631deba2',1,'JSAsyncGeneratorRequest']]],
-  ['rsqrt_5ftable',['rsqrt_table',['../libbf_8c.html#a39a60be5b440eb262571a4ee2ae6e7d5',1,'libbf.c']]],
   ['rt',['rt',['../structqjs_1_1allocator.html#a7b2bb04c2b1d1b8959dd56c493369fe4',1,'qjs::allocator::rt()'],['../classqjs_1_1Runtime.html#a3b498d71f948fb1e1dff1b1d34159fb4',1,'qjs::Runtime::rt()'],['../structJSContext.html#a93d836138d8b41cf41e3826fa6900f89',1,'JSContext::rt()']]],
   ['rt_5finfo',['rt_info',['../structJSRuntime.html#a62e68f62f57aeec069e621baa6e80b6d',1,'JSRuntime']]],
   ['rw_5ffunc',['rw_func',['../structJSOSRWHandler.html#a9c43ed589232a1016bc1730f2bdbd657',1,'JSOSRWHandler']]]

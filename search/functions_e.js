@@ -11,5 +11,5 @@ var searchData=
   ['optimize_5fscope_5fmake_5fref',['optimize_scope_make_ref',['../quickjs_8c.html#a7c152c8f95a5338351e7f99447d6aea4',1,'quickjs.c']]],
   ['optional_5fchain_5ftest',['optional_chain_test',['../quickjs_8c.html#a964237617fb99ed93ebe4abda62d6c84',1,'quickjs.c']]],
   ['os_5fsignal_5fhandler',['os_signal_handler',['../quickjs-libc_8c.html#af1d90f85a4341bd6129f52d705cd30d3',1,'quickjs-libc.c']]],
-  ['output_5fdigits',['output_digits',['../libbf_8c.html#ad822be23230b2b31b63bbc893881aa25',1,'libbf.c']]]
+  ['output_5fdigits',['output_digits',['../libbf_8c.html#ae598665f1f567f67350a972a972ef86a',1,'libbf.c']]]
 ];

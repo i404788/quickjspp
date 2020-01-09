@@ -18,9 +18,9 @@ var searchData=
   ['next_5ftoken',['next_token',['../quickjs_8c.html#a75a3798e2045f6e403c1ef467126d1fb',1,'quickjs.c']]],
   ['next_5fweak_5fref',['next_weak_ref',['../structJSMapRecord.html#a5cc0c993fa41c477c4260876023357fd',1,'JSMapRecord']]],
   ['no_5finline',['no_inline',['../cutils_8h.html#a920e1ee483880024048aca3880427e1c',1,'cutils.h']]],
-  ['ntt_5fconv',['ntt_conv',['../libbf_8c.html#a9d3fbb039caa031cfaee29bea3209c4e',1,'libbf.c']]],
-  ['ntt_5ffft',['ntt_fft',['../libbf_8c.html#aa4952590489eecc07bc5dff2f34100ff',1,'libbf.c']]],
-  ['ntt_5ffft_5fpartial',['ntt_fft_partial',['../libbf_8c.html#a20b78e3fafb87d40811e48a2ecb92102',1,'libbf.c']]],
+  ['ntt_5fconv',['ntt_conv',['../libbf_8c.html#a6ae58e818e85536ef032aeac42aaa3e0',1,'libbf.c']]],
+  ['ntt_5ffft',['ntt_fft',['../libbf_8c.html#ab3fb41bbc385686962ae17d42f66d2ab',1,'libbf.c']]],
+  ['ntt_5ffft_5fpartial',['ntt_fft_partial',['../libbf_8c.html#a53010343d7669bc13648ab1a56ea8563',1,'libbf.c']]],
   ['ntt_5ffree',['ntt_free',['../libbf_8c.html#a2606c1668b90ca572fe599c352d3ed83',1,'libbf.c']]],
   ['ntt_5fint_5fbits',['ntt_int_bits',['../libbf_8c.html#afb60af237986973b87cbd16ded2db5ae',1,'libbf.c']]],
   ['ntt_5flen_5finv',['ntt_len_inv',['../structBFNTTState.html#a45ed3ddf631a0f21809b024a321e4a42',1,'BFNTTState']]],
@@ -43,7 +43,7 @@ var searchData=
   ['ntt_5ftrig_5fk_5fmax',['NTT_TRIG_K_MAX',['../libbf_8c.html#a51bbd48e3cd37e5b1f87254f8447fe95',1,'libbf.c']]],
   ['ntt_5fvec_5fmul',['ntt_vec_mul',['../libbf_8c.html#a09b7b1b6746e8dfb0af0801e4dff8b54',1,'libbf.c']]],
   ['nttlimb',['NTTLimb',['../libbf_8c.html#a320ed3200d4ab6bae4376ee44bfbf2d2',1,'libbf.c']]],
-  ['num',['num',['../structJSToken.html#ac3d4237cd1cfacc8fdd64777865e29a7',1,'JSToken']]],
+  ['num',['num',['../structJSBigFloat.html#ae17c4b0bbe806edeb99730b094d6882d',1,'JSBigFloat::num()'],['../structJSBigDecimal.html#a0c56d802c032ceec20a1fab6651588b2',1,'JSBigDecimal::num()'],['../structJSToken.html#afe0366b73c039bea07cc308e9fce05f8',1,'JSToken::num()']]],
   ['num_5fkeys_5fcmp',['num_keys_cmp',['../quickjs_8c.html#a8bb06965d4c98d9e1220bf31b4970780',1,'quickjs.c']]],
   ['nvp',['nvp',['../classqjs_1_1Context_1_1Module.html#af3916477736b887af6e1e348b5807bc8',1,'qjs::Context::Module']]]
 ];

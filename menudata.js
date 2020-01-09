@@ -144,6 +144,7 @@ var menudata={children:[
 {text:"n",url:"globals_vars.html#index_n"},
 {text:"o",url:"globals_vars.html#index_o"},
 {text:"r",url:"globals_vars.html#index_r"},
+{text:"s",url:"globals_vars.html#index_s"},
 {text:"t",url:"globals_vars.html#index_t"},
 {text:"u",url:"globals_vars.html#index_u"}]},
 {text:"Typedefs",url:"globals_type.html",children:[
@@ -156,6 +157,7 @@ var menudata={children:[
 {text:"g",url:"globals_type.html#index_g"},
 {text:"j",url:"globals_type.html#index_j"},
 {text:"l",url:"globals_type.html#index_l"},
+{text:"m",url:"globals_type.html#index_m"},
 {text:"n",url:"globals_type.html#index_n"},
 {text:"o",url:"globals_type.html#index_o"},
 {text:"r",url:"globals_type.html#index_r"},

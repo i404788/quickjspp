@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['d',['d',['../unionFloat64Union.html#a315a576a15a69f63c3df7791855fe9d4',1,'Float64Union::d()'],['../unionJSFloat64Union.html#a492bbe4af1272e7050114c13565f1fc9',1,'JSFloat64Union::d()']]],
+  ['d',['d',['../unionFloat64Union.html#a315a576a15a69f63c3df7791855fe9d4',1,'Float64Union::d()'],['../structFastDivData.html#a52b4ad6d260fd215410b045c57e8ecc1',1,'FastDivData::d()'],['../unionJSFloat64Union.html#a492bbe4af1272e7050114c13565f1fc9',1,'JSFloat64Union::d()']]],
   ['data',['data',['../structJSArrayBuffer.html#abb4d8240128d46d4b45b7d9e2a52586e',1,'JSArrayBuffer::data()'],['../structJSCFunctionDataRecord.html#a7e50ac35ab60900783a48ca763209cf3',1,'JSCFunctionDataRecord::data()']]],
   ['data_5flen',['data_len',['../structJSCFunctionDataRecord.html#aa234ba050321465dd6855a5c023dd540',1,'JSCFunctionDataRecord']]],
   ['date_5fnow',['date_now',['../quickjs_8c.html#ab4d310ae0cce7aff63620bced920cf0f',1,'quickjs.c']]],
@@ -26,7 +26,7 @@ var searchData=
   ['dbuf_5frealloc',['dbuf_realloc',['../cutils_8c.html#ac0b9ce26415947e972d6781d9f2fb11b',1,'dbuf_realloc(DynBuf *s, size_t new_size):&#160;cutils.c'],['../cutils_8h.html#ac0b9ce26415947e972d6781d9f2fb11b',1,'dbuf_realloc(DynBuf *s, size_t new_size):&#160;cutils.c']]],
   ['dbuf_5fwrite',['dbuf_write',['../cutils_8c.html#a881843768029856f5c48c57af5f8deb5',1,'dbuf_write(DynBuf *s, size_t offset, const uint8_t *data, size_t len):&#160;cutils.c'],['../cutils_8h.html#a881843768029856f5c48c57af5f8deb5',1,'dbuf_write(DynBuf *s, size_t offset, const uint8_t *data, size_t len):&#160;cutils.c']]],
   ['deallocate',['deallocate',['../structqjs_1_1allocator.html#af3540347ff540edef984e18afb7c8b24',1,'qjs::allocator']]],
-  ['debug',['debug',['../structJSFunctionBytecode.html#ac4182dcce0de9bdbc4e83ebf4d79e0d8',1,'JSFunctionBytecode']]],
+  ['debug',['debug',['../structJSFunctionBytecode.html#a7cbedc8a94bf6f12e7e564c644fd9192',1,'JSFunctionBytecode']]],
   ['decl_5fmask_5fall',['DECL_MASK_ALL',['../quickjs_8c.html#a2906d94847f5c59eda4f9a8c612d06f7',1,'quickjs.c']]],
   ['decl_5fmask_5ffunc',['DECL_MASK_FUNC',['../quickjs_8c.html#a12c8083899522cbc604a9222a8b0634f',1,'quickjs.c']]],
   ['decl_5fmask_5ffunc_5fwith_5flabel',['DECL_MASK_FUNC_WITH_LABEL',['../quickjs_8c.html#a029546b2e2cd86cdd28515f2653c1daa',1,'quickjs.c']]],
@@ -84,6 +84,10 @@ var searchData=
   ['detached',['detached',['../structJSArrayBuffer.html#a34addb291def1e621838d8a51bcff924',1,'JSArrayBuffer']]],
   ['digits_5fper_5flimb_5ftable',['digits_per_limb_table',['../libbf_8c.html#a570e71750d975a6d3afa63e89d5a872c',1,'libbf.c']]],
   ['direct_5fdispatch',['DIRECT_DISPATCH',['../quickjs_8c.html#a59a6c3491a478119444e8e2dfd087c20',1,'quickjs.c']]],
+  ['div_5fstatic_5falloc_5flen',['DIV_STATIC_ALLOC_LEN',['../libbf_8c.html#a4c3cb2b426dcde68a5e1fb4cc071127d',1,'libbf.c']]],
+  ['divdq',['divdq',['../libbf_8c.html#a8dce28cb76c071c67fc5bd45dcfba0c5',1,'libbf.c']]],
+  ['divdq_5fbase',['divdq_base',['../libbf_8c.html#a17358cf0dbb08b3c0a7a5839f3815710',1,'libbf.c']]],
+  ['divnorm_5flarge_5fthreshold',['DIVNORM_LARGE_THRESHOLD',['../libbf_8c.html#ae6bb4cec24170615adc0f208b836aa59',1,'libbf.c']]],
   ['dlimb_5ft',['dlimb_t',['../libbf_8h.html#a50a3fb8b904049b07c95b8a6cd8253bd',1,'libbf.h']]],
   ['done',['done',['../structJSRegExpStringIteratorData.html#aa4e84ad2832f21276158dbaf1500a465',1,'JSRegExpStringIteratorData']]],
   ['dotall',['dotall',['../structREParseState.html#a4c2ad966a5662ffa7f35511dcd9e025e',1,'REParseState']]],

@@ -1,7 +1,10 @@
 var searchData=
 [
+  ['fast_5fudiv',['fast_udiv',['../libbf_8c.html#a18ed5ff631711bfffa3ab5c94dcaa953',1,'libbf.c']]],
+  ['fast_5fudiv_5finit',['fast_udiv_init',['../libbf_8c.html#ab76c7e53bbf0deef2642b48fd692a691',1,'libbf.c']]],
+  ['fast_5furem',['fast_urem',['../libbf_8c.html#a3c86bf67e2e31560e2a550a5ef73174f',1,'libbf.c']]],
   ['fft_5fclear_5fcache',['fft_clear_cache',['../libbf_8c.html#a3297974836c2935c213c6ffb9a945d51',1,'libbf.c']]],
-  ['fft_5fmul',['fft_mul',['../libbf_8c.html#a2f9f07876fb472f11c33a5e066ae9765',1,'libbf.c']]],
+  ['fft_5fmul',['fft_mul',['../libbf_8c.html#aced93436f1e8ca41feb00d8070cfcbde',1,'libbf.c']]],
   ['find_5fabbrev',['find_abbrev',['../quickjs_8c.html#a7a64dc8a6c1daf2e734e3a4f7013b660',1,'quickjs.c']]],
   ['find_5farg',['find_arg',['../quickjs_8c.html#aa26b47ba93d2f7737148d89fa85ba21f',1,'quickjs.c']]],
   ['find_5fatom',['find_atom',['../quickjs_8c.html#ae8e62d181b34d2e7bdda0b099c0880f5',1,'quickjs.c']]],
@@ -26,7 +29,7 @@ var searchData=
   ['find_5fsh',['find_sh',['../quickjs-libc_8c.html#af4f5d98d116ff2eb663e22d780645743',1,'quickjs-libc.c']]],
   ['find_5fvar',['find_var',['../quickjs_8c.html#a17f57e818da8e28af51d672f9dd1e02b',1,'quickjs.c']]],
   ['find_5fvar_5fin_5fchild_5fscope',['find_var_in_child_scope',['../quickjs_8c.html#ad48dbcc587663ec98a4283179c2b96e9',1,'quickjs.c']]],
-  ['floor_5fdiv',['floor_div',['../quickjs_8c.html#ad1e54b2564697a7a9d7838321308dd54',1,'quickjs.c']]],
+  ['floor_5fdiv',['floor_div',['../libbf_8c.html#a8f60f7f456c1c9e0253279c3694ad37b',1,'floor_div(slimb_t a, slimb_t b):&#160;libbf.c'],['../quickjs_8c.html#ad1e54b2564697a7a9d7838321308dd54',1,'floor_div(int64_t a, int64_t b):&#160;quickjs.c']]],
   ['free_5farg_5flist',['free_arg_list',['../quickjs_8c.html#ac864482356b3efc2d0b0a509fcfa4c7c',1,'quickjs.c']]],
   ['free_5fbytecode_5fatoms',['free_bytecode_atoms',['../quickjs_8c.html#a3242b1f6e8d8ecc3c27ee7c2caa647a3',1,'quickjs.c']]],
   ['free_5ffunction_5fbytecode',['free_function_bytecode',['../quickjs_8c.html#adc4a49d7eb1cc1ec4b3a8c37ab8cb075',1,'quickjs.c']]],

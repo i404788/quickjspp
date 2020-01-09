@@ -8,5 +8,9 @@ var searchData=
   ['default',['DEFAULT',['../quickjs_8c.html#a3da44afeba217135a680a7477b5e3ce3',1,'quickjs.c']]],
   ['define_5fglobal_5ffunc_5fvar',['DEFINE_GLOBAL_FUNC_VAR',['../quickjs_8c.html#a1743ddfcb2321b208543c8dd6826d530',1,'quickjs.c']]],
   ['define_5fglobal_5flex_5fvar',['DEFINE_GLOBAL_LEX_VAR',['../quickjs_8c.html#a36e99b016b7432fbfdf6c79ed9226f6e',1,'quickjs.c']]],
-  ['direct_5fdispatch',['DIRECT_DISPATCH',['../quickjs_8c.html#a59a6c3491a478119444e8e2dfd087c20',1,'quickjs.c']]]
+  ['direct_5fdispatch',['DIRECT_DISPATCH',['../quickjs_8c.html#a59a6c3491a478119444e8e2dfd087c20',1,'quickjs.c']]],
+  ['div_5fstatic_5falloc_5flen',['DIV_STATIC_ALLOC_LEN',['../libbf_8c.html#a4c3cb2b426dcde68a5e1fb4cc071127d',1,'libbf.c']]],
+  ['divdq',['divdq',['../libbf_8c.html#a8dce28cb76c071c67fc5bd45dcfba0c5',1,'libbf.c']]],
+  ['divdq_5fbase',['divdq_base',['../libbf_8c.html#a17358cf0dbb08b3c0a7a5839f3815710',1,'libbf.c']]],
+  ['divnorm_5flarge_5fthreshold',['DIVNORM_LARGE_THRESHOLD',['../libbf_8c.html#ae6bb4cec24170615adc0f208b836aa59',1,'libbf.c']]]
 ];

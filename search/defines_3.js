@@ -12,6 +12,7 @@ var searchData=
   ['class_5frange_5fbase',['CLASS_RANGE_BASE',['../libregexp_8c.html#afc40386ed32d22d492bee0ae6bd83c7a',1,'libregexp.c']]],
   ['config_5fall_5funicode',['CONFIG_ALL_UNICODE',['../libunicode_8h.html#abfdbcdc93f49ada154f09246cead6892',1,'libunicode.h']]],
   ['config_5fatomics',['CONFIG_ATOMICS',['../quickjs_8c.html#a447ed9e30b6504ea440c12776554aa0d',1,'quickjs.c']]],
+  ['config_5fbignum',['CONFIG_BIGNUM',['../quickjs_8c.html#a3b7c21ee885d8fea9c536844bd3b1454',1,'quickjs.c']]],
   ['config_5fprintf_5frndn',['CONFIG_PRINTF_RNDN',['../quickjs_8c.html#ab9f2936b0a58dc4b8c4ba5adb47caa88',1,'quickjs.c']]],
   ['countof',['countof',['../cutils_8h.html#a13aaf9e9e194ebfd84f90bcf4e264aca',1,'cutils.h']]],
   ['cp_5fbom',['CP_BOM',['../quickjs_8c.html#a6c51cb594cdd4de3013f6ced1cbab8fd',1,'quickjs.c']]],

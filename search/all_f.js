@@ -25,7 +25,7 @@ var searchData=
   ['opaque',['opaque',['../structJSMallocState.html#a8e20def6bbfb1cd38a7848ef1cdc1e10',1,'JSMallocState::opaque()'],['../structDynBuf.html#aa0f99202d80b911bc51c498f3c020418',1,'DynBuf::opaque()'],['../structREExecContext.html#afcd017d9af7ea02c7bf62228c333492e',1,'REExecContext::opaque()'],['../structJSArrayBuffer.html#a48471e0fd72d15b59be61aa2a9cce72b',1,'JSArrayBuffer::opaque()'],['../structJSProperty.html#a29e94d89511faf69329056384b5d86d3',1,'JSProperty::opaque()'],['../structJSObject.html#a2eb2998ef1b2b8c2bd68ba6ced3f2140',1,'JSObject::opaque()']]],
   ['opcode',['opcode',['../structJSLValue.html#ae8e8b65b680c389ee92f23343c990cae',1,'JSLValue']]],
   ['opcode_5finfo',['opcode_info',['../quickjs_8c.html#a35726c01620fb0be3bb5170236d7388f',1,'quickjs.c']]],
-  ['opcodeenum',['OPCodeEnum',['../quickjs_8c.html#a79451efde0703076fd0af30c192765d6',1,'OPCodeEnum():&#160;quickjs.c'],['../quickjs_8c.html#a4650c050d45fd4e28a067702017165a7',1,'OPCodeEnum():&#160;quickjs.c']]],
+  ['opcodeenum',['OPCodeEnum',['../quickjs_8c.html#a79451efde0703076fd0af30c192765d6',1,'OPCodeEnum():&#160;quickjs.c'],['../quickjs_8c.html#abc40380aa98b8a9a427e9db4039f184f',1,'OPCodeEnum():&#160;quickjs.c']]],
   ['opcodeformat',['OPCodeFormat',['../quickjs_8c.html#a65c3b93059f67ee36ffe43e40621b36e',1,'OPCodeFormat():&#160;quickjs.c'],['../quickjs_8c.html#ad6c01bc3a2f42996e3d2a39349444f88',1,'OPCodeFormat():&#160;quickjs.c']]],
   ['operator_20jsvalue',['operator JSValue',['../classqjs_1_1Value.html#ad04b949f09968e4677fcfc1141b4b180',1,'qjs::Value']]],
   ['operator_20t',['operator T',['../structqjs_1_1detail_1_1property__proxy.html#ae3977f7f157a8a60242089cfd8578d54',1,'qjs::detail::property_proxy::operator T()'],['../classqjs_1_1Value.html#aa0eaa45d4cb0f1d7d7c42bccaef35ef6',1,'qjs::Value::operator T()']]],
@@ -47,5 +47,5 @@ var searchData=
   ['os_5fsignal_5fhandler',['os_signal_handler',['../quickjs-libc_8c.html#af1d90f85a4341bd6129f52d705cd30d3',1,'quickjs-libc.c']]],
   ['os_5fsignal_5fhandlers',['os_signal_handlers',['../quickjs-libc_8c.html#a08662d20ebb2271a16aecaf63b987f85',1,'quickjs-libc.c']]],
   ['os_5ftimers',['os_timers',['../quickjs-libc_8c.html#ac0c6f948e2fe87b1d9aeec465c4fe088',1,'quickjs-libc.c']]],
-  ['output_5fdigits',['output_digits',['../libbf_8c.html#ad822be23230b2b31b63bbc893881aa25',1,'libbf.c']]]
+  ['output_5fdigits',['output_digits',['../libbf_8c.html#ae598665f1f567f67350a972a972ef86a',1,'libbf.c']]]
 ];

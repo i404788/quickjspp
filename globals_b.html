@@ -61,12 +61,6 @@ $(function() {
 <div class="textblock">Here is a list of all file members with links to the files they belong to:</div>
 
 <h3><a id="index_b"></a>- b -</h3><ul>
-<li>BASECASE_DIV_THRESHOLD_B
-: <a class="el" href="libbf_8c.html#acbc8e05cc89a51902eca401002386791">libbf.c</a>
-</li>
-<li>BASECASE_DIV_THRESHOLD_Q
-: <a class="el" href="libbf_8c.html#ae3597c9be0a98f53522ca615f273e9aa">libbf.c</a>
-</li>
 <li>bc_atom_to_idx()
 : <a class="el" href="quickjs_8c.html#abe9790a1548fcb007a2c864356f71ef5">quickjs.c</a>
 </li>
@@ -151,6 +145,9 @@ $(function() {
 <li>BC_TAG_ARRAY
 : <a class="el" href="quickjs_8c.html#aad12de956ba27a1bc9d0435e751d61f0ac60bd431f44629c578cf5a898a557b0e">quickjs.c</a>
 </li>
+<li>BC_TAG_BIG_DECIMAL
+: <a class="el" href="quickjs_8c.html#aad12de956ba27a1bc9d0435e751d61f0aaf7ddf5bafe3550f994536b047e73e43">quickjs.c</a>
+</li>
 <li>BC_TAG_BIG_FLOAT
 : <a class="el" href="quickjs_8c.html#aad12de956ba27a1bc9d0435e751d61f0aa4aef687bacac46142bc6d1d5d423e3f">quickjs.c</a>
 </li>
@@ -214,14 +211,11 @@ $(function() {
 : <a class="el" href="libbf_8c.html#aaebd1df91497246cd81f23918af58d33">libbf.c</a>
 </li>
 <li>bf_add_limb()
-: <a class="el" href="libbf_8c.html#a7942a6dcc6f4ece6d6ed65ef743d8f20">libbf.c</a>
+: <a class="el" href="libbf_8c.html#a680c69ec7601c020906ba64f7ebe8818">libbf.c</a>
 </li>
 <li>bf_add_si()
 : <a class="el" href="libbf_8c.html#a50a5aa2767f2389a32daf115aaef07af">libbf.c</a>
 , <a class="el" href="libbf_8h.html#a50a5aa2767f2389a32daf115aaef07af">libbf.h</a>
-</li>
-<li>bf_add_zero_limbs()
-: <a class="el" href="libbf_8c.html#a7e9bb2c1bbc82bf523a478b0afa0415a">libbf.c</a>
 </li>
 <li>bf_asin()
 : <a class="el" href="libbf_8c.html#a8ee86879e3da22442956f47356855edd">libbf.c</a>
@@ -235,8 +229,8 @@ $(function() {
 , <a class="el" href="libbf_8h.html#a0bb2c5b98e3f978b84df9849c7ec50d6">libbf.h</a>
 </li>
 <li>bf_atan2()
-: <a class="el" href="libbf_8h.html#a78e29a7f1f858b99cbf3a0f97382c233">libbf.h</a>
-, <a class="el" href="libbf_8c.html#a78e29a7f1f858b99cbf3a0f97382c233">libbf.c</a>
+: <a class="el" href="libbf_8c.html#a78e29a7f1f858b99cbf3a0f97382c233">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a78e29a7f1f858b99cbf3a0f97382c233">libbf.h</a>
 </li>
 <li>bf_atan2_internal()
 : <a class="el" href="libbf_8c.html#af760cf2a93bf130e8e44a62c7e7d0adf">libbf.c</a>
@@ -255,38 +249,17 @@ $(function() {
 <li>BF_ATOF_BIN_OCT
 : <a class="el" href="libbf_8h.html#a644b4ad1d11428391c9a28ee57bf409b">libbf.h</a>
 </li>
-<li>BF_ATOF_INT_N_SUFFIX
-: <a class="el" href="libbf_8h.html#a1a9803e362f290d7bae4bb44c28d9bfd">libbf.h</a>
+<li>BF_ATOF_EXPONENT
+: <a class="el" href="libbf_8h.html#a1ce8a1b377ff451756fc8e920d00be13">libbf.h</a>
 </li>
-<li>BF_ATOF_INT_ONLY
-: <a class="el" href="libbf_8h.html#a3432e389bb34ef9a0be70a2d3e78047d">libbf.h</a>
-</li>
-<li>BF_ATOF_INT_PREC_INF
-: <a class="el" href="libbf_8h.html#aae63246d295ebfcad0c352fddc8ac497">libbf.h</a>
-</li>
-<li>BF_ATOF_JS_QUIRKS
-: <a class="el" href="libbf_8h.html#adf28a602fb4a3a5408ce886668dc7b5d">libbf.h</a>
-</li>
-<li>BF_ATOF_LEGACY_OCTAL
-: <a class="el" href="libbf_8h.html#a9ac789b0e2f96c41f6269d01e585f6f7">libbf.h</a>
+<li>bf_atof_internal()
+: <a class="el" href="libbf_8c.html#aaaeb6c790a8b174f3c5631ee33c81910">libbf.c</a>
 </li>
 <li>BF_ATOF_NO_HEX
 : <a class="el" href="libbf_8h.html#ad269eaa65ada8b1c6ff5ec88a0d5b43c">libbf.h</a>
 </li>
-<li>BF_ATOF_NO_PREFIX_AFTER_SIGN
-: <a class="el" href="libbf_8h.html#a976b64527bcacbe9a7e19189a816797d">libbf.h</a>
-</li>
-<li>BF_ATOF_ONLY_DEC_FLOAT
-: <a class="el" href="libbf_8h.html#a09ee7f322a4b26656929973c6807a7a3">libbf.h</a>
-</li>
-<li>BF_ATOF_ST_INTEGER
-: <a class="el" href="libbf_8h.html#af08bd86573bf69cdbaf4a92278872c74">libbf.h</a>
-</li>
-<li>BF_ATOF_ST_LEGACY_OCTAL
-: <a class="el" href="libbf_8h.html#a2b6f4b6fe06a669c5ee652bea1f6cf82">libbf.h</a>
-</li>
-<li>BF_ATOF_UNDERSCORE_SEP
-: <a class="el" href="libbf_8h.html#ae301047e6b7853f850d552b1ea46add5">libbf.h</a>
+<li>BF_ATOF_NO_NAN_INF
+: <a class="el" href="libbf_8h.html#a7f1a32dbe154b93ec090bfe3bc54524d">libbf.h</a>
 </li>
 <li>bf_can_round()
 : <a class="el" href="libbf_8c.html#acf53e4204e8b9ce80156c25c98205a49">libbf.c</a>
@@ -366,7 +339,7 @@ $(function() {
 : <a class="el" href="libbf_8h.html#a4584f8b64100055c2edfe5dc6c47f357">libbf.h</a>
 </li>
 <li>bf_convert_to_radix()
-: <a class="el" href="libbf_8c.html#ad00b7ad7fdff6f2750b91c0fdb530152">libbf.c</a>
+: <a class="el" href="libbf_8c.html#a13930fbd670b65bf9f8c07a0fbcfc63b">libbf.c</a>
 </li>
 <li>bf_cos()
 : <a class="el" href="libbf_8c.html#a69ea68a6b21d496bd89afeaa9c067ebe">libbf.c</a>
@@ -377,6 +350,9 @@ $(function() {
 </li>
 <li>bf_dbuf_realloc()
 : <a class="el" href="libbf_8c.html#af424da787a1bef3c17afb5d0b416c829">libbf.c</a>
+</li>
+<li>BF_DEC_BASE
+: <a class="el" href="libbf_8h.html#a9c2c6fc19ae7b535f3cf46c63fe980c7">libbf.h</a>
 </li>
 <li>bf_delete()
 : <a class="el" href="libbf_8h.html#a2b9d906b21e903f2f7f1c9044674ab7d">libbf.h</a>
@@ -393,14 +369,17 @@ $(function() {
 : <a class="el" href="libbf_8h.html#a67944c36a2e69782ee835ed05f3fc2ed">libbf.h</a>
 </li>
 <li>bf_exp()
-: <a class="el" href="libbf_8h.html#a36f22f93ba4258209be035a63b80b87f">libbf.h</a>
-, <a class="el" href="libbf_8c.html#a36f22f93ba4258209be035a63b80b87f">libbf.c</a>
+: <a class="el" href="libbf_8c.html#a36f22f93ba4258209be035a63b80b87f">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a36f22f93ba4258209be035a63b80b87f">libbf.h</a>
 </li>
 <li>BF_EXP_BITS_MASK
 : <a class="el" href="libbf_8h.html#ae2f6365851d043701d00b86b9967269f">libbf.h</a>
 </li>
 <li>BF_EXP_BITS_MAX
 : <a class="el" href="libbf_8h.html#ac7b9c27165b40acec314cf9efbc6c650">libbf.h</a>
+</li>
+<li>BF_EXP_BITS_MAX1
+: <a class="el" href="quickjs_8c.html#a93cbc1335cae992847b9622bbe7a8dfc">quickjs.c</a>
 </li>
 <li>BF_EXP_BITS_MIN
 : <a class="el" href="libbf_8h.html#afe951591786c0d5e3f8e027d04491b2b">libbf.h</a>
@@ -420,6 +399,9 @@ $(function() {
 <li>BF_EXP_ZERO
 : <a class="el" href="libbf_8h.html#af88a419d7985db4d6b05371de619c182">libbf.h</a>
 </li>
+<li>BF_FLAG_RADPNT_PREC
+: <a class="el" href="libbf_8h.html#a49fc0d2261ce526e2f5e4a57f49d9555">libbf.h</a>
+</li>
 <li>BF_FLAG_SUBNORMAL
 : <a class="el" href="libbf_8h.html#a3e2291a13062f72882391302794e90c3">libbf.h</a>
 </li>
@@ -431,11 +413,11 @@ $(function() {
 , <a class="el" href="libbf_8h.html#ae77a04e5fc238cfb6ed7b1db3a34594b">libbf.h</a>
 </li>
 <li>bf_free()
-: <a class="el" href="libbf_8c.html#ab8c991bf0d1ab72d676d3c9c3d63c2a7">libbf.c</a>
+: <a class="el" href="libbf_8h.html#ab8c991bf0d1ab72d676d3c9c3d63c2a7">libbf.h</a>
 </li>
 <li>bf_ftoa()
-: <a class="el" href="libbf_8c.html#aaa8f17f7e4073126aebb24e3c86dd283">libbf.c</a>
-, <a class="el" href="libbf_8h.html#a50551c6578db85d68392a0cb9374e280">libbf.h</a>
+: <a class="el" href="libbf_8c.html#a3ab9f99dbc84f8cce63cf3867b8986e5">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a3ab9f99dbc84f8cce63cf3867b8986e5">libbf.h</a>
 </li>
 <li>BF_FTOA_ADD_PREFIX
 : <a class="el" href="libbf_8h.html#ac93acf25327fdbd636d437573e4e51a7">libbf.h</a>
@@ -457,6 +439,9 @@ $(function() {
 </li>
 <li>BF_FTOA_FORMAT_MASK
 : <a class="el" href="libbf_8h.html#a7dda5bfe2e48bf88458bca334fe0c99e">libbf.h</a>
+</li>
+<li>bf_ftoa_internal()
+: <a class="el" href="libbf_8c.html#ad79aefc435021a0743c89cb4aec7fa56">libbf.c</a>
 </li>
 <li>BF_FTOA_JS_QUIRKS
 : <a class="el" href="libbf_8h.html#a4bedc839ff3ec59e4676f49caf2201f2">libbf.h</a>
@@ -494,14 +479,14 @@ $(function() {
 : <a class="el" href="libbf_8c.html#a3d7fdccc1995b3a88b68c5e7a57dce16">libbf.c</a>
 </li>
 <li>bf_init()
-: <a class="el" href="libbf_8h.html#abacc1410890af049e02ebd788364ac48">libbf.h</a>
-, <a class="el" href="libbf_8c.html#abacc1410890af049e02ebd788364ac48">libbf.c</a>
+: <a class="el" href="libbf_8c.html#abacc1410890af049e02ebd788364ac48">libbf.c</a>
+, <a class="el" href="libbf_8h.html#abacc1410890af049e02ebd788364ac48">libbf.h</a>
 </li>
 <li>bf_integer_from_radix()
-: <a class="el" href="libbf_8c.html#a0bf05f50640dc8837693199c565dcc47">libbf.c</a>
+: <a class="el" href="libbf_8c.html#ac2b674e82a4c1c10c46af348193fb9c0">libbf.c</a>
 </li>
 <li>bf_integer_from_radix_rec()
-: <a class="el" href="libbf_8c.html#a9f41435b46d8ef0a2509a803a7c45950">libbf.c</a>
+: <a class="el" href="libbf_8c.html#a5d5227218ea18d8ca58be002abc729bf">libbf.c</a>
 </li>
 <li>bf_integer_to_radix()
 : <a class="el" href="libbf_8c.html#a64e5cf2e3c2868e064ccfd82cc89c1bd">libbf.c</a>
@@ -519,7 +504,8 @@ $(function() {
 : <a class="el" href="libbf_8h.html#ad5a3e4de8a6966e781b6930443c44211">libbf.h</a>
 </li>
 <li>bf_isqrt()
-: <a class="el" href="libbf_8c.html#aa66b0740c67d6282af8593704eeb3de7">libbf.c</a>
+: <a class="el" href="libbf_8c.html#adeb14e044b992b09438bbd872831103b">libbf.c</a>
+, <a class="el" href="libbf_8h.html#adeb14e044b992b09438bbd872831103b">libbf.h</a>
 </li>
 <li>bf_log()
 : <a class="el" href="libbf_8c.html#a4137b2308536cbc92addaeb3f0c79d35">libbf.c</a>
@@ -529,46 +515,47 @@ $(function() {
 : <a class="el" href="libbf_8c.html#aab7bc918fdd8dbef25c31c6881c73fdd">libbf.c</a>
 </li>
 <li>bf_logic_and()
-: <a class="el" href="libbf_8c.html#ac0868e7b787e289154462e9da3e132e1">libbf.c</a>
-, <a class="el" href="libbf_8h.html#ac0868e7b787e289154462e9da3e132e1">libbf.h</a>
+: <a class="el" href="libbf_8c.html#aecc5151248f11cb2331296959b8e81e4">libbf.c</a>
+, <a class="el" href="libbf_8h.html#aecc5151248f11cb2331296959b8e81e4">libbf.h</a>
 </li>
 <li>BF_LOGIC_AND
 : <a class="el" href="libbf_8c.html#a3c9935ef7ed683ccedbcd0c65a89d71e">libbf.c</a>
 </li>
 <li>bf_logic_op()
-: <a class="el" href="libbf_8c.html#a88eb12d0cdf3192e9edc470c54c76baf">libbf.c</a>
+: <a class="el" href="libbf_8c.html#ad7d8e39c51ec431bcd496bb37382ae94">libbf.c</a>
 </li>
 <li>bf_logic_op1()
 : <a class="el" href="libbf_8c.html#a900239b7676c1dd839184666fc520865">libbf.c</a>
 </li>
 <li>bf_logic_or()
-: <a class="el" href="libbf_8c.html#a3f6601f4fae92eab34b8eb98f48d84b7">libbf.c</a>
-, <a class="el" href="libbf_8h.html#a3f6601f4fae92eab34b8eb98f48d84b7">libbf.h</a>
+: <a class="el" href="libbf_8c.html#a37a6b31bec77638b82c2fff186f94442">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a37a6b31bec77638b82c2fff186f94442">libbf.h</a>
 </li>
 <li>BF_LOGIC_OR
 : <a class="el" href="libbf_8c.html#a40a81c1c119bf18b6fad600ecdd1a7e1">libbf.c</a>
 </li>
 <li>bf_logic_xor()
-: <a class="el" href="libbf_8h.html#a0dd906666afed38ac1459bf5b60097e6">libbf.h</a>
+: <a class="el" href="libbf_8c.html#aa1976226d140c0033bc275141dfc7725">libbf.c</a>
+, <a class="el" href="libbf_8h.html#aa1976226d140c0033bc275141dfc7725">libbf.h</a>
 </li>
 <li>BF_LOGIC_XOR
 : <a class="el" href="libbf_8c.html#ab4ca67a4b0c123cd9ff5fc5d3181eb47">libbf.c</a>
 </li>
-<li>bf_logic_xor()
-: <a class="el" href="libbf_8c.html#a0dd906666afed38ac1459bf5b60097e6">libbf.c</a>
-</li>
 <li>bf_malloc()
-: <a class="el" href="libbf_8c.html#af5df5db82946869e24766046f03fbbc5">libbf.c</a>
+: <a class="el" href="libbf_8h.html#af5df5db82946869e24766046f03fbbc5">libbf.h</a>
 </li>
 <li>bf_max()
 : <a class="el" href="libbf_8h.html#a4954f3435332238433d15977d55ae566">libbf.h</a>
+</li>
+<li>bf_memcpy()
+: <a class="el" href="libbf_8h.html#a13499fa43a05ea8a91c250c98422ae78">libbf.h</a>
 </li>
 <li>bf_min()
 : <a class="el" href="libbf_8h.html#a970a1725f8bc59eda655058c5ff6bc52">libbf.h</a>
 </li>
 <li>bf_move()
-: <a class="el" href="libbf_8c.html#ad7ab5aff92f4e7e10b2a30e0e6b9226d">libbf.c</a>
-, <a class="el" href="libbf_8h.html#ad7ab5aff92f4e7e10b2a30e0e6b9226d">libbf.h</a>
+: <a class="el" href="libbf_8h.html#ad7ab5aff92f4e7e10b2a30e0e6b9226d">libbf.h</a>
+, <a class="el" href="libbf_8c.html#ad7ab5aff92f4e7e10b2a30e0e6b9226d">libbf.c</a>
 </li>
 <li>bf_mul()
 : <a class="el" href="libbf_8c.html#ac290278d0c37a0e7786873f98aadba47">libbf.c</a>
@@ -579,20 +566,20 @@ $(function() {
 , <a class="el" href="libbf_8h.html#ae1d5fe9356228cc3a566786637f26680">libbf.h</a>
 </li>
 <li>bf_mul_log2_radix()
-: <a class="el" href="libbf_8h.html#a5ca5a63aa9b1b1d723f0634adf318c71">libbf.h</a>
-, <a class="el" href="libbf_8c.html#a5ca5a63aa9b1b1d723f0634adf318c71">libbf.c</a>
+: <a class="el" href="libbf_8c.html#a5ca5a63aa9b1b1d723f0634adf318c71">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a5ca5a63aa9b1b1d723f0634adf318c71">libbf.h</a>
 </li>
 <li>bf_mul_pow_radix()
-: <a class="el" href="libbf_8c.html#a0b4d56fc6808de8feed2a234525df692">libbf.c</a>
-, <a class="el" href="libbf_8h.html#a0b4d56fc6808de8feed2a234525df692">libbf.h</a>
+: <a class="el" href="libbf_8h.html#a0b4d56fc6808de8feed2a234525df692">libbf.h</a>
+, <a class="el" href="libbf_8c.html#a0b4d56fc6808de8feed2a234525df692">libbf.c</a>
 </li>
 <li>bf_mul_si()
-: <a class="el" href="libbf_8h.html#a6fbb1ec8880c203fc01baf940a54cc62">libbf.h</a>
-, <a class="el" href="libbf_8c.html#a6fbb1ec8880c203fc01baf940a54cc62">libbf.c</a>
+: <a class="el" href="libbf_8c.html#a6fbb1ec8880c203fc01baf940a54cc62">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a6fbb1ec8880c203fc01baf940a54cc62">libbf.h</a>
 </li>
 <li>bf_mul_ui()
-: <a class="el" href="libbf_8c.html#acee0d550162528b5ca5513d4479549c2">libbf.c</a>
-, <a class="el" href="libbf_8h.html#acee0d550162528b5ca5513d4479549c2">libbf.h</a>
+: <a class="el" href="libbf_8h.html#acee0d550162528b5ca5513d4479549c2">libbf.h</a>
+, <a class="el" href="libbf_8c.html#acee0d550162528b5ca5513d4479549c2">libbf.c</a>
 </li>
 <li>bf_neg()
 : <a class="el" href="libbf_8h.html#aa561bc5220ec0489f4d3e59789d43d26">libbf.h</a>
@@ -606,9 +593,6 @@ $(function() {
 </li>
 <li>bf_op2_func_t
 : <a class="el" href="libbf_8c.html#a301e377ab7c3f17744beb99b79d326e6">libbf.c</a>
-</li>
-<li>bf_or_one()
-: <a class="el" href="libbf_8c.html#a65ea78f9810fbcbf75b1cbea5bbec252">libbf.c</a>
 </li>
 <li>bf_pow()
 : <a class="el" href="libbf_8c.html#a93fe073491f8c5f086a75e7bf8865b34">libbf.c</a>
@@ -624,12 +608,10 @@ $(function() {
 : <a class="el" href="libbf_8h.html#a65e099dbe59b93890afb1850779583a8">libbf.h</a>
 </li>
 <li>bf_pow_ui()
-: <a class="el" href="libbf_8h.html#a113957d698d1dc9dae1e3d5325ba1f15">libbf.h</a>
-, <a class="el" href="libbf_8c.html#a113957d698d1dc9dae1e3d5325ba1f15">libbf.c</a>
+: <a class="el" href="libbf_8c.html#a3ae2be576639444cdfcb0a232471e77d">libbf.c</a>
 </li>
 <li>bf_pow_ui_ui()
-: <a class="el" href="libbf_8h.html#a2f679fedbb75750ed2a1123c6d550831">libbf.h</a>
-, <a class="el" href="libbf_8c.html#a2f679fedbb75750ed2a1123c6d550831">libbf.c</a>
+: <a class="el" href="libbf_8c.html#a1ffacb0aed0dec6e3375c4de055bb8b8">libbf.c</a>
 </li>
 <li>BF_PREC_INF
 : <a class="el" href="libbf_8h.html#a69976d3c9be3e59de31e4f3f68ba8882">libbf.h</a>
@@ -641,8 +623,8 @@ $(function() {
 : <a class="el" href="libbf_8h.html#a4b07d6e0235a497b5e6fe5506e8eac86">libbf.h</a>
 </li>
 <li>bf_print_str()
-: <a class="el" href="libbf_8h.html#a2e447c17a1646c78bed9c05ccc3ee30a">libbf.h</a>
-, <a class="el" href="libbf_8c.html#a2e447c17a1646c78bed9c05ccc3ee30a">libbf.c</a>
+: <a class="el" href="libbf_8c.html#a2e447c17a1646c78bed9c05ccc3ee30a">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a2e447c17a1646c78bed9c05ccc3ee30a">libbf.h</a>
 </li>
 <li>BF_RADIX_MAX
 : <a class="el" href="libbf_8h.html#afb974d3c00af7ecf9684acebdefa761c">libbf.h</a>
@@ -653,13 +635,6 @@ $(function() {
 <li>bf_realloc_func_t
 : <a class="el" href="libbf_8h.html#ab832351a4b89ca3c6afc10ae0b8112a2">libbf.h</a>
 </li>
-<li>bf_recip()
-: <a class="el" href="libbf_8h.html#a6b93880f2b2e6beaa16de4ae6596e908">libbf.h</a>
-, <a class="el" href="libbf_8c.html#a6b93880f2b2e6beaa16de4ae6596e908">libbf.c</a>
-</li>
-<li>bf_recip_rec()
-: <a class="el" href="libbf_8c.html#a0b349466a7fc3b0a980c4ea6e3a8d03f">libbf.c</a>
-</li>
 <li>bf_remainder()
 : <a class="el" href="libbf_8c.html#a6ba75f960fe4a2b08604b89e49b4e94b">libbf.c</a>
 , <a class="el" href="libbf_8h.html#a6ba75f960fe4a2b08604b89e49b4e94b">libbf.h</a>
@@ -669,12 +644,12 @@ $(function() {
 , <a class="el" href="libbf_8h.html#ac05bdf08f7852acc28d905777ef1416c">libbf.h</a>
 </li>
 <li>bf_resize()
-: <a class="el" href="libbf_8c.html#ad5f9a8c0c9455250d53b259b1a01c0c0">libbf.c</a>
-, <a class="el" href="libbf_8h.html#ad5f9a8c0c9455250d53b259b1a01c0c0">libbf.h</a>
+: <a class="el" href="libbf_8c.html#ab51c43b22c1a81c789ee0e3d53c0e585">libbf.c</a>
+, <a class="el" href="libbf_8h.html#ab51c43b22c1a81c789ee0e3d53c0e585">libbf.h</a>
 </li>
 <li>bf_rint()
-: <a class="el" href="libbf_8c.html#aae12fa8e1a145cf60336847431ba8e9c">libbf.c</a>
-, <a class="el" href="libbf_8h.html#aae12fa8e1a145cf60336847431ba8e9c">libbf.h</a>
+: <a class="el" href="libbf_8c.html#aaf7d6961c71cf6614ec51fd78755a031">libbf.c</a>
+, <a class="el" href="libbf_8h.html#aaf7d6961c71cf6614ec51fd78755a031">libbf.h</a>
 </li>
 <li>BF_RND_MASK
 : <a class="el" href="libbf_8h.html#a1d09de7a96adb6b18655f4a152393264">libbf.h</a>
@@ -707,47 +682,43 @@ $(function() {
 : <a class="el" href="libbf_8h.html#abd4ca8358212228a53981a32a10286b5">libbf.h</a>
 , <a class="el" href="libbf_8c.html#abd4ca8358212228a53981a32a10286b5">libbf.c</a>
 </li>
-<li>bf_rsqrt()
-: <a class="el" href="libbf_8h.html#aed3d33145533a66bedc5b688e0e20714">libbf.h</a>
-, <a class="el" href="libbf_8c.html#aa1b8b76836cc38d7725ef412bf9ae083">libbf.c</a>
-</li>
 <li>bf_set()
-: <a class="el" href="libbf_8c.html#ad7826160be73aad5e1f346a024fcbb78">libbf.c</a>
-, <a class="el" href="libbf_8h.html#ad7826160be73aad5e1f346a024fcbb78">libbf.h</a>
+: <a class="el" href="libbf_8c.html#ae019ee8073f4359da157d3b1e5fdba7e">libbf.c</a>
+, <a class="el" href="libbf_8h.html#ae019ee8073f4359da157d3b1e5fdba7e">libbf.h</a>
 </li>
 <li>bf_set_exp_bits()
 : <a class="el" href="libbf_8h.html#a4c95d4c8b5efb651dd6eb3041ce91df6">libbf.h</a>
 </li>
 <li>bf_set_float64()
-: <a class="el" href="libbf_8c.html#a4fcc8c0024b509ceaf8f5b0eded438ef">libbf.c</a>
-, <a class="el" href="libbf_8h.html#a4fcc8c0024b509ceaf8f5b0eded438ef">libbf.h</a>
+: <a class="el" href="libbf_8c.html#a2c81bf1a3853096401bd9fe830263e23">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a2c81bf1a3853096401bd9fe830263e23">libbf.h</a>
 </li>
 <li>bf_set_inf()
 : <a class="el" href="libbf_8h.html#a88d3dcee173f1e4fd4e55000edb04595">libbf.h</a>
 , <a class="el" href="libbf_8c.html#a88d3dcee173f1e4fd4e55000edb04595">libbf.c</a>
 </li>
 <li>bf_set_nan()
-: <a class="el" href="libbf_8c.html#aa6282c789c16c8cf2fe6a8ebd671c6fc">libbf.c</a>
-, <a class="el" href="libbf_8h.html#aa6282c789c16c8cf2fe6a8ebd671c6fc">libbf.h</a>
+: <a class="el" href="libbf_8h.html#aa6282c789c16c8cf2fe6a8ebd671c6fc">libbf.h</a>
+, <a class="el" href="libbf_8c.html#aa6282c789c16c8cf2fe6a8ebd671c6fc">libbf.c</a>
 </li>
 <li>bf_set_overflow()
 : <a class="el" href="libbf_8c.html#af464f3c1421a7305372819f949667273">libbf.c</a>
 </li>
 <li>bf_set_si()
-: <a class="el" href="libbf_8c.html#a6ffae8e39e8ba06fd097c4adc301ba6e">libbf.c</a>
-, <a class="el" href="libbf_8h.html#a6ffae8e39e8ba06fd097c4adc301ba6e">libbf.h</a>
+: <a class="el" href="libbf_8c.html#a60ee3eaad83309aaf8a8b8fb81d8b44d">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a60ee3eaad83309aaf8a8b8fb81d8b44d">libbf.h</a>
 </li>
 <li>bf_set_ui()
-: <a class="el" href="libbf_8h.html#a5bcb10b6c7836aea03e8167384299774">libbf.h</a>
-, <a class="el" href="libbf_8c.html#a5bcb10b6c7836aea03e8167384299774">libbf.c</a>
+: <a class="el" href="libbf_8h.html#a2378f025beace5741c19bf995c2971d3">libbf.h</a>
+, <a class="el" href="libbf_8c.html#a2378f025beace5741c19bf995c2971d3">libbf.c</a>
 </li>
 <li>bf_set_zero()
-: <a class="el" href="libbf_8c.html#a66631c65c00e92a5840a5085a009602d">libbf.c</a>
-, <a class="el" href="libbf_8h.html#a66631c65c00e92a5840a5085a009602d">libbf.h</a>
+: <a class="el" href="libbf_8h.html#a66631c65c00e92a5840a5085a009602d">libbf.h</a>
+, <a class="el" href="libbf_8c.html#a66631c65c00e92a5840a5085a009602d">libbf.c</a>
 </li>
 <li>bf_sin()
-: <a class="el" href="libbf_8c.html#a9a518cd74072443dc50e179d2a9ea610">libbf.c</a>
-, <a class="el" href="libbf_8h.html#a9a518cd74072443dc50e179d2a9ea610">libbf.h</a>
+: <a class="el" href="libbf_8h.html#a9a518cd74072443dc50e179d2a9ea610">libbf.h</a>
+, <a class="el" href="libbf_8c.html#a9a518cd74072443dc50e179d2a9ea610">libbf.c</a>
 </li>
 <li>bf_sin_internal()
 : <a class="el" href="libbf_8c.html#a988e995c3b0dbcc6a26b8eea2891b2e2">libbf.c</a>
@@ -756,8 +727,8 @@ $(function() {
 : <a class="el" href="libbf_8c.html#ab769247f7a6429c42dfeba4f8334cb75">libbf.c</a>
 </li>
 <li>bf_sqrt()
-: <a class="el" href="libbf_8c.html#a1a8b9ac1fea38b97fc6be8663ce9e867">libbf.c</a>
-, <a class="el" href="libbf_8h.html#a1a8b9ac1fea38b97fc6be8663ce9e867">libbf.h</a>
+: <a class="el" href="libbf_8h.html#a1a8b9ac1fea38b97fc6be8663ce9e867">libbf.h</a>
+, <a class="el" href="libbf_8c.html#a1a8b9ac1fea38b97fc6be8663ce9e867">libbf.c</a>
 </li>
 <li>bf_sqrt_sin()
 : <a class="el" href="libbf_8c.html#a15b40c4ae7e9b401fd0c6dc398eacef7">libbf.c</a>
@@ -803,6 +774,145 @@ $(function() {
 </li>
 <li>bf_ziv_rounding()
 : <a class="el" href="libbf_8c.html#a39e7dd6286a6f0541a12366ebd93dbfd">libbf.c</a>
+</li>
+<li>bfdec_add()
+: <a class="el" href="libbf_8h.html#a2ab5a868db6e2d3d41c9b95e561054d3">libbf.h</a>
+, <a class="el" href="libbf_8c.html#a2ab5a868db6e2d3d41c9b95e561054d3">libbf.c</a>
+</li>
+<li>bfdec_add_internal()
+: <a class="el" href="libbf_8c.html#adab81046eaf5fc5a75e1bae96b75be66">libbf.c</a>
+</li>
+<li>bfdec_add_si()
+: <a class="el" href="libbf_8c.html#a7cb137686dce1e04af24aa61a1a177a6">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a7cb137686dce1e04af24aa61a1a177a6">libbf.h</a>
+</li>
+<li>bfdec_atof()
+: <a class="el" href="libbf_8h.html#a221eaf9914ba5bcb299c897b62939a2e">libbf.h</a>
+, <a class="el" href="libbf_8c.html#a221eaf9914ba5bcb299c897b62939a2e">libbf.c</a>
+</li>
+<li>bfdec_cmp_eq()
+: <a class="el" href="libbf_8h.html#a79d38aeb3ad23b5f22209373e2a8eab1">libbf.h</a>
+</li>
+<li>bfdec_cmp_full()
+: <a class="el" href="libbf_8h.html#a8718d978bcf4aad8ca92abd7e897257e">libbf.h</a>
+</li>
+<li>bfdec_cmp_le()
+: <a class="el" href="libbf_8h.html#abf85d0616aad19a1c0dff80906809bc7">libbf.h</a>
+</li>
+<li>bfdec_cmp_lt()
+: <a class="el" href="libbf_8h.html#afe1f289284684f0e0b912dc0a05ebf28">libbf.h</a>
+</li>
+<li>bfdec_cmpu()
+: <a class="el" href="libbf_8h.html#ab76f65059ac29df0d8ed9f719db8ba06">libbf.h</a>
+</li>
+<li>bfdec_delete()
+: <a class="el" href="libbf_8h.html#a96772409266732dd1e61dc3727571d61">libbf.h</a>
+</li>
+<li>bfdec_div()
+: <a class="el" href="libbf_8h.html#a10de87f3c9d3dc623ca131eaa468dd1b">libbf.h</a>
+, <a class="el" href="libbf_8c.html#a10de87f3c9d3dc623ca131eaa468dd1b">libbf.c</a>
+</li>
+<li>bfdec_divrem()
+: <a class="el" href="libbf_8h.html#a318508be097917ddd5d1ce187edea68b">libbf.h</a>
+, <a class="el" href="libbf_8c.html#a318508be097917ddd5d1ce187edea68b">libbf.c</a>
+</li>
+<li>bfdec_fmod()
+: <a class="el" href="libbf_8c.html#a3aaf95792cc3c7f29ece62964e4940d8">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a3aaf95792cc3c7f29ece62964e4940d8">libbf.h</a>
+</li>
+<li>bfdec_ftoa()
+: <a class="el" href="libbf_8c.html#a076d088aa44d1cfa2d6f85f718fb88bc">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a076d088aa44d1cfa2d6f85f718fb88bc">libbf.h</a>
+</li>
+<li>bfdec_get_int32()
+: <a class="el" href="libbf_8h.html#ab3ae660142e76ac134eddd281450d969">libbf.h</a>
+, <a class="el" href="libbf_8c.html#ab3ae660142e76ac134eddd281450d969">libbf.c</a>
+</li>
+<li>bfdec_get_rnd_add()
+: <a class="el" href="libbf_8c.html#a17bf08f4c7268d0f16f31fbe1951bf77">libbf.c</a>
+</li>
+<li>bfdec_init()
+: <a class="el" href="libbf_8h.html#ac9371a99b2946966d278072ee4c1e779">libbf.h</a>
+</li>
+<li>bfdec_is_finite()
+: <a class="el" href="libbf_8h.html#ad9793ddc9c5c68f2ec5f4a428c932a54">libbf.h</a>
+</li>
+<li>bfdec_is_nan()
+: <a class="el" href="libbf_8h.html#a97b9ac0bfa60e46f0348def0decccbc8">libbf.h</a>
+</li>
+<li>bfdec_is_zero()
+: <a class="el" href="libbf_8h.html#a01d33df44f9b4063543ad771c12df3a7">libbf.h</a>
+</li>
+<li>bfdec_memcpy()
+: <a class="el" href="libbf_8h.html#a00ca2af2d264dd72bfde3758e6553e00">libbf.h</a>
+</li>
+<li>bfdec_move()
+: <a class="el" href="libbf_8h.html#a61eaacce56ae40e8efdf0db48f86b28b">libbf.h</a>
+</li>
+<li>bfdec_mul()
+: <a class="el" href="libbf_8c.html#a2afc9f7c942c27cc609877c776dd9a69">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a2afc9f7c942c27cc609877c776dd9a69">libbf.h</a>
+</li>
+<li>bfdec_mul_si()
+: <a class="el" href="libbf_8c.html#ae5aa2c2f63fe392a1ab15f1012c512e8">libbf.c</a>
+, <a class="el" href="libbf_8h.html#ae5aa2c2f63fe392a1ab15f1012c512e8">libbf.h</a>
+</li>
+<li>bfdec_neg()
+: <a class="el" href="libbf_8h.html#a6236a241981413ee639316f7acfd76d7">libbf.h</a>
+</li>
+<li>bfdec_normalize_and_round()
+: <a class="el" href="libbf_8c.html#acd3459551d5c61344889ba07a276b0a0">libbf.c</a>
+, <a class="el" href="libbf_8h.html#acd3459551d5c61344889ba07a276b0a0">libbf.h</a>
+</li>
+<li>bfdec_pow_ui()
+: <a class="el" href="libbf_8c.html#a1baac52525d382cc854c2e484ce2c169">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a1baac52525d382cc854c2e484ce2c169">libbf.h</a>
+</li>
+<li>bfdec_print_str()
+: <a class="el" href="libbf_8c.html#a2f79dd3257261012fa58a9614b3c8e3e">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a2f79dd3257261012fa58a9614b3c8e3e">libbf.h</a>
+</li>
+<li>bfdec_resize()
+: <a class="el" href="libbf_8h.html#aa84c22d9104847e3aa0ab161a8c2af22">libbf.h</a>
+</li>
+<li>bfdec_rint()
+: <a class="el" href="libbf_8h.html#ab6867737ba58696fdc9de82a5dea003d">libbf.h</a>
+, <a class="el" href="libbf_8c.html#ab6867737ba58696fdc9de82a5dea003d">libbf.c</a>
+</li>
+<li>bfdec_round()
+: <a class="el" href="libbf_8h.html#a807d4e601bf73a30844a7c84f34961f1">libbf.h</a>
+, <a class="el" href="libbf_8c.html#a807d4e601bf73a30844a7c84f34961f1">libbf.c</a>
+</li>
+<li>bfdec_set()
+: <a class="el" href="libbf_8h.html#ae69271a2b54f2ce850db0c96c3b20a82">libbf.h</a>
+</li>
+<li>bfdec_set_inf()
+: <a class="el" href="libbf_8h.html#a51327c40664840e14a608d3694536840">libbf.h</a>
+</li>
+<li>bfdec_set_nan()
+: <a class="el" href="libbf_8h.html#a432cfe0b33bf61782ef53b643aeb1e0f">libbf.h</a>
+</li>
+<li>bfdec_set_si()
+: <a class="el" href="libbf_8h.html#a4c3b1cee330551b12fd6ae2fe5421031">libbf.h</a>
+, <a class="el" href="libbf_8c.html#a2d1edc94f830448fcb091152f1f42e83">libbf.c</a>
+</li>
+<li>bfdec_set_ui()
+: <a class="el" href="libbf_8c.html#a17e9fbf7d73c47ed2c8953b1b2978cde">libbf.c</a>
+, <a class="el" href="libbf_8h.html#a3a0734cc58dd4feba2c300d053f53e36">libbf.h</a>
+</li>
+<li>bfdec_set_zero()
+: <a class="el" href="libbf_8h.html#ab992311e37e462dff2a8c330320a06c4">libbf.h</a>
+</li>
+<li>bfdec_sqrt()
+: <a class="el" href="libbf_8c.html#aadf1781139c916e6ccb6ea473bf5a2d1">libbf.c</a>
+, <a class="el" href="libbf_8h.html#aadf1781139c916e6ccb6ea473bf5a2d1">libbf.h</a>
+</li>
+<li>bfdec_sub()
+: <a class="el" href="libbf_8c.html#ac3255e37957d4be7117b1d9bfc4fcf11">libbf.c</a>
+, <a class="el" href="libbf_8h.html#ac3255e37957d4be7117b1d9bfc4fcf11">libbf.h</a>
+</li>
+<li>bfdec_tdivremu()
+: <a class="el" href="libbf_8c.html#a4fe4f91a21701a55cffbc44f1eb141b6">libbf.c</a>
 </li>
 <li>BFNTTState
 : <a class="el" href="libbf_8c.html#ae5a605ae158b0af6af1ee2a05abdf26f">libbf.c</a>

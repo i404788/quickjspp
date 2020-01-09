@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['reexecstate',['REExecState',['../libregexp_8c.html#a0bc302759c4f13f332c91339f1cc6376',1,'libregexp.c']]],
-  ['relocentry',['RelocEntry',['../quickjs_8c.html#aff83e6e8eaba5a8201a53835ec08cae6',1,'quickjs.c']]]
+  ['propagate_5fon_5fcontainer_5fcopy_5fassignment',['propagate_on_container_copy_assignment',['../structqjs_1_1allocator.html#a557b2f6743458e679186f553e96a202c',1,'qjs::allocator']]],
+  ['propagate_5fon_5fcontainer_5fmove_5fassignment',['propagate_on_container_move_assignment',['../structqjs_1_1allocator.html#a46362986ca858018835ac9f19f5d78b4',1,'qjs::allocator']]]
 ];
