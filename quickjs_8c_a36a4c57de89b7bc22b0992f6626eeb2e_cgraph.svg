@@ -54,120 +54,120 @@ var sectionId = 'dynsection-1955';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>js_TA_get_uint32</title>
-<!-- Node522203 -->
+<!-- Node522206 -->
 <g id="node1" class="node">
-<title>Node522203</title>
+<title>Node522206</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-76.5 0,-95.5 92,-95.5 92,-76.5 0,-76.5"/>
 <text text-anchor="middle" x="46" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">js_TA_get_uint32</text>
 </g>
-<!-- Node522204 -->
+<!-- Node522207 -->
 <g id="node2" class="node">
-<title>Node522204</title>
+<title>Node522207</title>
 <g id="a_node2"><a xlink:href="quickjs_8c.html#a22f31ae7a52ea79fa375d19427daa797" target="_top" xlink:title="JS_NewUint32">
 <polygon fill="none" stroke="#000000" points="128,-76.5 128,-95.5 211,-95.5 211,-76.5 128,-76.5"/>
 <text text-anchor="middle" x="169.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JS_NewUint32</text>
 </a>
 </g>
 </g>
-<!-- Node522203&#45;&gt;Node522204 -->
+<!-- Node522206&#45;&gt;Node522207 -->
 <g id="edge1" class="edge">
-<title>Node522203&#45;&gt;Node522204</title>
+<title>Node522206&#45;&gt;Node522207</title>
 <path fill="none" stroke="#191970" d="M92.3382,-86C100.6104,-86 109.2768,-86 117.6903,-86"/>
 <polygon fill="#191970" stroke="#191970" points="117.7841,-89.5001 127.7841,-86 117.784,-82.5001 117.7841,-89.5001"/>
 </g>
-<!-- Node522205 -->
+<!-- Node522208 -->
 <g id="node3" class="node">
-<title>Node522205</title>
+<title>Node522208</title>
 <g id="a_node3"><a xlink:href="quickjs_8c.html#acfced0527a056a74dd8439904b7936dd" target="_top" xlink:title="JS_NewInt64">
 <polygon fill="none" stroke="#000000" points="247,-76.5 247,-95.5 323,-95.5 323,-76.5 247,-76.5"/>
 <text text-anchor="middle" x="285" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JS_NewInt64</text>
 </a>
 </g>
 </g>
-<!-- Node522204&#45;&gt;Node522205 -->
+<!-- Node522207&#45;&gt;Node522208 -->
 <g id="edge2" class="edge">
-<title>Node522204&#45;&gt;Node522205</title>
+<title>Node522207&#45;&gt;Node522208</title>
 <path fill="none" stroke="#191970" d="M211.1982,-86C219.467,-86 228.2128,-86 236.6806,-86"/>
 <polygon fill="#191970" stroke="#191970" points="236.8209,-89.5001 246.8208,-86 236.8208,-82.5001 236.8209,-89.5001"/>
 </g>
-<!-- Node522206 -->
+<!-- Node522209 -->
 <g id="node4" class="node">
-<title>Node522206</title>
+<title>Node522209</title>
 <g id="a_node4"><a xlink:href="libbf_8h.html#abacc1410890af049e02ebd788364ac48" target="_top" xlink:title="bf_init">
 <polygon fill="none" stroke="#000000" points="377.5,-152.5 377.5,-171.5 420.5,-171.5 420.5,-152.5 377.5,-152.5"/>
 <text text-anchor="middle" x="399" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">bf_init</text>
 </a>
 </g>
 </g>
-<!-- Node522205&#45;&gt;Node522206 -->
+<!-- Node522208&#45;&gt;Node522209 -->
 <g id="edge3" class="edge">
-<title>Node522205&#45;&gt;Node522206</title>
+<title>Node522208&#45;&gt;Node522209</title>
 <path fill="none" stroke="#191970" d="M295.9922,-95.6753C309.9892,-107.7033 335.2194,-128.4233 359,-143 361.9742,-144.8231 365.1507,-146.5968 368.3643,-148.2814"/>
 <polygon fill="#191970" stroke="#191970" points="366.8694,-151.4467 377.3825,-152.7599 369.9829,-145.1772 366.8694,-151.4467"/>
 </g>
-<!-- Node522207 -->
+<!-- Node522210 -->
 <g id="node5" class="node">
-<title>Node522207</title>
+<title>Node522210</title>
 <g id="a_node5"><a xlink:href="libbf_8h.html#a60ee3eaad83309aaf8a8b8fb81d8b44d" target="_top" xlink:title="bf_set_si">
 <polygon fill="none" stroke="#ff0000" points="371,-114.5 371,-133.5 427,-133.5 427,-114.5 371,-114.5"/>
 <text text-anchor="middle" x="399" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">bf_set_si</text>
 </a>
 </g>
 </g>
-<!-- Node522205&#45;&gt;Node522207 -->
+<!-- Node522208&#45;&gt;Node522210 -->
 <g id="edge4" class="edge">
-<title>Node522205&#45;&gt;Node522207</title>
+<title>Node522208&#45;&gt;Node522210</title>
 <path fill="none" stroke="#191970" d="M313.767,-95.589C328.0515,-100.3505 345.5008,-106.1669 360.8821,-111.294"/>
 <polygon fill="#191970" stroke="#191970" points="360.0434,-114.7037 370.6371,-114.5457 362.2571,-108.063 360.0434,-114.7037"/>
 </g>
-<!-- Node522213 -->
+<!-- Node522216 -->
 <g id="node6" class="node">
-<title>Node522213</title>
+<title>Node522216</title>
 <g id="a_node6"><a xlink:href="quickjs_8c.html#aaaa960ff4bdf4b4dd3017b555844c397" target="_top" xlink:title="is_bigint_mode">
 <polygon fill="none" stroke="#000000" points="475,-57.5 475,-76.5 557,-76.5 557,-57.5 475,-57.5"/>
 <text text-anchor="middle" x="516" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">is_bigint_mode</text>
 </a>
 </g>
 </g>
-<!-- Node522205&#45;&gt;Node522213 -->
+<!-- Node522208&#45;&gt;Node522216 -->
 <g id="edge5" class="edge">
-<title>Node522205&#45;&gt;Node522213</title>
+<title>Node522208&#45;&gt;Node522216</title>
 <path fill="none" stroke="#191970" d="M323.145,-82.8625C361.7383,-79.6882 421.657,-74.7598 464.4599,-71.2392"/>
 <polygon fill="#191970" stroke="#191970" points="464.9974,-74.7069 474.6768,-70.3989 464.4236,-67.7305 464.9974,-74.7069"/>
 </g>
-<!-- Node522214 -->
+<!-- Node522217 -->
 <g id="node7" class="node">
-<title>Node522214</title>
+<title>Node522217</title>
 <g id="a_node7"><a xlink:href="quickjs_8c.html#aece934cd3d738b1562b8cf5fe5ce9b67" target="_top" xlink:title="JS_NewBigInt">
 <polygon fill="none" stroke="#ff0000" points="359,-38.5 359,-57.5 439,-57.5 439,-38.5 359,-38.5"/>
 <text text-anchor="middle" x="399" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JS_NewBigInt</text>
 </a>
 </g>
 </g>
-<!-- Node522205&#45;&gt;Node522214 -->
+<!-- Node522208&#45;&gt;Node522217 -->
 <g id="edge6" class="edge">
-<title>Node522205&#45;&gt;Node522214</title>
+<title>Node522208&#45;&gt;Node522217</title>
 <path fill="none" stroke="#191970" d="M313.767,-76.411C327.9433,-71.6856 345.2366,-65.9211 360.5322,-60.8226"/>
 <polygon fill="#191970" stroke="#191970" points="361.8622,-64.0687 370.2422,-57.5859 359.6485,-57.4279 361.8622,-64.0687"/>
 </g>
-<!-- Node522223 -->
+<!-- Node522226 -->
 <g id="node8" class="node">
-<title>Node522223</title>
+<title>Node522226</title>
 <g id="a_node8"><a xlink:href="quickjs_8h.html#a2050bc428da1c65ac7eb87c3fa3b0392" target="_top" xlink:title="JS_NewInt32">
 <polygon fill="none" stroke="#000000" points="361,-.5 361,-19.5 437,-19.5 437,-.5 361,-.5"/>
 <text text-anchor="middle" x="399" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">JS_NewInt32</text>
 </a>
 </g>
 </g>
-<!-- Node522205&#45;&gt;Node522223 -->
+<!-- Node522208&#45;&gt;Node522226 -->
 <g id="edge8" class="edge">
-<title>Node522205&#45;&gt;Node522223</title>
+<title>Node522208&#45;&gt;Node522226</title>
 <path fill="none" stroke="#191970" d="M295.9922,-76.3247C309.9892,-64.2967 335.2194,-43.5767 359,-29 361.6669,-27.3653 364.4965,-25.7702 367.3697,-24.2435"/>
 <polygon fill="#191970" stroke="#191970" points="369.1832,-27.2495 376.5501,-19.635 366.0427,-20.9935 369.1832,-27.2495"/>
 </g>
-<!-- Node522214&#45;&gt;Node522213 -->
+<!-- Node522217&#45;&gt;Node522216 -->
 <g id="edge7" class="edge">
-<title>Node522214&#45;&gt;Node522213</title>
+<title>Node522217&#45;&gt;Node522216</title>
 <path fill="none" stroke="#191970" d="M439.2648,-54.5387C447.5316,-55.8812 456.3382,-57.3113 464.9277,-58.7062"/>
 <polygon fill="#191970" stroke="#191970" points="464.4341,-62.1718 474.8659,-60.3201 465.5562,-55.2623 464.4341,-62.1718"/>
 </g>
