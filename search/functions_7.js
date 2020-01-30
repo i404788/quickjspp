@@ -39,7 +39,6 @@ var searchData=
   ['get_5fproperty',['get_property',['../structqjs_1_1js__property__traits.html#a728896ee56f225c3babba3fa8f6b418d',1,'qjs::js_property_traits::get_property()'],['../structqjs_1_1js__property__traits_3_01const_01char_01_5_01_4.html#a0a01071b0c80a16dbd7d0fa538534116',1,'qjs::js_property_traits&lt; const char * &gt;::get_property()'],['../structqjs_1_1js__property__traits_3_01uint32__t_01_4.html#af19da02fec28059477a39b16c531a97c',1,'qjs::js_property_traits&lt; uint32_t &gt;::get_property()']]],
   ['get_5fproto_5fobj',['get_proto_obj',['../quickjs_8c.html#aab0be018b8f7bdcff45226f502c3f820',1,'quickjs.c']]],
   ['get_5fproxy_5fmethod',['get_proxy_method',['../quickjs_8c.html#a9e94551ddba8762d74eda5127445dbbd',1,'quickjs.c']]],
-  ['get_5frnd_5fmode',['get_rnd_mode',['../quickjs_8c.html#a92815f19a133746818092b7df3abe39d',1,'quickjs.c']]],
   ['get_5fshape_5ffrom_5falloc',['get_shape_from_alloc',['../quickjs_8c.html#a8b6c89e0f589df709eb31a92b7fac32a',1,'quickjs.c']]],
   ['get_5fshape_5fhash',['get_shape_hash',['../quickjs_8c.html#a8291bf195606b5d1b0faed795b6dc3ff',1,'quickjs.c']]],
   ['get_5fshape_5fprop',['get_shape_prop',['../quickjs_8c.html#a643df594b75933007bcdbb071b5ea8c5',1,'quickjs.c']]],

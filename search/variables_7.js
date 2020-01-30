@@ -15,7 +15,7 @@ var searchData=
   ['get_5fown_5fproperty_5fnames',['get_own_property_names',['../structJSClassExoticMethods.html#aa5e800984b05f407be1631da733b78f6',1,'JSClassExoticMethods']]],
   ['get_5fproperty',['get_property',['../structJSClassExoticMethods.html#a04062ae2f36ef85fa66624f8efed14b3',1,'JSClassExoticMethods']]],
   ['getfun',['getfun',['../structTA__sort__context.html#a91636c7e025f48d6826198b4fa314682',1,'TA_sort_context']]],
-  ['getset',['getset',['../structJSCFunctionListEntry.html#a38ee1c43b72fb5355fdf9ae86a259f95',1,'JSCFunctionListEntry::getset()'],['../structJSProperty.html#a9f8166f21db6e581efa8d35e198b356a',1,'JSProperty::getset()']]],
+  ['getset',['getset',['../structJSCFunctionListEntry.html#a38ee1c43b72fb5355fdf9ae86a259f95',1,'JSCFunctionListEntry::getset()'],['../structJSProperty.html#a9442219fb5b56f134a537854ee1a4ba2',1,'JSProperty::getset()']]],
   ['getter',['getter',['../structJSPropertyDescriptor.html#ac714a332be0984b443d24388eba39f60',1,'JSPropertyDescriptor::getter()'],['../unionJSCFunctionType.html#a6ead28cea5ad1a83007634d3d3d3204a',1,'JSCFunctionType::getter()'],['../structJSProperty.html#a56402c38bfb660700d9619f5d615af08',1,'JSProperty::getter()']]],
   ['getter_5fmagic',['getter_magic',['../unionJSCFunctionType.html#a912a3eff1338d873173726367a38b271',1,'JSCFunctionType']]],
   ['global',['global',['../structJSRegExpStringIteratorData.html#a43d9ba7df82d9f328e20968e24638ff2',1,'JSRegExpStringIteratorData']]],

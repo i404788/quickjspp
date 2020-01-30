@@ -42,7 +42,6 @@ var searchData=
   ['mp_5fmul_5fbasecase',['mp_mul_basecase',['../libbf_8c.html#a76a4161d6e245f8cb27f556b6b76a29b',1,'libbf.c']]],
   ['mp_5fmul_5fbasecase_5fdec',['mp_mul_basecase_dec',['../libbf_8c.html#a6706f2e3c674b947985821ba58c687cb',1,'libbf.c']]],
   ['mp_5fneg',['mp_neg',['../libbf_8c.html#ac4a1dba7585398e01ba844de31a6c95b',1,'libbf.c']]],
-  ['mp_5fpow_5finit',['mp_pow_init',['../libbf_8c.html#a076abee59b98c6b979e670c04c9941d2',1,'libbf.c']]],
   ['mp_5fprint_5fstr',['mp_print_str',['../libbf_8c.html#a306009df052b72a06d67a1829935e336',1,'mp_print_str(const char *str, const limb_t *tab, limb_t n):&#160;libbf.c'],['../libbf_8h.html#a306009df052b72a06d67a1829935e336',1,'mp_print_str(const char *str, const limb_t *tab, limb_t n):&#160;libbf.c']]],
   ['mp_5fprint_5fstr_5fdec',['mp_print_str_dec',['../libbf_8c.html#ac0c94113acaad2f3bb5dfc96377726cf',1,'libbf.c']]],
   ['mp_5fprint_5fstr_5fh',['mp_print_str_h',['../libbf_8c.html#a83d2ab3799252550b76f1c5686cfb75e',1,'libbf.c']]],

@@ -18,7 +18,6 @@ var searchData=
   ['exception',['exception',['../structarray__sort__context.html#a10588d8dd375d8d730b1198944eb1dcc',1,'array_sort_context::exception()'],['../structTA__sort__context.html#a5bea97202b99d2c21baf9e07656c0249',1,'TA_sort_context::exception()']]],
   ['exotic',['exotic',['../structJSClassDef.html#a6a03a772f1e66304414d89220fca625b',1,'JSClassDef::exotic()'],['../structJSClass.html#a8ba22c850dd6cae7783a58c3456c20f1',1,'JSClass::exotic()']]],
   ['expn',['expn',['../structbf__t.html#ae6d8b9aba12b908cd3d33af00f2a6ed6',1,'bf_t::expn()'],['../structbfdec__t.html#a6cca975f0c03f6f593a919579d0d4190',1,'bfdec_t::expn()']]],
-  ['exponent',['exponent',['../structJSToken.html#a93c82e35893c4c13eecdffd0fb699717',1,'JSToken']]],
   ['export_5fentries',['export_entries',['../structJSModuleDef.html#a5f7f8c7fb5274ff270674c5c78bcba90',1,'JSModuleDef']]],
   ['export_5fentries_5fcount',['export_entries_count',['../structJSModuleDef.html#aef0432a33547e6bf6e189e62585f19ac',1,'JSModuleDef']]],
   ['export_5fentries_5fsize',['export_entries_size',['../structJSModuleDef.html#a6416efd6281c36d8bf227a543c877b40',1,'JSModuleDef']]],

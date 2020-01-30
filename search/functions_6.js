@@ -1,8 +1,8 @@
 var searchData=
 [
+  ['fast_5fshr_5fdec',['fast_shr_dec',['../libbf_8c.html#aea07e4f7e665f38255c0d83fafc7d38d',1,'libbf.c']]],
   ['fast_5fudiv',['fast_udiv',['../libbf_8c.html#a18ed5ff631711bfffa3ab5c94dcaa953',1,'libbf.c']]],
-  ['fast_5fudiv_5finit',['fast_udiv_init',['../libbf_8c.html#ab76c7e53bbf0deef2642b48fd692a691',1,'libbf.c']]],
-  ['fast_5furem',['fast_urem',['../libbf_8c.html#a3c86bf67e2e31560e2a550a5ef73174f',1,'libbf.c']]],
+  ['fast_5fudiv_5finit',['fast_udiv_init',['../libbf_8c.html#a39d2c9890e49075083b214d865431112',1,'libbf.c']]],
   ['fft_5fclear_5fcache',['fft_clear_cache',['../libbf_8c.html#a3297974836c2935c213c6ffb9a945d51',1,'libbf.c']]],
   ['fft_5fmul',['fft_mul',['../libbf_8c.html#aced93436f1e8ca41feb00d8070cfcbde',1,'libbf.c']]],
   ['find_5fabbrev',['find_abbrev',['../quickjs_8c.html#a7a64dc8a6c1daf2e734e3a4f7013b660',1,'quickjs.c']]],

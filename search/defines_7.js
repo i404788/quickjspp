@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['gen_5fmagic_5fnext',['GEN_MAGIC_NEXT',['../quickjs_8c.html#a1499d20195fcb758163d415dc82d45fc',1,'quickjs.c']]],
-  ['gen_5fmagic_5freturn',['GEN_MAGIC_RETURN',['../quickjs_8c.html#a6de4c59aa115d73a794edb41a0ebc7b5',1,'quickjs.c']]],
-  ['gen_5fmagic_5fthrow',['GEN_MAGIC_THROW',['../quickjs_8c.html#ace3b51501fb311b8f9ae871bf94d65f7',1,'quickjs.c']]],
-  ['get_5fchar',['GET_CHAR',['../libregexp_8c.html#ac1f78194cbfb8ab25e6c64272fa9b04f',1,'libregexp.c']]],
-  ['get_5fprev_5fchar',['GET_PREV_CHAR',['../libregexp_8c.html#afe1d5b889480d0d06bb36b2c42d34c11',1,'libregexp.c']]],
-  ['global_5fvar_5foffset',['GLOBAL_VAR_OFFSET',['../quickjs_8c.html#a7c5a1ccf20e5174281249c3e4a63a49b',1,'quickjs.c']]],
-  ['glue',['glue',['../cutils_8h.html#a45df232a56561116202793bdf711154a',1,'cutils.h']]]
+  ['hint_5fforce_5fordinary',['HINT_FORCE_ORDINARY',['../quickjs_8c.html#a549bcaa69b82d67ba1d06cc3a0245fa7',1,'quickjs.c']]],
+  ['hint_5fnone',['HINT_NONE',['../quickjs_8c.html#a20889129d761ae0c2a03b4e649b68986',1,'quickjs.c']]],
+  ['hint_5fnumber',['HINT_NUMBER',['../quickjs_8c.html#a5b7cda227f4403dddf7c44570951e646',1,'quickjs.c']]],
+  ['hint_5fstring',['HINT_STRING',['../quickjs_8c.html#a65cdf5d15dc21780ebf1feccaf15bb11',1,'quickjs.c']]]
 ];

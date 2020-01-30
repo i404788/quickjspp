@@ -12,7 +12,7 @@ var searchData=
   ['points',['points',['../structCharRange.html#abcfad48a88490d826d39a40a03a6f175',1,'CharRange']]],
   ['pos',['pos',['../structJumpSlot.html#a5bff05408ce438ea65b6e6da11c7409f',1,'JumpSlot::pos()'],['../structLabelSlot.html#aab1f2561cc1f29fca4f307214d921303',1,'LabelSlot::pos()'],['../structCodeContext.html#a3f47008538cd63a87ae733db55d17adc',1,'CodeContext::pos()'],['../structValueSlot.html#a7906d44de8eec3255e7c36f7b830f80d',1,'ValueSlot::pos()']]],
   ['pos2',['pos2',['../structLabelSlot.html#a729e9af12c6debb12dd443eb1390cfcc',1,'LabelSlot']]],
-  ['prec',['prec',['../structBFConstCache.html#a9ace737a0131338c586dcb43bee27f8d',1,'BFConstCache::prec()'],['../structJSFloatEnv.html#a4b0e4644e7385ad037e8021237906d40',1,'JSFloatEnv::prec()'],['../structBigDecimalEnv.html#a5634887ba75940ad6233324565e1c7f4',1,'BigDecimalEnv::prec()']]],
+  ['prec',['prec',['../structBFConstCache.html#a9ace737a0131338c586dcb43bee27f8d',1,'BFConstCache']]],
   ['presolved',['presolved',['../structJSPromiseFunctionData.html#aeb069ec2c93692e783ac7e7a58be2771',1,'JSPromiseFunctionData']]],
   ['prev',['prev',['../structlist__head.html#ae4298f7975979e5f6bb406c40c1fa443',1,'list_head::prev()'],['../structBlockEnv.html#a878ab9f44afff3d9f5e3e886026b10d3',1,'BlockEnv::prev()']]],
   ['prev_5fframe',['prev_frame',['../structJSStackFrame.html#a68a7c3a4b460b72c5eadcab4e63f4c7f',1,'JSStackFrame']]],
@@ -34,6 +34,6 @@ var searchData=
   ['proto',['proto',['../structJSProxyData.html#ab383eb1adfe20f2b1c5a83f448dbbe91',1,'JSProxyData::proto()'],['../structJSShape.html#ab059e453604b3ad9934f78e8634ec3af',1,'JSShape::proto()']]],
   ['prototype',['prototype',['../classqjs_1_1Context_1_1Module_1_1class__registrar.html#a3b27c93856e8a42e7065fd660e6f176a',1,'qjs::Context::Module::class_registrar']]],
   ['proxy_5fdata',['proxy_data',['../structJSObject.html#a7717859b2f5d5208f61e4ce1c432e109',1,'JSObject']]],
-  ['ptr',['ptr',['../structJSObject.html#a913ed615e3cbed4df53de406de7ea56a',1,'JSObject::ptr()'],['../structJSToken.html#aa18205c551635b673d6eddf719e41b3d',1,'JSToken::ptr()'],['../structJSParsePos.html#a75f1f49df3a5101d16dabe997414a273',1,'JSParsePos::ptr()'],['../structBCReaderState.html#a361126263d9a23d1f9477dd76a24a805',1,'BCReaderState::ptr()'],['../structJSAtomicsWaiter.html#a793a0316794e1e1b08ecda7f03357339',1,'JSAtomicsWaiter::ptr()']]],
+  ['ptr',['ptr',['../unionJSValueUnion.html#a1ae21390a5200b9479e980d3c4cb3a64',1,'JSValueUnion::ptr()'],['../structJSObject.html#a913ed615e3cbed4df53de406de7ea56a',1,'JSObject::ptr()'],['../structJSToken.html#aa18205c551635b673d6eddf719e41b3d',1,'JSToken::ptr()'],['../structJSParsePos.html#a75f1f49df3a5101d16dabe997414a273',1,'JSParsePos::ptr()'],['../structBCReaderState.html#a361126263d9a23d1f9477dd76a24a805',1,'BCReaderState::ptr()'],['../structJSAtomicsWaiter.html#a793a0316794e1e1b08ecda7f03357339',1,'JSAtomicsWaiter::ptr()']]],
   ['pvalue',['pvalue',['../structJSVarRef.html#a9c3ffea0657610840f687dc348433b22',1,'JSVarRef']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['d',['d',['../unionFloat64Union.html#a315a576a15a69f63c3df7791855fe9d4',1,'Float64Union::d()'],['../structFastDivData.html#a52b4ad6d260fd215410b045c57e8ecc1',1,'FastDivData::d()'],['../unionJSFloat64Union.html#a492bbe4af1272e7050114c13565f1fc9',1,'JSFloat64Union::d()']]],
+  ['d',['d',['../unionFloat64Union.html#a315a576a15a69f63c3df7791855fe9d4',1,'Float64Union::d()'],['../unionJSFloat64Union.html#a492bbe4af1272e7050114c13565f1fc9',1,'JSFloat64Union::d()']]],
   ['data',['data',['../structJSArrayBuffer.html#abb4d8240128d46d4b45b7d9e2a52586e',1,'JSArrayBuffer::data()'],['../structJSCFunctionDataRecord.html#a7e50ac35ab60900783a48ca763209cf3',1,'JSCFunctionDataRecord::data()']]],
   ['data_5flen',['data_len',['../structJSCFunctionDataRecord.html#aa234ba050321465dd6855a5c023dd540',1,'JSCFunctionDataRecord']]],
   ['date_5fnow',['date_now',['../quickjs_8c.html#ab4d310ae0cce7aff63620bced920cf0f',1,'quickjs.c']]],
@@ -26,7 +26,7 @@ var searchData=
   ['dbuf_5frealloc',['dbuf_realloc',['../cutils_8c.html#ac0b9ce26415947e972d6781d9f2fb11b',1,'dbuf_realloc(DynBuf *s, size_t new_size):&#160;cutils.c'],['../cutils_8h.html#ac0b9ce26415947e972d6781d9f2fb11b',1,'dbuf_realloc(DynBuf *s, size_t new_size):&#160;cutils.c']]],
   ['dbuf_5fwrite',['dbuf_write',['../cutils_8c.html#a881843768029856f5c48c57af5f8deb5',1,'dbuf_write(DynBuf *s, size_t offset, const uint8_t *data, size_t len):&#160;cutils.c'],['../cutils_8h.html#a881843768029856f5c48c57af5f8deb5',1,'dbuf_write(DynBuf *s, size_t offset, const uint8_t *data, size_t len):&#160;cutils.c']]],
   ['deallocate',['deallocate',['../structqjs_1_1allocator.html#af3540347ff540edef984e18afb7c8b24',1,'qjs::allocator']]],
-  ['debug',['debug',['../structJSFunctionBytecode.html#a7cbedc8a94bf6f12e7e564c644fd9192',1,'JSFunctionBytecode']]],
+  ['debug',['debug',['../structJSFunctionBytecode.html#ac4182dcce0de9bdbc4e83ebf4d79e0d8',1,'JSFunctionBytecode']]],
   ['decl_5fmask_5fall',['DECL_MASK_ALL',['../quickjs_8c.html#a2906d94847f5c59eda4f9a8c612d06f7',1,'quickjs.c']]],
   ['decl_5fmask_5ffunc',['DECL_MASK_FUNC',['../quickjs_8c.html#a12c8083899522cbc604a9222a8b0634f',1,'quickjs.c']]],
   ['decl_5fmask_5ffunc_5fwith_5flabel',['DECL_MASK_FUNC_WITH_LABEL',['../quickjs_8c.html#a029546b2e2cd86cdd28515f2653c1daa',1,'quickjs.c']]],

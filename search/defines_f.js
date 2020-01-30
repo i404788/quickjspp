@@ -1,9 +1,23 @@
 var searchData=
 [
-  ['radixl_5f10',['RADIXL_10',['../libbf_8c.html#a0db8ed455f703e523f6ed73ba9230a38',1,'libbf.c']]],
-  ['re_5fheader_5fcapture_5fcount',['RE_HEADER_CAPTURE_COUNT',['../libregexp_8c.html#a90284e1039b913867bce8bf370c16770',1,'libregexp.c']]],
-  ['re_5fheader_5fflags',['RE_HEADER_FLAGS',['../libregexp_8c.html#a51ad174949fb2e2c5e82414c4ca5c99d',1,'libregexp.c']]],
-  ['re_5fheader_5flen',['RE_HEADER_LEN',['../libregexp_8c.html#af5d5b2d535c6e081d03439a23fe385bf',1,'libregexp.c']]],
-  ['re_5fheader_5fstack_5fsize',['RE_HEADER_STACK_SIZE',['../libregexp_8c.html#ab26d042b7438150d39733516b8c9a264',1,'libregexp.c']]],
-  ['realloc',['realloc',['../libbf_8c.html#a469b126e215a28c66c593b1c53a8717c',1,'realloc():&#160;libbf.c'],['../quickjs_8c.html#a469b126e215a28c66c593b1c53a8717c',1,'realloc():&#160;quickjs.c']]]
+  ['short_5fopcode_5finfo',['short_opcode_info',['../quickjs_8c.html#a111cc368ae4e6320fcff4510946971c6',1,'quickjs.c']]],
+  ['short_5fopcodes',['SHORT_OPCODES',['../quickjs_8c.html#ab05b63be2e8de319bdce384566de3bb0',1,'quickjs.c']]],
+  ['skip_5fhas_5fellipsis',['SKIP_HAS_ELLIPSIS',['../quickjs_8c.html#af08c4330de081bf3d3223ffa4c9a5543',1,'quickjs.c']]],
+  ['skip_5fhas_5fsemi',['SKIP_HAS_SEMI',['../quickjs_8c.html#ae861b165d330d14439f3444ca26eee7a',1,'quickjs.c']]],
+  ['special_5fevery',['special_every',['../quickjs_8c.html#ad64d9d3c71444c17570dc71051342ef9',1,'quickjs.c']]],
+  ['special_5ffilter',['special_filter',['../quickjs_8c.html#ae96cb4cd15dabeec8d00d0a4b805feba',1,'quickjs.c']]],
+  ['special_5fforeach',['special_forEach',['../quickjs_8c.html#a69ac93d1101b74d985ab5bf9bd083631',1,'quickjs.c']]],
+  ['special_5fincludes',['special_includes',['../quickjs_8c.html#ac1cf061d7743012ee2eae0fa1fa7a78a',1,'quickjs.c']]],
+  ['special_5findexof',['special_indexOf',['../quickjs_8c.html#a71ad74425987e88f7677a41045b9bea8',1,'quickjs.c']]],
+  ['special_5flastindexof',['special_lastIndexOf',['../quickjs_8c.html#a69131d42b7acdfad3ca031b107208479',1,'quickjs.c']]],
+  ['special_5fmap',['special_map',['../quickjs_8c.html#a528f8b27782deef9318a747835d3caf8',1,'quickjs.c']]],
+  ['special_5freduce',['special_reduce',['../quickjs_8c.html#a15b2d55f9de92d749ca33a9013f0835c',1,'quickjs.c']]],
+  ['special_5freduceright',['special_reduceRight',['../quickjs_8c.html#a637d6ffab6c44145d6f21edb706194bd',1,'quickjs.c']]],
+  ['special_5fsome',['special_some',['../quickjs_8c.html#a4d8f8659d728e28c5500e30a5ae89a62',1,'quickjs.c']]],
+  ['special_5fta',['special_TA',['../quickjs_8c.html#afc179a3dd9220940ad69b69f3a47fe73',1,'quickjs.c']]],
+  ['stack_5fsize_5fmax',['STACK_SIZE_MAX',['../libregexp_8c.html#a3cf2adfc19aeed9956dd64407aba2f75',1,'libregexp.c']]],
+  ['stringify',['stringify',['../cutils_8h.html#ad21edfbf3d91d1af380e8d842e35960f',1,'cutils.h']]],
+  ['strip_5flen',['STRIP_LEN',['../libbf_8c.html#a5bbff2458bb3447ba98f643dd91e5552',1,'libbf.c']]],
+  ['subdq',['subdq',['../libbf_8c.html#ab378fd223e73049603ee9c40dec14063',1,'libbf.c']]],
+  ['switch',['SWITCH',['../quickjs_8c.html#a365f1cb04dff60b188becbc6522627af',1,'quickjs.c']]]
 ];

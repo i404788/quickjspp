@@ -70,23 +70,23 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Conversion traits for JSValue (identity).  
+<p>Conversion traits for <a class="el" href="structJSValue.html">JSValue</a> (identity).  
  <a href="structqjs_1_1js__traits_3_01JSValue_01_4.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6097b6ac58491915d24ac160b001f030"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__traits_3_01JSValue_01_4.html#a6097b6ac58491915d24ac160b001f030">unwrap</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="quickjs_8h.html#ab5b643c1ec038a6ce73ff6612efe73c2">JSValueConst</a> v) noexcept</td></tr>
+<tr class="memitem:a6097b6ac58491915d24ac160b001f030"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJSValue.html">JSValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__traits_3_01JSValue_01_4.html#a6097b6ac58491915d24ac160b001f030">unwrap</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="quickjs_8h.html#ab5b643c1ec038a6ce73ff6612efe73c2">JSValueConst</a> v) noexcept</td></tr>
 <tr class="separator:a6097b6ac58491915d24ac160b001f030"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfff1cf9eaa513adad29c9f1122f3dc2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__traits_3_01JSValue_01_4.html#abfff1cf9eaa513adad29c9f1122f3dc2">wrap</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> v) noexcept</td></tr>
+<tr class="memitem:abfff1cf9eaa513adad29c9f1122f3dc2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJSValue.html">JSValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__traits_3_01JSValue_01_4.html#abfff1cf9eaa513adad29c9f1122f3dc2">wrap</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="structJSValue.html">JSValue</a> v) noexcept</td></tr>
 <tr class="separator:abfff1cf9eaa513adad29c9f1122f3dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;&gt;<br />
 struct qjs::js_traits&lt; JSValue &gt;</h3>
 
-<p>Conversion traits for JSValue (identity). </p>
+<p>Conversion traits for <a class="el" href="structJSValue.html">JSValue</a> (identity). </p>
 
 <p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00084">84</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -100,7 +100,7 @@ struct qjs::js_traits&lt; JSValue &gt;</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> <a class="el" href="structqjs_1_1js__traits.html">qjs::js_traits</a>&lt; <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> &gt;::unwrap </td>
+          <td class="memname">static <a class="el" href="structJSValue.html">JSValue</a> <a class="el" href="structqjs_1_1js__traits.html">qjs::js_traits</a>&lt; <a class="el" href="structJSValue.html">JSValue</a> &gt;::unwrap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structJSContext.html">JSContext</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
@@ -127,7 +127,7 @@ struct qjs::js_traits&lt; JSValue &gt;</h3>
 <p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00086">86</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8h.html#a775522f2d084fc8fa0fcb33f390006b4">JS_DupValue()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#a775522f2d084fc8fa0fcb33f390006b4">JS_DupValue</a>(ctx, v);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a775522f2d084fc8fa0fcb33f390006b4"><div class="ttname"><a href="quickjs_8h.html#a775522f2d084fc8fa0fcb33f390006b4">JS_DupValue</a></div><div class="ttdeci">static JSValue JS_DupValue(JSContext *ctx, JSValueConst v)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8h_source.html#l00627">quickjs.h:627</a></div></div>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#a775522f2d084fc8fa0fcb33f390006b4">JS_DupValue</a>(ctx, v);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a775522f2d084fc8fa0fcb33f390006b4"><div class="ttname"><a href="quickjs_8h.html#a775522f2d084fc8fa0fcb33f390006b4">JS_DupValue</a></div><div class="ttdeci">static JSValue JS_DupValue(JSContext *ctx, JSValueConst v)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8h_source.html#l00633">quickjs.h:633</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -147,7 +147,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> <a class="el" href="structqjs_1_1js__traits.html">qjs::js_traits</a>&lt; <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> &gt;::wrap </td>
+          <td class="memname">static <a class="el" href="structJSValue.html">JSValue</a> <a class="el" href="structqjs_1_1js__traits.html">qjs::js_traits</a>&lt; <a class="el" href="structJSValue.html">JSValue</a> &gt;::wrap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structJSContext.html">JSContext</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
@@ -155,7 +155,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structJSValue.html">JSValue</a>&#160;</td>
           <td class="paramname"><em>v</em>&#160;</td>
         </tr>
         <tr>

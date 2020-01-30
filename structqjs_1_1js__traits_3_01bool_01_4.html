@@ -79,7 +79,7 @@ $(function() {
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a1992ab86bae409c14e132fd3a7406e2e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__traits_3_01bool_01_4.html#a1992ab86bae409c14e132fd3a7406e2e">unwrap</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="quickjs_8h.html#ab5b643c1ec038a6ce73ff6612efe73c2">JSValueConst</a> v) noexcept</td></tr>
 <tr class="separator:a1992ab86bae409c14e132fd3a7406e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa58385a193a524be628f341dd77a2d0e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__traits_3_01bool_01_4.html#aa58385a193a524be628f341dd77a2d0e">wrap</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, bool i) noexcept</td></tr>
+<tr class="memitem:aa58385a193a524be628f341dd77a2d0e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJSValue.html">JSValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__traits_3_01bool_01_4.html#aa58385a193a524be628f341dd77a2d0e">wrap</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, bool i) noexcept</td></tr>
 <tr class="separator:aa58385a193a524be628f341dd77a2d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -127,7 +127,7 @@ struct qjs::js_traits&lt; bool &gt;</h3>
 <p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00123">123</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8c.html#a525bb5bdbab2566313d9bcd876838d9d">JS_ToBool()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    {</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#a525bb5bdbab2566313d9bcd876838d9d">JS_ToBool</a>(ctx, v);</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a525bb5bdbab2566313d9bcd876838d9d"><div class="ttname"><a href="quickjs_8h.html#a525bb5bdbab2566313d9bcd876838d9d">JS_ToBool</a></div><div class="ttdeci">int JS_ToBool(JSContext *ctx, JSValueConst val)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l09493">quickjs.c:9493</a></div></div>
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    {</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#a525bb5bdbab2566313d9bcd876838d9d">JS_ToBool</a>(ctx, v);</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a525bb5bdbab2566313d9bcd876838d9d"><div class="ttname"><a href="quickjs_8h.html#a525bb5bdbab2566313d9bcd876838d9d">JS_ToBool</a></div><div class="ttdeci">int JS_ToBool(JSContext *ctx, JSValueConst val)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l09512">quickjs.c:9512</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -147,7 +147,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> <a class="el" href="structqjs_1_1js__traits.html">qjs::js_traits</a>&lt; bool &gt;::wrap </td>
+          <td class="memname">static <a class="el" href="structJSValue.html">JSValue</a> <a class="el" href="structqjs_1_1js__traits.html">qjs::js_traits</a>&lt; bool &gt;::wrap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structJSContext.html">JSContext</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
@@ -174,7 +174,7 @@ Here is the call graph for this function:</div>
 <p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00128">128</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8h.html#a93abffa925714e249a6aa2f4ae7900f6">JS_NewBool()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    {</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#a93abffa925714e249a6aa2f4ae7900f6">JS_NewBool</a>(ctx, i);</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a93abffa925714e249a6aa2f4ae7900f6"><div class="ttname"><a href="quickjs_8h.html#a93abffa925714e249a6aa2f4ae7900f6">JS_NewBool</a></div><div class="ttdeci">static js_force_inline JSValue JS_NewBool(JSContext *ctx, JS_BOOL val)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8h_source.html#l00494">quickjs.h:494</a></div></div>
+<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    {</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#a93abffa925714e249a6aa2f4ae7900f6">JS_NewBool</a>(ctx, i);</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a93abffa925714e249a6aa2f4ae7900f6"><div class="ttname"><a href="quickjs_8h.html#a93abffa925714e249a6aa2f4ae7900f6">JS_NewBool</a></div><div class="ttdeci">static js_force_inline JSValue JS_NewBool(JSContext *ctx, JS_BOOL val)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8h_source.html#l00496">quickjs.h:496</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

@@ -74,9 +74,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a80956064f81774837d511e8321056418"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__property__traits_3_01uint32__t_01_4.html#a80956064f81774837d511e8321056418">set_property</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> this_obj, uint32_t idx, <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> value)</td></tr>
+<tr class="memitem:a80956064f81774837d511e8321056418"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__property__traits_3_01uint32__t_01_4.html#a80956064f81774837d511e8321056418">set_property</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="structJSValue.html">JSValue</a> this_obj, uint32_t idx, <a class="el" href="structJSValue.html">JSValue</a> value)</td></tr>
 <tr class="separator:a80956064f81774837d511e8321056418"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af19da02fec28059477a39b16c531a97c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__property__traits_3_01uint32__t_01_4.html#af19da02fec28059477a39b16c531a97c">get_property</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> this_obj, uint32_t idx) noexcept</td></tr>
+<tr class="memitem:af19da02fec28059477a39b16c531a97c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJSValue.html">JSValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__property__traits_3_01uint32__t_01_4.html#af19da02fec28059477a39b16c531a97c">get_property</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="structJSValue.html">JSValue</a> this_obj, uint32_t idx) noexcept</td></tr>
 <tr class="separator:af19da02fec28059477a39b16c531a97c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -104,7 +104,7 @@ struct qjs::js_property_traits&lt; uint32_t &gt;</h3>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structJSValue.html">JSValue</a>&#160;</td>
           <td class="paramname"><em>this_obj</em>, </td>
         </tr>
         <tr>
@@ -116,7 +116,7 @@ struct qjs::js_property_traits&lt; uint32_t &gt;</h3>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structJSValue.html">JSValue</a>&#160;</td>
           <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
@@ -135,7 +135,7 @@ struct qjs::js_property_traits&lt; uint32_t &gt;</h3>
 <p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00666">666</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8c.html#aae909eaec829081b270012adfcd717a4">JS_SetPropertyUint32()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;    {</div><div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;        <span class="keywordtype">int</span> err = <a class="code" href="quickjs_8h.html#aae909eaec829081b270012adfcd717a4">JS_SetPropertyUint32</a>(ctx, this_obj, idx, value);</div><div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;        <span class="keywordflow">if</span>(err &lt; 0)</div><div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;            <span class="keywordflow">throw</span> exception{};</div><div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_aae909eaec829081b270012adfcd717a4"><div class="ttname"><a href="quickjs_8h.html#aae909eaec829081b270012adfcd717a4">JS_SetPropertyUint32</a></div><div class="ttdeci">int JS_SetPropertyUint32(JSContext *ctx, JSValueConst this_obj, uint32_t idx, JSValue val)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l08317">quickjs.c:8317</a></div></div>
+<div class="fragment"><div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;    {</div><div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;        <span class="keywordtype">int</span> err = <a class="code" href="quickjs_8h.html#aae909eaec829081b270012adfcd717a4">JS_SetPropertyUint32</a>(ctx, this_obj, idx, value);</div><div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;        <span class="keywordflow">if</span>(err &lt; 0)</div><div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;            <span class="keywordflow">throw</span> exception{};</div><div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_aae909eaec829081b270012adfcd717a4"><div class="ttname"><a href="quickjs_8h.html#aae909eaec829081b270012adfcd717a4">JS_SetPropertyUint32</a></div><div class="ttdeci">int JS_SetPropertyUint32(JSContext *ctx, JSValueConst this_obj, uint32_t idx, JSValue val)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l08344">quickjs.c:8344</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -155,7 +155,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> <a class="el" href="structqjs_1_1js__property__traits.html">qjs::js_property_traits</a>&lt; uint32_t &gt;::get_property </td>
+          <td class="memname">static <a class="el" href="structJSValue.html">JSValue</a> <a class="el" href="structqjs_1_1js__property__traits.html">qjs::js_property_traits</a>&lt; uint32_t &gt;::get_property </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structJSContext.html">JSContext</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
@@ -163,7 +163,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structJSValue.html">JSValue</a>&#160;</td>
           <td class="paramname"><em>this_obj</em>, </td>
         </tr>
         <tr>
@@ -188,11 +188,11 @@ Here is the call graph for this function:</div>
 <p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00673">673</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8c.html#aeb97957655d979e9fe56c955da2b2d4b">JS_GetPropertyUint32()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;    {</div><div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#aeb97957655d979e9fe56c955da2b2d4b">JS_GetPropertyUint32</a>(ctx, this_obj, idx);</div><div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_aeb97957655d979e9fe56c955da2b2d4b"><div class="ttname"><a href="quickjs_8h.html#aeb97957655d979e9fe56c955da2b2d4b">JS_GetPropertyUint32</a></div><div class="ttdeci">JSValue JS_GetPropertyUint32(JSContext *ctx, JSValueConst this_obj, uint32_t idx)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l07481">quickjs.c:7481</a></div></div>
+<div class="fragment"><div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;    {</div><div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#aeb97957655d979e9fe56c955da2b2d4b">JS_GetPropertyUint32</a>(ctx, this_obj, idx);</div><div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_aeb97957655d979e9fe56c955da2b2d4b"><div class="ttname"><a href="quickjs_8h.html#aeb97957655d979e9fe56c955da2b2d4b">JS_GetPropertyUint32</a></div><div class="ttdeci">JSValue JS_GetPropertyUint32(JSContext *ctx, JSValueConst this_obj, uint32_t idx)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l07512">quickjs.c:7512</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="structqjs_1_1js__property__traits_3_01uint32__t_01_4_af19da02fec28059477a39b16c531a97c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="structqjs_1_1js__property__traits_3_01uint32__t_01_4_af19da02fec28059477a39b16c531a97c_cgraph.svg" width="100%" height="579"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 

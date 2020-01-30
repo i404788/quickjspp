@@ -79,7 +79,7 @@ $(function() {
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9511dd47284884284b365ff1bd3de9d5"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__traits_3_01std_1_1string_01_4.html#a9511dd47284884284b365ff1bd3de9d5">unwrap</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="quickjs_8h.html#ab5b643c1ec038a6ce73ff6612efe73c2">JSValueConst</a> v)</td></tr>
 <tr class="separator:a9511dd47284884284b365ff1bd3de9d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5b51c364766cc6e173eb6fb473bca98"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__traits_3_01std_1_1string_01_4.html#ac5b51c364766cc6e173eb6fb473bca98">wrap</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, const std::string &amp;str) noexcept</td></tr>
+<tr class="memitem:ac5b51c364766cc6e173eb6fb473bca98"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJSValue.html">JSValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqjs_1_1js__traits_3_01std_1_1string_01_4.html#ac5b51c364766cc6e173eb6fb473bca98">wrap</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, const std::string &amp;str) noexcept</td></tr>
 <tr class="separator:ac5b51c364766cc6e173eb6fb473bca98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -147,7 +147,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> <a class="el" href="structqjs_1_1js__traits.html">qjs::js_traits</a>&lt; std::string &gt;::wrap </td>
+          <td class="memname">static <a class="el" href="structJSValue.html">JSValue</a> <a class="el" href="structqjs_1_1js__traits.html">qjs::js_traits</a>&lt; std::string &gt;::wrap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structJSContext.html">JSContext</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
@@ -174,7 +174,7 @@ Here is the call graph for this function:</div>
 <p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00225">225</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8c.html#ac34cc554aab1e98c45a7f845fff64385">JS_NewStringLen()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    {</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#a71f0aae471c9811e816c974e0f6d2607">JS_NewStringLen</a>(ctx, str.data(), str.size());</div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a71f0aae471c9811e816c974e0f6d2607"><div class="ttname"><a href="quickjs_8h.html#a71f0aae471c9811e816c974e0f6d2607">JS_NewStringLen</a></div><div class="ttdeci">JSValue JS_NewStringLen(JSContext *ctx, const char *str1, size_t len1)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l03663">quickjs.c:3663</a></div></div>
+<div class="fragment"><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    {</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#a71f0aae471c9811e816c974e0f6d2607">JS_NewStringLen</a>(ctx, str.data(), str.size());</div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a71f0aae471c9811e816c974e0f6d2607"><div class="ttname"><a href="quickjs_8h.html#a71f0aae471c9811e816c974e0f6d2607">JS_NewStringLen</a></div><div class="ttdeci">JSValue JS_NewStringLen(JSContext *ctx, const char *str1, size_t len1)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l03704">quickjs.c:3704</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

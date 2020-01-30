@@ -1,9 +1,13 @@
 var searchData=
 [
-  ['nb_5fmods',['NB_MODS',['../libbf_8c.html#a6d4887e7cdc98f53595c7675fdf01a65',1,'libbf.c']]],
-  ['no_5finline',['no_inline',['../cutils_8h.html#a920e1ee483880024048aca3880427e1c',1,'cutils.h']]],
-  ['ntt_5fmod_5flog2_5fmax',['NTT_MOD_LOG2_MAX',['../libbf_8c.html#a48790d2c01d7f19ac84979a745b68a65',1,'libbf.c']]],
-  ['ntt_5fmod_5flog2_5fmin',['NTT_MOD_LOG2_MIN',['../libbf_8c.html#a147b6f68ead2f569619fc33fc316cf9d',1,'libbf.c']]],
-  ['ntt_5fproot_5f2exp',['NTT_PROOT_2EXP',['../libbf_8c.html#afc95c44f17f7d8b0351134834589b00f',1,'libbf.c']]],
-  ['ntt_5ftrig_5fk_5fmax',['NTT_TRIG_K_MAX',['../libbf_8c.html#a51bbd48e3cd37e5b1f87254f8447fe95',1,'libbf.c']]]
+  ['offsetof',['offsetof',['../cutils_8h.html#a353187251a6359e206c4472fe66895ce',1,'cutils.h']]],
+  ['op',['OP',['../quickjs_8c.html#a1ea047d7775a44cc86acde9a6a8ec9ff',1,'quickjs.c']]],
+  ['op_5fcmp',['OP_CMP',['../quickjs_8c.html#a7e8ce8d8fe1e24c3161c7df481d8b5ab',1,'quickjs.c']]],
+  ['op_5fdefine_5fmethod_5fenumerable',['OP_DEFINE_METHOD_ENUMERABLE',['../quickjs_8c.html#a2705b570cb824682597b5a578aa5e8a0',1,'quickjs.c']]],
+  ['op_5fdefine_5fmethod_5fgetter',['OP_DEFINE_METHOD_GETTER',['../quickjs_8c.html#a0c59a85f19509c368a066f0f94fa816e',1,'quickjs.c']]],
+  ['op_5fdefine_5fmethod_5fmethod',['OP_DEFINE_METHOD_METHOD',['../quickjs_8c.html#a4afb7b238642a80181b1251fa365c240',1,'quickjs.c']]],
+  ['op_5fdefine_5fmethod_5fsetter',['OP_DEFINE_METHOD_SETTER',['../quickjs_8c.html#affd65b66c584cc14edc8731bba75b0b7',1,'quickjs.c']]],
+  ['optimize',['OPTIMIZE',['../quickjs_8c.html#a2de39943dd0f3b71b30194081ea4dbe6',1,'quickjs.c']]],
+  ['os_5fflag',['OS_FLAG',['../quickjs-libc_8c.html#ac534d76690f1ac36fec6f82eb401b005',1,'quickjs-libc.c']]],
+  ['os_5fplatform',['OS_PLATFORM',['../quickjs-libc_8c.html#a5d2e8c3cf9f4882946acfe462e748778',1,'quickjs-libc.c']]]
 ];

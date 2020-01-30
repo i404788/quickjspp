@@ -4,7 +4,7 @@ var searchData=
   ['_5f_5fattribute_5f_5f',['__attribute__',['../cutils_8c.html#a0a619a0b3bf0d0ec3aa0a9a59d610e1c',1,'__attribute__((format(printf, 2, 3))):&#160;cutils.c'],['../cutils_8h.html#a3fbd11a187f237f326f53d1691c1f083',1,'__attribute__((packed)) packed_u64:&#160;cutils.h'],['../cutils_8h.html#a7e3df12bda422b64b14ec2fc2f487c5f',1,'__attribute__((format(printf, 2, 3))) dbuf_printf(DynBuf *s:&#160;cutils.h'],['../libregexp_8c.html#a0a619a0b3bf0d0ec3aa0a9a59d610e1c',1,'__attribute__((format(printf, 2, 3))):&#160;libregexp.c'],['../quickjs_8c.html#a853f0924d441ea4225488f37c8b69f9a',1,'__attribute__((format(printf, 2, 3))):&#160;quickjs.c'],['../quickjs_8c.html#a2f49d212e519c9e138d8b48148b6f955',1,'__attribute__((format(printf, 3, 4))):&#160;quickjs.c']]],
   ['_5f_5fbf_5fadd',['__bf_add',['../libbf_8c.html#a951a1d3ebb338129d86e00f51b47f2ee',1,'libbf.c']]],
   ['_5f_5fbf_5fdiv',['__bf_div',['../libbf_8c.html#ad7a540de8355f07757e52b48d35dd708',1,'libbf.c']]],
-  ['_5f_5fbf_5fround',['__bf_round',['../libbf_8c.html#a06fc3e6aa8ac367eef1039c9d97fc1f8',1,'libbf.c']]],
+  ['_5f_5fbf_5fround',['__bf_round',['../libbf_8c.html#a5a13527071b5331585beae41a51ed3c2',1,'libbf.c']]],
   ['_5f_5fbf_5fsub',['__bf_sub',['../libbf_8c.html#aa3b3bc85aee9c531439d5fbc92986dfe',1,'libbf.c']]],
   ['_5f_5fbfdec_5fadd',['__bfdec_add',['../libbf_8c.html#aa5c7e54724217d71eb29c55c98e2413f',1,'libbf.c']]],
   ['_5f_5fbfdec_5fdiv',['__bfdec_div',['../libbf_8c.html#ab0fc8c7b5ee65f945fae1794494865f1',1,'libbf.c']]],

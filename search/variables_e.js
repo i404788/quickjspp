@@ -22,5 +22,5 @@ var searchData=
   ['ntt_5fproot_5fpow_5finv',['ntt_proot_pow_inv',['../structBFNTTState.html#a8ae79f9594a81bc93f2f0d992db6458f',1,'BFNTTState']]],
   ['ntt_5fstate',['ntt_state',['../structbf__context__t.html#a5e47265a2eaf0197ea1a4c1a5ae05357',1,'bf_context_t']]],
   ['ntt_5ftrig',['ntt_trig',['../structBFNTTState.html#a49f67756afc871452ac02e4d76e2a800',1,'BFNTTState']]],
-  ['num',['num',['../structJSBigFloat.html#ae17c4b0bbe806edeb99730b094d6882d',1,'JSBigFloat::num()'],['../structJSBigDecimal.html#a0c56d802c032ceec20a1fab6651588b2',1,'JSBigDecimal::num()'],['../structJSToken.html#afe0366b73c039bea07cc308e9fce05f8',1,'JSToken::num()']]]
+  ['num',['num',['../structJSToken.html#ac3d4237cd1cfacc8fdd64777865e29a7',1,'JSToken']]]
 ];

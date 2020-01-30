@@ -11,6 +11,7 @@ var searchData=
   ['jsgcphaseenum',['JSGCPhaseEnum',['../quickjs_8c.html#a048c046fb967219321238b1165ff36d8',1,'quickjs.c']]],
   ['jsgeneratorstateenum',['JSGeneratorStateEnum',['../quickjs_8c.html#ad8b0d869d8bbfe13bf5f09ad73ba713d',1,'quickjs.c']]],
   ['jsiteratorkindenum',['JSIteratorKindEnum',['../quickjs_8c.html#a1382f794ad1970bdb22d8805be011027',1,'quickjs.c']]],
+  ['jsoverloadableoperatorenum',['JSOverloadableOperatorEnum',['../quickjs_8c.html#acd234fe4114e14ca7633d3064b64fff7',1,'quickjs.c']]],
   ['jsparseexportenum',['JSParseExportEnum',['../quickjs_8c.html#a876dcb326f162474255ef53e3aac429f',1,'quickjs.c']]],
   ['jsparsefunctionenum',['JSParseFunctionEnum',['../quickjs_8c.html#a7ba95342661f9de5a98d07581e57c0ac',1,'quickjs.c']]],
   ['jspromisestateenum',['JSPromiseStateEnum',['../quickjs_8c.html#a88c65d3065b22f62a01221858b81871c',1,'quickjs.c']]],

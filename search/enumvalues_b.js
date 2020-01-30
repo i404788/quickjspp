@@ -43,8 +43,6 @@ var searchData=
   ['tok_5flor',['TOK_LOR',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9ea51a3b1f5754313aa48e260ce4dd7da23',1,'quickjs.c']]],
   ['tok_5flt',['TOK_LT',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9ea8181df7f20dc6c02df00f3f60bfdaba7',1,'quickjs.c']]],
   ['tok_5flte',['TOK_LTE',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9eaba51df57966e17e41e329d83f7a4b931',1,'quickjs.c']]],
-  ['tok_5fmath_5fpow',['TOK_MATH_POW',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9ead463b2c3fc296f91531ecfce7c607559',1,'quickjs.c']]],
-  ['tok_5fmath_5fpow_5fassign',['TOK_MATH_POW_ASSIGN',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9eac8f8ad3c5e2c548e9f1c10dd31f25f99',1,'quickjs.c']]],
   ['tok_5fminus_5fassign',['TOK_MINUS_ASSIGN',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9eab9273c0c1c65825be0e704e903e22398',1,'quickjs.c']]],
   ['tok_5fmod_5fassign',['TOK_MOD_ASSIGN',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9eafa7cc3d9349ce00cced8814deb55a76f',1,'quickjs.c']]],
   ['tok_5fmul_5fassign',['TOK_MUL_ASSIGN',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9ea89005a9f21c7caf2086aed180f384f53',1,'quickjs.c']]],
@@ -89,7 +87,6 @@ var searchData=
   ['tok_5fwith',['TOK_WITH',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9ea6ee4504348547d519671a5b7d85b6133',1,'quickjs.c']]],
   ['tok_5fxor_5fassign',['TOK_XOR_ASSIGN',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9ea4b83a09024fcb5525c0fa3d85ae9b8b6',1,'quickjs.c']]],
   ['tok_5fyield',['TOK_YIELD',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9ea192f43015df1a573e10c041dfa1c3613',1,'quickjs.c']]],
-  ['ton_5fflag_5finteger',['TON_FLAG_INTEGER',['../quickjs_8c.html#a6bbb01be13c91c365001e6916ee1275ea1669caccc0eb16d23bec93d16e95a740',1,'quickjs.c']]],
   ['ton_5fflag_5fnumber',['TON_FLAG_NUMBER',['../quickjs_8c.html#a6bbb01be13c91c365001e6916ee1275eab06eabefdd398a86b8b8339cb2bd3f10',1,'quickjs.c']]],
   ['ton_5fflag_5fnumeric',['TON_FLAG_NUMERIC',['../quickjs_8c.html#a6bbb01be13c91c365001e6916ee1275eaa0ca3e5f3a9151bd3d918fd71412f300',1,'quickjs.c']]],
   ['true',['TRUE',['../cutils_8h.html#a726ca809ffd3d67ab4b8476646f26635aa82764c3079aea4e60c80e45befbb839',1,'cutils.h']]]

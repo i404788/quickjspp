@@ -88,8 +88,8 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a03413dce82c10c7e7680a1c64caae2c9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a03413dce82c10c7e7680a1c64caae2c9"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqjs_1_1detail.html#a03413dce82c10c7e7680a1c64caae2c9">unwrap_free</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> val)</td></tr>
-<tr class="memdesc:a03413dce82c10c7e7680a1c64caae2c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to convert and then free JSValue.  <a href="#a03413dce82c10c7e7680a1c64caae2c9">More...</a><br /></td></tr>
+<tr class="memitem:a03413dce82c10c7e7680a1c64caae2c9"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqjs_1_1detail.html#a03413dce82c10c7e7680a1c64caae2c9">unwrap_free</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="structJSValue.html">JSValue</a> val)</td></tr>
+<tr class="memdesc:a03413dce82c10c7e7680a1c64caae2c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to convert and then free <a class="el" href="structJSValue.html">JSValue</a>.  <a href="#a03413dce82c10c7e7680a1c64caae2c9">More...</a><br /></td></tr>
 <tr class="separator:a03413dce82c10c7e7680a1c64caae2c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aa844300f88bcbc400ab4cf109a9fe4"><td class="memTemplParams" colspan="2">template&lt;class Tuple , std::size_t... I&gt; </td></tr>
 <tr class="memitem:a0aa844300f88bcbc400ab4cf109a9fe4"><td class="memTemplItemLeft" align="right" valign="top">Tuple&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqjs_1_1detail.html#a0aa844300f88bcbc400ab4cf109a9fe4">unwrap_args_impl</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="quickjs_8h.html#ab5b643c1ec038a6ce73ff6612efe73c2">JSValueConst</a> *argv, std::index_sequence&lt; I... &gt;)</td></tr>
@@ -99,19 +99,19 @@ Functions</h2></td></tr>
 <tr class="memdesc:a65d0ddd24470d7ce93d2352b5a5cdb33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to convert an array of JSValues to a tuple.  <a href="#a65d0ddd24470d7ce93d2352b5a5cdb33">More...</a><br /></td></tr>
 <tr class="separator:a65d0ddd24470d7ce93d2352b5a5cdb33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2239084ae6320d2f421ec06b05b51382"><td class="memTemplParams" colspan="2">template&lt;typename R , typename... Args, typename Callable &gt; </td></tr>
-<tr class="memitem:a2239084ae6320d2f421ec06b05b51382"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqjs_1_1detail.html#a2239084ae6320d2f421ec06b05b51382">wrap_call</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, Callable &amp;&amp;f, <a class="el" href="quickjs_8h.html#ab5b643c1ec038a6ce73ff6612efe73c2">JSValueConst</a> *argv) noexcept</td></tr>
+<tr class="memitem:a2239084ae6320d2f421ec06b05b51382"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structJSValue.html">JSValue</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqjs_1_1detail.html#a2239084ae6320d2f421ec06b05b51382">wrap_call</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, Callable &amp;&amp;f, <a class="el" href="quickjs_8h.html#ab5b643c1ec038a6ce73ff6612efe73c2">JSValueConst</a> *argv) noexcept</td></tr>
 <tr class="memdesc:a2239084ae6320d2f421ec06b05b51382"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to call f with an array of JSValues.  <a href="#a2239084ae6320d2f421ec06b05b51382">More...</a><br /></td></tr>
 <tr class="separator:a2239084ae6320d2f421ec06b05b51382"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf399d3f72253cdef48d48abfd97dc1d"><td class="memTemplParams" colspan="2">template&lt;typename R , typename FirstArg , typename... Args, typename Callable &gt; </td></tr>
-<tr class="memitem:acf399d3f72253cdef48d48abfd97dc1d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqjs_1_1detail.html#acf399d3f72253cdef48d48abfd97dc1d">wrap_this_call</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, Callable &amp;&amp;f, <a class="el" href="quickjs_8h.html#ab5b643c1ec038a6ce73ff6612efe73c2">JSValueConst</a> this_value, <a class="el" href="quickjs_8h.html#ab5b643c1ec038a6ce73ff6612efe73c2">JSValueConst</a> *argv) noexcept</td></tr>
+<tr class="memitem:acf399d3f72253cdef48d48abfd97dc1d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structJSValue.html">JSValue</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqjs_1_1detail.html#acf399d3f72253cdef48d48abfd97dc1d">wrap_this_call</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, Callable &amp;&amp;f, <a class="el" href="quickjs_8h.html#ab5b643c1ec038a6ce73ff6612efe73c2">JSValueConst</a> this_value, <a class="el" href="quickjs_8h.html#ab5b643c1ec038a6ce73ff6612efe73c2">JSValueConst</a> *argv) noexcept</td></tr>
 <tr class="memdesc:acf399d3f72253cdef48d48abfd97dc1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as wrap_call, but pass this_value as first argument.  <a href="#acf399d3f72253cdef48d48abfd97dc1d">More...</a><br /></td></tr>
 <tr class="separator:acf399d3f72253cdef48d48abfd97dc1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c336da9a39cda78d9b67512812c5568"><td class="memTemplParams" colspan="2">template&lt;class Tuple , std::size_t... I&gt; </td></tr>
-<tr class="memitem:a7c336da9a39cda78d9b67512812c5568"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqjs_1_1detail.html#a7c336da9a39cda78d9b67512812c5568">wrap_args_impl</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> *argv, Tuple tuple, std::index_sequence&lt; I... &gt;)</td></tr>
+<tr class="memitem:a7c336da9a39cda78d9b67512812c5568"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqjs_1_1detail.html#a7c336da9a39cda78d9b67512812c5568">wrap_args_impl</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="structJSValue.html">JSValue</a> *argv, Tuple tuple, std::index_sequence&lt; I... &gt;)</td></tr>
 <tr class="separator:a7c336da9a39cda78d9b67512812c5568"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac10c8a8f94539ee1224b46b9007ab4af"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:ac10c8a8f94539ee1224b46b9007ab4af"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqjs_1_1detail.html#ac10c8a8f94539ee1224b46b9007ab4af">wrap_args</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> *argv, Args &amp;&amp;... args)</td></tr>
-<tr class="memdesc:ac10c8a8f94539ee1224b46b9007ab4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts C++ args to JSValue array.  <a href="#ac10c8a8f94539ee1224b46b9007ab4af">More...</a><br /></td></tr>
+<tr class="memitem:ac10c8a8f94539ee1224b46b9007ab4af"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqjs_1_1detail.html#ac10c8a8f94539ee1224b46b9007ab4af">wrap_args</a> (<a class="el" href="structJSContext.html">JSContext</a> *ctx, <a class="el" href="structJSValue.html">JSValue</a> *argv, Args &amp;&amp;... args)</td></tr>
+<tr class="memdesc:ac10c8a8f94539ee1224b46b9007ab4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts C++ args to <a class="el" href="structJSValue.html">JSValue</a> array.  <a href="#ac10c8a8f94539ee1224b46b9007ab4af">More...</a><br /></td></tr>
 <tr class="separator:ac10c8a8f94539ee1224b46b9007ab4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -132,7 +132,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structJSValue.html">JSValue</a>&#160;</td>
           <td class="paramname"><em>val</em>&#160;</td>
         </tr>
         <tr>
@@ -143,12 +143,12 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Helper function to convert and then free JSValue. </p>
+<p>Helper function to convert and then free <a class="el" href="structJSValue.html">JSValue</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00246">246</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8h.html#afaa20c47565bc704c6c85f3d77254e7d">JS_FreeValue()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;{</div><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordflow">if</span> constexpr(std::is_same_v&lt;T, void&gt;)</div><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    {</div><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <a class="code" href="quickjs_8h.html#afaa20c47565bc704c6c85f3d77254e7d">JS_FreeValue</a>(ctx, val);</div><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordflow">return</span> js_traits&lt;T&gt;::unwrap(ctx, val);</div><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    } <span class="keywordflow">else</span></div><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    {</div><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">try</span></div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        {</div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            T result = js_traits&lt;std::decay_t&lt;T&gt;&gt;::unwrap(ctx, val);</div><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            <a class="code" href="quickjs_8h.html#afaa20c47565bc704c6c85f3d77254e7d">JS_FreeValue</a>(ctx, val);</div><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <span class="keywordflow">return</span> result;</div><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        }</div><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keywordflow">catch</span>(...)</div><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        {</div><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            <a class="code" href="quickjs_8h.html#afaa20c47565bc704c6c85f3d77254e7d">JS_FreeValue</a>(ctx, val);</div><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            <span class="keywordflow">throw</span>;</div><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        }</div><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    }</div><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;}</div><div class="ttc" id="quickjs_8h_html_afaa20c47565bc704c6c85f3d77254e7d"><div class="ttname"><a href="quickjs_8h.html#afaa20c47565bc704c6c85f3d77254e7d">JS_FreeValue</a></div><div class="ttdeci">static void JS_FreeValue(JSContext *ctx, JSValue v)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8h_source.html#l00607">quickjs.h:607</a></div></div>
+<div class="fragment"><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;{</div><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordflow">if</span> constexpr(std::is_same_v&lt;T, void&gt;)</div><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    {</div><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <a class="code" href="quickjs_8h.html#afaa20c47565bc704c6c85f3d77254e7d">JS_FreeValue</a>(ctx, val);</div><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordflow">return</span> js_traits&lt;T&gt;::unwrap(ctx, val);</div><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    } <span class="keywordflow">else</span></div><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    {</div><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">try</span></div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        {</div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            T result = js_traits&lt;std::decay_t&lt;T&gt;&gt;::unwrap(ctx, val);</div><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            <a class="code" href="quickjs_8h.html#afaa20c47565bc704c6c85f3d77254e7d">JS_FreeValue</a>(ctx, val);</div><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <span class="keywordflow">return</span> result;</div><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        }</div><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keywordflow">catch</span>(...)</div><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        {</div><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            <a class="code" href="quickjs_8h.html#afaa20c47565bc704c6c85f3d77254e7d">JS_FreeValue</a>(ctx, val);</div><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            <span class="keywordflow">throw</span>;</div><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        }</div><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    }</div><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;}</div><div class="ttc" id="quickjs_8h_html_afaa20c47565bc704c6c85f3d77254e7d"><div class="ttname"><a href="quickjs_8h.html#afaa20c47565bc704c6c85f3d77254e7d">JS_FreeValue</a></div><div class="ttdeci">static void JS_FreeValue(JSContext *ctx, JSValue v)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8h_source.html#l00613">quickjs.h:613</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -248,7 +248,7 @@ template&lt;typename R , typename... Args, typename Callable &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> qjs::detail::wrap_call </td>
+          <td class="memname"><a class="el" href="structJSValue.html">JSValue</a> qjs::detail::wrap_call </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structJSContext.html">JSContext</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
@@ -291,7 +291,7 @@ template&lt;typename R , typename... Args, typename Callable &gt; </div>
   <table class="params">
     <tr><td class="paramname">ctx</td><td><a class="el" href="structJSContext.html">JSContext</a> </td></tr>
     <tr><td class="paramname">f</td><td>callable object </td></tr>
-    <tr><td class="paramname">argv</td><td>array of JSValue's </td></tr>
+    <tr><td class="paramname">argv</td><td>array of <a class="el" href="structJSValue.html">JSValue</a>'s </td></tr>
   </table>
   </dd>
 </dl>
@@ -315,7 +315,7 @@ template&lt;typename R , typename FirstArg , typename... Args, typename Callable
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> qjs::detail::wrap_this_call </td>
+          <td class="memname"><a class="el" href="structJSValue.html">JSValue</a> qjs::detail::wrap_this_call </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structJSContext.html">JSContext</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
@@ -382,7 +382,7 @@ template&lt;class Tuple , std::size_t... I&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structJSValue.html">JSValue</a> *&#160;</td>
           <td class="paramname"><em>argv</em>, </td>
         </tr>
         <tr>
@@ -426,7 +426,7 @@ template&lt;typename... Args&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="quickjs_8h.html#a4769066db5b5e192eedb6f23e08ec50c">JSValue</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structJSValue.html">JSValue</a> *&#160;</td>
           <td class="paramname"><em>argv</em>, </td>
         </tr>
         <tr>
@@ -443,7 +443,7 @@ template&lt;typename... Args&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Converts C++ args to JSValue array. </p>
+<p>Converts C++ args to <a class="el" href="structJSValue.html">JSValue</a> array. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Args</td><td>argument types </td></tr>

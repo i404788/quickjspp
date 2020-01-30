@@ -7,6 +7,5 @@ var searchData=
   ['bfconstcache',['BFConstCache',['../structBFConstCache.html',1,'']]],
   ['bfdec_5ft',['bfdec_t',['../structbfdec__t.html',1,'']]],
   ['bfnttstate',['BFNTTState',['../structBFNTTState.html',1,'']]],
-  ['bigdecimalenv',['BigDecimalEnv',['../structBigDecimalEnv.html',1,'']]],
   ['blockenv',['BlockEnv',['../structBlockEnv.html',1,'']]]
 ];

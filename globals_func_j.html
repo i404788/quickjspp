@@ -82,15 +82,12 @@ $(function() {
 </li>
 <li>JS_AddIntrinsicBigDecimal()
 : <a class="el" href="quickjs_8h.html#a8ddfb9bc049f684d92a334f12676237e">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#a8ddfb9bc049f684d92a334f12676237e">quickjs.c</a>
 </li>
 <li>JS_AddIntrinsicBigFloat()
 : <a class="el" href="quickjs_8h.html#af801f296acb2c259e3202ec2dece219d">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#af801f296acb2c259e3202ec2dece219d">quickjs.c</a>
 </li>
 <li>JS_AddIntrinsicBigInt()
 : <a class="el" href="quickjs_8h.html#a0f5b03638045aa0856f9b8fb0d5c0fb4">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#a0f5b03638045aa0856f9b8fb0d5c0fb4">quickjs.c</a>
 </li>
 <li>JS_AddIntrinsicDate()
 : <a class="el" href="quickjs_8h.html#a8ecbf5799518b7bfc3fefd47c7a0dd4e">quickjs.h</a>
@@ -101,12 +98,15 @@ $(function() {
 , <a class="el" href="quickjs_8c.html#acbcccb7ec58fd4a024ea1d01e5d04561">quickjs.c</a>
 </li>
 <li>JS_AddIntrinsicJSON()
-: <a class="el" href="quickjs_8h.html#ac43d15fc0b5d1b90ae3c92779ab12725">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#ac43d15fc0b5d1b90ae3c92779ab12725">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#ac43d15fc0b5d1b90ae3c92779ab12725">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#ac43d15fc0b5d1b90ae3c92779ab12725">quickjs.h</a>
 </li>
 <li>JS_AddIntrinsicMapSet()
 : <a class="el" href="quickjs_8h.html#a4497f8c7cf2ec38da989910ae8b1f042">quickjs.h</a>
 , <a class="el" href="quickjs_8c.html#a4497f8c7cf2ec38da989910ae8b1f042">quickjs.c</a>
+</li>
+<li>JS_AddIntrinsicOperators()
+: <a class="el" href="quickjs_8h.html#a85d4ed2c26849857681a86b3937dc592">quickjs.h</a>
 </li>
 <li>JS_AddIntrinsicPromise()
 : <a class="el" href="quickjs_8h.html#a2e66fcf1bc1d19f346317f10ee590621">quickjs.h</a>
@@ -353,9 +353,6 @@ $(function() {
 <li>js_atof()
 : <a class="el" href="quickjs_8c.html#a40bcef4994dba57dfb34b6eed66daef0">quickjs.c</a>
 </li>
-<li>js_atof2()
-: <a class="el" href="quickjs_8c.html#a02b32ec1011cb060587afbc2594c6a86">quickjs.c</a>
-</li>
 <li>js_atom_concat_num()
 : <a class="el" href="quickjs_8c.html#aa38698096df1fd806b60ab8b209fa4a8">quickjs.c</a>
 </li>
@@ -413,113 +410,11 @@ $(function() {
 , <a class="el" href="quickjs_8c.html#a260bfa297ff6cb5bd18e229afaa54663">quickjs.c</a>
 </li>
 <li>JS_AtomToValue()
-: <a class="el" href="quickjs_8h.html#afa67965c1017685fc6783776d6d0d4d7">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#afa67965c1017685fc6783776d6d0d4d7">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#afa67965c1017685fc6783776d6d0d4d7">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#afa67965c1017685fc6783776d6d0d4d7">quickjs.h</a>
 </li>
 <li>JS_AutoInitProperty()
 : <a class="el" href="quickjs_8c.html#a23b7fe57d08a1b3b39ba556f9cbb6c76">quickjs.c</a>
-</li>
-<li>js_bf_realloc()
-: <a class="el" href="quickjs_8c.html#a20f082244f90b0ccd593a6475f1f21cb">quickjs.c</a>
-</li>
-<li>js_bfdec_pow()
-: <a class="el" href="quickjs_8c.html#affc9b14c0a437514d22d45f9ab48ac49">quickjs.c</a>
-</li>
-<li>js_bigdecimal_constructor()
-: <a class="el" href="quickjs_8c.html#a1b102dc0d9f93f228b2fbf2f7e4e980e">quickjs.c</a>
-</li>
-<li>js_bigdecimal_fop()
-: <a class="el" href="quickjs_8c.html#aba37b9c695bb91e9f06fb58c0f51c1ec">quickjs.c</a>
-</li>
-<li>js_bigdecimal_get_env()
-: <a class="el" href="quickjs_8c.html#ad9112d6111fa892494b8a453718c107e">quickjs.c</a>
-</li>
-<li>js_bigdecimal_to_string()
-: <a class="el" href="quickjs_8c.html#a2f6e4a35f244cc899894a560d9721671">quickjs.c</a>
-</li>
-<li>js_bigdecimal_toString()
-: <a class="el" href="quickjs_8c.html#ae46ec087ddffc7fa3a38e1d7ae3719c3">quickjs.c</a>
-</li>
-<li>js_bigdecimal_valueOf()
-: <a class="el" href="quickjs_8c.html#a55fb6ea900946fb52fc5690346391168">quickjs.c</a>
-</li>
-<li>js_bigfloat_constructor()
-: <a class="el" href="quickjs_8c.html#a263d3c18b00705f20bf7c36047f7e0af">quickjs.c</a>
-</li>
-<li>js_bigfloat_fop()
-: <a class="el" href="quickjs_8c.html#af8435aca7fa84b4be13710a0311d990b">quickjs.c</a>
-</li>
-<li>js_bigfloat_fop2()
-: <a class="el" href="quickjs_8c.html#aa8ee7b99edb58d78277e8de851c48279">quickjs.c</a>
-</li>
-<li>js_bigfloat_get_const()
-: <a class="el" href="quickjs_8c.html#a647ac2d4e992bc02c73781b039f825c2">quickjs.c</a>
-</li>
-<li>js_bigfloat_is_finite()
-: <a class="el" href="quickjs_8c.html#a48caecb3b59b0b8a2d60c01c775c7ea0">quickjs.c</a>
-</li>
-<li>js_bigfloat_isFinite()
-: <a class="el" href="quickjs_8c.html#a56cad793ffeaaee25697c33c103be70a">quickjs.c</a>
-</li>
-<li>js_bigfloat_isNaN()
-: <a class="el" href="quickjs_8c.html#a209e4e25b6aeb07a46873013b9db615c">quickjs.c</a>
-</li>
-<li>js_bigfloat_parseFloat()
-: <a class="el" href="quickjs_8c.html#a477596d16af5e95d213ecdd471d5d030">quickjs.c</a>
-</li>
-<li>js_bigfloat_to_string()
-: <a class="el" href="quickjs_8c.html#aec77b0aa1b12eeae8997db64e6ae8037">quickjs.c</a>
-</li>
-<li>js_bigfloat_toExponential()
-: <a class="el" href="quickjs_8c.html#a438f60abbdc18727b147b7fed1cfb4aa">quickjs.c</a>
-</li>
-<li>js_bigfloat_toFixed()
-: <a class="el" href="quickjs_8c.html#afba0734d966eb748c6ad908bcd7c8605">quickjs.c</a>
-</li>
-<li>js_bigfloat_toPrecision()
-: <a class="el" href="quickjs_8c.html#af4145aac5df2033bb9254a9745a8b4c3">quickjs.c</a>
-</li>
-<li>js_bigfloat_toString()
-: <a class="el" href="quickjs_8c.html#a44eef76354aab5c9e67f1ea759e6f05b">quickjs.c</a>
-</li>
-<li>js_bigfloat_valueOf()
-: <a class="el" href="quickjs_8c.html#a850a482008062647227c1825191ae3f5">quickjs.c</a>
-</li>
-<li>js_bigint_asUintN()
-: <a class="el" href="quickjs_8c.html#a6cbbaf7f4f0b365649ed66611005f58d">quickjs.c</a>
-</li>
-<li>js_bigint_constructor()
-: <a class="el" href="quickjs_8c.html#a2470994049c07bd70581e5cba9d6c1ac">quickjs.c</a>
-</li>
-<li>js_bigint_div()
-: <a class="el" href="quickjs_8c.html#a00c02de2b16f15d8ed2218711defcc91">quickjs.c</a>
-</li>
-<li>js_bigint_op1()
-: <a class="el" href="quickjs_8c.html#a87b59ffc6108607b81bba086bfab60b2">quickjs.c</a>
-</li>
-<li>js_bigint_sqrt()
-: <a class="el" href="quickjs_8c.html#a4f87265a4db5dcaba49c1e93314983f1">quickjs.c</a>
-</li>
-<li>js_bigint_to_string()
-: <a class="el" href="quickjs_8c.html#aeda50211bf9acfe8955578d83e2592b2">quickjs.c</a>
-</li>
-<li>js_bigint_to_string1()
-: <a class="el" href="quickjs_8c.html#a1c70a5b8ab7b883612cb9dcbd40d1e62">quickjs.c</a>
-</li>
-<li>js_bigint_toString()
-: <a class="el" href="quickjs_8c.html#a9df5808a0ad682d04bb1e75092255f06">quickjs.c</a>
-</li>
-<li>js_bigint_valueOf()
-: <a class="el" href="quickjs_8c.html#a3de0f33c3a57edba1c5a9a3deb11305f">quickjs.c</a>
-</li>
-<li>js_binary_arith_bigdecimal()
-: <a class="el" href="quickjs_8c.html#a80ce79e773dd1474e32dc0a781decc4b">quickjs.c</a>
-</li>
-<li>js_binary_arith_bigfloat()
-: <a class="el" href="quickjs_8c.html#a916e386a73c9738a5e33109c83a4e3a8">quickjs.c</a>
-</li>
-<li>js_binary_arith_bigint()
-: <a class="el" href="quickjs_8c.html#a69d448a344a95318ee4ce862ccc21251">quickjs.c</a>
 </li>
 <li>js_binary_arith_slow()
 : <a class="el" href="quickjs_8c.html#a3c8e7fb12a7f3cf1846a36b0a7fc499f">quickjs.c</a>
@@ -573,9 +468,6 @@ $(function() {
 : <a class="el" href="quickjs_8h.html#a1a4c02a29525d5cb2085dd8bca3af350">quickjs.h</a>
 , <a class="el" href="quickjs_8c.html#a1a4c02a29525d5cb2085dd8bca3af350">quickjs.c</a>
 </li>
-<li>js_call_binary_op_fallback()
-: <a class="el" href="quickjs_8c.html#a889efc20a73ccb17d8fdfa84ab9f23c5">quickjs.c</a>
-</li>
 <li>js_call_bound_function()
 : <a class="el" href="quickjs_8c.html#afd4ef2d701fa0702f321925b61c57bbf">quickjs.c</a>
 </li>
@@ -625,12 +517,6 @@ $(function() {
 </li>
 <li>js_cmp_doubles()
 : <a class="el" href="quickjs_8c.html#a6b0e8aa3cc732644f0779f7206bbb287">quickjs.c</a>
-</li>
-<li>js_compare_bigdecimal()
-: <a class="el" href="quickjs_8c.html#a4f02870ac042616bfadc95102f6ae09e">quickjs.c</a>
-</li>
-<li>js_compare_bigfloat()
-: <a class="el" href="quickjs_8c.html#a4a822a726548bdc455b2f83b85e5880e">quickjs.c</a>
 </li>
 <li>js_compile_regexp()
 : <a class="el" href="quickjs_8c.html#ab0bd3fbfe9b7f004c067b103a6d60d03">quickjs.c</a>
@@ -885,7 +771,6 @@ $(function() {
 </li>
 <li>JS_EnableBignumExt()
 : <a class="el" href="quickjs_8h.html#ac955bbe0a98805644cc2cb99e5db6a63">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#adde2d72f17acaa260489da746ea8472e">quickjs.c</a>
 </li>
 <li>JS_EnqueueJob()
 : <a class="el" href="quickjs_8h.html#a39d815a00b3ec1aed21699396fb43869">quickjs.h</a>
@@ -938,30 +823,6 @@ $(function() {
 </li>
 <li>JS_FlattenIntoArray()
 : <a class="el" href="quickjs_8c.html#ad90c33b4aae1181151bda4a98ac2ef23">quickjs.c</a>
-</li>
-<li>js_float_env_clearStatus()
-: <a class="el" href="quickjs_8c.html#a95107b781232b4b913834cf620506277">quickjs.c</a>
-</li>
-<li>js_float_env_constructor()
-: <a class="el" href="quickjs_8c.html#ae331d91f355f035afad5fb15a51d1b48">quickjs.c</a>
-</li>
-<li>js_float_env_finalizer()
-: <a class="el" href="quickjs_8c.html#ac2c8575f0ff34a4da46fec5a3e151fb3">quickjs.c</a>
-</li>
-<li>js_float_env_get_expBits()
-: <a class="el" href="quickjs_8c.html#aec8a3e3593195357786dc76caf1fbb90">quickjs.c</a>
-</li>
-<li>js_float_env_get_prec()
-: <a class="el" href="quickjs_8c.html#afb4105d80dbddba052f3652cde4a705f">quickjs.c</a>
-</li>
-<li>js_float_env_proto_get_status()
-: <a class="el" href="quickjs_8c.html#a3aacaa5e464a0c092bd043359f7001c3">quickjs.c</a>
-</li>
-<li>js_float_env_proto_set_status()
-: <a class="el" href="quickjs_8c.html#a18b9c3ccf181057f601965e26197e595">quickjs.c</a>
-</li>
-<li>js_float_env_setPrec()
-: <a class="el" href="quickjs_8c.html#a94ed99d976e9c73c611de2c5245559b9">quickjs.c</a>
 </li>
 <li>js_fmax()
 : <a class="el" href="quickjs_8c.html#a7c611c06a32f81fd2afbb004c5e50e95">quickjs.c</a>
@@ -1036,9 +897,6 @@ $(function() {
 <li>JS_FreeAtomStruct()
 : <a class="el" href="quickjs_8c.html#a58c8965dad50b15b75918a09f3d9dc7c">quickjs.c</a>
 </li>
-<li>JS_FreeBigInt()
-: <a class="el" href="quickjs_8c.html#affb3f9a62ad71eeba577ed2ddcf8b2eb">quickjs.c</a>
-</li>
 <li>JS_FreeContext()
 : <a class="el" href="quickjs_8h.html#aa59446eeb9276919bfaf36c38b3b0c0a">quickjs.h</a>
 , <a class="el" href="quickjs_8c.html#a1b4fe6eb1b7bcaec6713bd5ac2921f1b">quickjs.c</a>
@@ -1056,9 +914,6 @@ $(function() {
 </li>
 <li>JS_FreeValueRT()
 : <a class="el" href="quickjs_8h.html#ab8db583fa5e7c2b1935854a42859daed">quickjs.h</a>
-</li>
-<li>js_ftoa()
-: <a class="el" href="quickjs_8c.html#a1fee789102995207275aacbbaee299cf">quickjs.c</a>
 </li>
 <li>js_function_apply()
 : <a class="el" href="quickjs_8c.html#a8d4b24969540aff427939eeda47f451d">quickjs.c</a>
@@ -1128,6 +983,9 @@ $(function() {
 </li>
 <li>js_get_prototype_from_ctor()
 : <a class="el" href="quickjs_8c.html#aacdcfa802cfe8a8e72a864cba3355bd1">quickjs.c</a>
+</li>
+<li>js_get_radix()
+: <a class="el" href="quickjs_8c.html#a3be9f2184f1813c139dde43d2bb0992f">quickjs.c</a>
 </li>
 <li>js_get_regexp()
 : <a class="el" href="quickjs_8c.html#a82de8d310598980dd9ab473ce2c8dd1c">quickjs.c</a>
@@ -1332,7 +1190,7 @@ $(function() {
 : <a class="el" href="quickjs_8h.html#a920dfb277ddab7efd778dca6c28e49f5">quickjs.h</a>
 </li>
 <li>JS_IsBigInt()
-: <a class="el" href="quickjs_8c.html#a3f02b9c9e45decfdd669d203d9a00eca">quickjs.c</a>
+: <a class="el" href="quickjs_8h.html#a6a847d7cd67ba681618202ef4a494498">quickjs.h</a>
 </li>
 <li>JS_IsBool()
 : <a class="el" href="quickjs_8h.html#a18dacfc4f5759f80be02dc4a85808af0">quickjs.h</a>
@@ -1369,9 +1227,6 @@ $(function() {
 : <a class="el" href="quickjs_8h.html#af4cd70eee97bbcab2d0f2e46cf53ccd7">quickjs.h</a>
 , <a class="el" href="quickjs_8c.html#af4cd70eee97bbcab2d0f2e46cf53ccd7">quickjs.c</a>
 </li>
-<li>JS_IsInteger()
-: <a class="el" href="quickjs_8h.html#ac633a1a9c73ddd1c13dc960bd8bc45e2">quickjs.h</a>
-</li>
 <li>JS_IsJobPending()
 : <a class="el" href="quickjs_8h.html#ad2feb63259c30d564552e0e42607f61d">quickjs.h</a>
 , <a class="el" href="quickjs_8c.html#a930f8dfc92f51ce318247bc6c17d0aee">quickjs.c</a>
@@ -1384,8 +1239,7 @@ $(function() {
 : <a class="el" href="quickjs_8h.html#a149f24b67e745bad93573b3b4c80db4c">quickjs.h</a>
 </li>
 <li>JS_IsNumber()
-: <a class="el" href="quickjs_8h.html#a80748588bc6abe4b1e93c193dde82c00">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#a80748588bc6abe4b1e93c193dde82c00">quickjs.c</a>
+: <a class="el" href="quickjs_8h.html#ab995df176086f2a2a06ab777d4c4ef28">quickjs.h</a>
 </li>
 <li>JS_IsObject()
 : <a class="el" href="quickjs_8h.html#a3d68fe446df2d9c7d1900b16371bff5b">quickjs.h</a>
@@ -1440,8 +1294,8 @@ $(function() {
 : <a class="el" href="quickjs_8c.html#a60d84dd116a9d7d912d08f298a4734dd">quickjs.c</a>
 </li>
 <li>JS_JSONStringify()
-: <a class="el" href="quickjs_8c.html#a343a343b16bc3c9875050e99ee0d2884">quickjs.c</a>
-, <a class="el" href="quickjs_8h.html#a343a343b16bc3c9875050e99ee0d2884">quickjs.h</a>
+: <a class="el" href="quickjs_8h.html#a343a343b16bc3c9875050e99ee0d2884">quickjs.h</a>
+, <a class="el" href="quickjs_8c.html#a343a343b16bc3c9875050e99ee0d2884">quickjs.c</a>
 </li>
 <li>js_load_file()
 : <a class="el" href="quickjs-libc_8h.html#a529207225a77f71253f17893e1e6dffb">quickjs-libc.h</a>
@@ -1520,9 +1374,6 @@ $(function() {
 : <a class="el" href="quickjs_8h.html#ab05309c79261e2042dfebf3dc7f7d039">quickjs.h</a>
 , <a class="el" href="quickjs_8c.html#ab05309c79261e2042dfebf3dc7f7d039">quickjs.c</a>
 </li>
-<li>js_math_abs()
-: <a class="el" href="quickjs_8c.html#acf64c83ed11234946fc5a81100557656">quickjs.c</a>
-</li>
 <li>js_math_clz32()
 : <a class="el" href="quickjs_8c.html#ad3b1001215b6c347e267c17a38a6492f">quickjs.c</a>
 </li>
@@ -1569,15 +1420,6 @@ $(function() {
 <li>js_module_set_import_meta()
 : <a class="el" href="quickjs-libc_8h.html#a5cc3e22713f1916d49867f60a7375505">quickjs-libc.h</a>
 , <a class="el" href="quickjs-libc_8c.html#a5cc3e22713f1916d49867f60a7375505">quickjs-libc.c</a>
-</li>
-<li>js_mul_pow10()
-: <a class="el" href="quickjs_8c.html#ab7eba1c350d05ba7a0319119d85b70a0">quickjs.c</a>
-</li>
-<li>js_mul_pow10_to_float64()
-: <a class="el" href="quickjs_8c.html#a39b3fcf371c5080c1887bb3753d7c122">quickjs.c</a>
-</li>
-<li>js_new_bf()
-: <a class="el" href="quickjs_8c.html#a6f5d3baf4bf175b36fb9369470d93735">quickjs.c</a>
 </li>
 <li>js_new_function_def()
 : <a class="el" href="quickjs_8c.html#a8020fd59ed57f7f299216ec1ebfcda01">quickjs.c</a>
@@ -1643,25 +1485,11 @@ $(function() {
 : <a class="el" href="quickjs_8h.html#a7445082229205ad47aec019d74536f8e">quickjs.h</a>
 , <a class="el" href="quickjs_8c.html#a7445082229205ad47aec019d74536f8e">quickjs.c</a>
 </li>
-<li>JS_NewBigDecimal()
-: <a class="el" href="quickjs_8c.html#aae1b9485d73024c0c59f71b4196c4a41">quickjs.c</a>
-</li>
-<li>JS_NewBigFloat()
-: <a class="el" href="quickjs_8c.html#aa8cb113c1ac4d2c2178315c888788051">quickjs.c</a>
-</li>
-<li>JS_NewBigInt()
-: <a class="el" href="quickjs_8c.html#aece934cd3d738b1562b8cf5fe5ce9b67">quickjs.c</a>
-</li>
-<li>JS_NewBigInt2()
-: <a class="el" href="quickjs_8c.html#a98d62298f0edd475682572d2d1c2fbc2">quickjs.c</a>
-</li>
 <li>JS_NewBigInt64()
 : <a class="el" href="quickjs_8h.html#a213070e88270656c91c47f11bfb138e2">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#a213070e88270656c91c47f11bfb138e2">quickjs.c</a>
 </li>
 <li>JS_NewBigUint64()
 : <a class="el" href="quickjs_8h.html#a5d8e647c557f51abcfcdbf9f26b6ecc1">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#a5d8e647c557f51abcfcdbf9f26b6ecc1">quickjs.c</a>
 </li>
 <li>JS_NewBool()
 : <a class="el" href="quickjs_8h.html#a93abffa925714e249a6aa2f4ae7900f6">quickjs.h</a>
@@ -1733,12 +1561,12 @@ $(function() {
 , <a class="el" href="quickjs_8c.html#acfced0527a056a74dd8439904b7936dd">quickjs.c</a>
 </li>
 <li>JS_NewObject()
-: <a class="el" href="quickjs_8h.html#afc0d8ea75588216ec132a6e1655524a7">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#afc0d8ea75588216ec132a6e1655524a7">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#afc0d8ea75588216ec132a6e1655524a7">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#afc0d8ea75588216ec132a6e1655524a7">quickjs.h</a>
 </li>
 <li>JS_NewObjectClass()
-: <a class="el" href="quickjs_8c.html#a659dc0db7e440fd6eb012d613627faa3">quickjs.c</a>
-, <a class="el" href="quickjs_8h.html#a659dc0db7e440fd6eb012d613627faa3">quickjs.h</a>
+: <a class="el" href="quickjs_8h.html#a659dc0db7e440fd6eb012d613627faa3">quickjs.h</a>
+, <a class="el" href="quickjs_8c.html#a659dc0db7e440fd6eb012d613627faa3">quickjs.c</a>
 </li>
 <li>JS_NewObjectFromShape()
 : <a class="el" href="quickjs_8c.html#a030c2e98b1775a7e3bdd13be1400b1fe">quickjs.c</a>
@@ -1941,6 +1769,9 @@ $(function() {
 </li>
 <li>JS_OrdinaryIsInstanceOf()
 : <a class="el" href="quickjs_8c.html#aa0b5c1a59ff4832154e2a98d7c63a4b2">quickjs.c</a>
+</li>
+<li>js_os_chdir()
+: <a class="el" href="quickjs-libc_8c.html#ac1ad39478b2076e2113aff65595b0686">quickjs-libc.c</a>
 </li>
 <li>js_os_clearTimeout()
 : <a class="el" href="quickjs-libc_8c.html#a96da6038536c8cc29dcf0470e09616e8">quickjs-libc.c</a>
@@ -2331,9 +2162,6 @@ $(function() {
 <li>js_random_init()
 : <a class="el" href="quickjs_8c.html#a52a30844f9d033611ec1fbc053499c77">quickjs.c</a>
 </li>
-<li>JS_ReadBigNum()
-: <a class="el" href="quickjs_8c.html#a9521065b30ddae4ec518a195486c83c8">quickjs.c</a>
-</li>
 <li>JS_ReadFunctionBytecode()
 : <a class="el" href="quickjs_8c.html#ab64e04b510d4c4073aa468fc0a3ac0b1">quickjs.c</a>
 </li>
@@ -2351,16 +2179,16 @@ $(function() {
 : <a class="el" href="quickjs_8c.html#a73a002c998fe7508eae9aa069fac802b">quickjs.c</a>
 </li>
 <li>js_realloc()
-: <a class="el" href="quickjs_8h.html#afc4635015897c24a35aa18566311c298">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#afc4635015897c24a35aa18566311c298">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#afc4635015897c24a35aa18566311c298">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#afc4635015897c24a35aa18566311c298">quickjs.h</a>
 </li>
 <li>js_realloc2()
 : <a class="el" href="quickjs_8h.html#a1c31248142879982abb1595f97817cd9">quickjs.h</a>
 , <a class="el" href="quickjs_8c.html#a1c31248142879982abb1595f97817cd9">quickjs.c</a>
 </li>
 <li>js_realloc_rt()
-: <a class="el" href="quickjs_8c.html#aa548c4ad5eacef7d9508100cfe6f6871">quickjs.c</a>
-, <a class="el" href="quickjs_8h.html#aa548c4ad5eacef7d9508100cfe6f6871">quickjs.h</a>
+: <a class="el" href="quickjs_8h.html#aa548c4ad5eacef7d9508100cfe6f6871">quickjs.h</a>
+, <a class="el" href="quickjs_8c.html#aa548c4ad5eacef7d9508100cfe6f6871">quickjs.c</a>
 </li>
 <li>js_reflect_apply()
 : <a class="el" href="quickjs_8c.html#a710202e2f99e7c52937df93b912a857b">quickjs.c</a>
@@ -2450,8 +2278,8 @@ $(function() {
 : <a class="el" href="quickjs_8c.html#ad48277f7656d161f492b5f1ff5d8c388">quickjs.c</a>
 </li>
 <li>JS_ResetUncatchableError()
-: <a class="el" href="quickjs_8h.html#afa964cd85085a7b6a3242d8226b2274a">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#afa964cd85085a7b6a3242d8226b2274a">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#afa964cd85085a7b6a3242d8226b2274a">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#afa964cd85085a7b6a3242d8226b2274a">quickjs.h</a>
 </li>
 <li>js_resize_array()
 : <a class="el" href="quickjs_8c.html#a39677cf9d17404b20a0d067fe1f4a86d">quickjs.c</a>
@@ -2486,8 +2314,8 @@ $(function() {
 : <a class="el" href="quickjs_8c.html#a28a2815f15eb2c3477a05e9c7e4394b8">quickjs.c</a>
 </li>
 <li>JS_SetCanBlock()
-: <a class="el" href="quickjs_8h.html#ad686716765c5ddf40ab9890c69bb14ec">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#a1bd1f65ec3dfbd0ae95b3fd84e95cb77">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#a1bd1f65ec3dfbd0ae95b3fd84e95cb77">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#ad686716765c5ddf40ab9890c69bb14ec">quickjs.h</a>
 </li>
 <li>JS_SetClassProto()
 : <a class="el" href="quickjs_8h.html#a742ee8af627e4502758e503d152b0cd0">quickjs.h</a>
@@ -2520,8 +2348,8 @@ $(function() {
 , <a class="el" href="quickjs_8c.html#a8e4ababc1a48199756832f36a5729f4c">quickjs.c</a>
 </li>
 <li>JS_SetInterruptHandler()
-: <a class="el" href="quickjs_8h.html#a2d1dc12b1691b07e42163b3d98549eb4">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#a2d1dc12b1691b07e42163b3d98549eb4">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#a2d1dc12b1691b07e42163b3d98549eb4">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#a2d1dc12b1691b07e42163b3d98549eb4">quickjs.h</a>
 </li>
 <li>JS_SetMaxStackSize()
 : <a class="el" href="quickjs_8h.html#af8bbf50f4c24b39df0adaeecd3a4f0bd">quickjs.h</a>
@@ -2536,8 +2364,8 @@ $(function() {
 , <a class="el" href="quickjs_8c.html#acc3990661d2851b858601061a62cc7d6">quickjs.c</a>
 </li>
 <li>JS_SetModuleExportList()
-: <a class="el" href="quickjs_8h.html#a04f1ec3f8d1f5c012280eb23e64a7b58">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#a04f1ec3f8d1f5c012280eb23e64a7b58">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#a04f1ec3f8d1f5c012280eb23e64a7b58">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#a04f1ec3f8d1f5c012280eb23e64a7b58">quickjs.h</a>
 </li>
 <li>JS_SetModuleLoaderFunc()
 : <a class="el" href="quickjs_8h.html#ae7580084b7ee2e8ebe03e24b693750e3">quickjs.h</a>
@@ -2557,8 +2385,8 @@ $(function() {
 : <a class="el" href="quickjs_8h.html#af763b173e78debf2075670ca2c128a30">quickjs.h</a>
 </li>
 <li>JS_SetPropertyFunctionList()
-: <a class="el" href="quickjs_8c.html#ac00854b7f1f0f8567af964a2f8f2adb0">quickjs.c</a>
-, <a class="el" href="quickjs_8h.html#ac00854b7f1f0f8567af964a2f8f2adb0">quickjs.h</a>
+: <a class="el" href="quickjs_8h.html#ac00854b7f1f0f8567af964a2f8f2adb0">quickjs.h</a>
+, <a class="el" href="quickjs_8c.html#ac00854b7f1f0f8567af964a2f8f2adb0">quickjs.c</a>
 </li>
 <li>JS_SetPropertyGeneric()
 : <a class="el" href="quickjs_8c.html#a638e637d492ee889691691baba33c4bd">quickjs.c</a>
@@ -2568,23 +2396,23 @@ $(function() {
 , <a class="el" href="quickjs_8c.html#a51b06daa618640e531fe808770553b96">quickjs.c</a>
 </li>
 <li>JS_SetPropertyInternal()
-: <a class="el" href="quickjs_8h.html#ad7f03358a8088ca920ab308225c6b2e6">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#ad7f03358a8088ca920ab308225c6b2e6">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#ad7f03358a8088ca920ab308225c6b2e6">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#ad7f03358a8088ca920ab308225c6b2e6">quickjs.h</a>
 </li>
 <li>JS_SetPropertyStr()
-: <a class="el" href="quickjs_8h.html#a62617fe11025d2e5a545db069fc28e64">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#a62617fe11025d2e5a545db069fc28e64">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#a62617fe11025d2e5a545db069fc28e64">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#a62617fe11025d2e5a545db069fc28e64">quickjs.h</a>
 </li>
 <li>JS_SetPropertyUint32()
-: <a class="el" href="quickjs_8h.html#aae909eaec829081b270012adfcd717a4">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#aae909eaec829081b270012adfcd717a4">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#aae909eaec829081b270012adfcd717a4">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#aae909eaec829081b270012adfcd717a4">quickjs.h</a>
 </li>
 <li>JS_SetPropertyValue()
 : <a class="el" href="quickjs_8c.html#aee75cc1546e19479e3ccda58f3b50a96">quickjs.c</a>
 </li>
 <li>JS_SetPrototype()
-: <a class="el" href="quickjs_8c.html#af7e6f1b99757ce3911225ac50ca27b6a">quickjs.c</a>
-, <a class="el" href="quickjs_8h.html#af7e6f1b99757ce3911225ac50ca27b6a">quickjs.h</a>
+: <a class="el" href="quickjs_8h.html#af7e6f1b99757ce3911225ac50ca27b6a">quickjs.h</a>
+, <a class="el" href="quickjs_8c.html#af7e6f1b99757ce3911225ac50ca27b6a">quickjs.c</a>
 </li>
 <li>JS_SetPrototypeInternal()
 : <a class="el" href="quickjs_8c.html#a11b9662411b5b3f631925a0ca708ce25">quickjs.c</a>
@@ -2618,8 +2446,8 @@ $(function() {
 : <a class="el" href="quickjs_8c.html#ab5d3dff6327702516a514e1f616ec149">quickjs.c</a>
 </li>
 <li>js_std_add_helpers()
-: <a class="el" href="quickjs-libc_8h.html#ad04466feec6822a3b838baf229f6dfa0">quickjs-libc.h</a>
-, <a class="el" href="quickjs-libc_8c.html#ad04466feec6822a3b838baf229f6dfa0">quickjs-libc.c</a>
+: <a class="el" href="quickjs-libc_8c.html#ad04466feec6822a3b838baf229f6dfa0">quickjs-libc.c</a>
+, <a class="el" href="quickjs-libc_8h.html#ad04466feec6822a3b838baf229f6dfa0">quickjs-libc.h</a>
 </li>
 <li>js_std_dbuf_init()
 : <a class="el" href="quickjs-libc_8c.html#abc010e21334ba999f6ad18a681caf4fb">quickjs-libc.c</a>
@@ -2638,8 +2466,8 @@ $(function() {
 : <a class="el" href="quickjs-libc_8c.html#ac03b9f7f2657dc7ac8f896f1548f55fc">quickjs-libc.c</a>
 </li>
 <li>js_std_eval_binary()
-: <a class="el" href="quickjs-libc_8c.html#ab1b439d304c2125490b47ef262b5df67">quickjs-libc.c</a>
-, <a class="el" href="quickjs-libc_8h.html#a91edf4ac5981ccc17a1775c4b43e03b3">quickjs-libc.h</a>
+: <a class="el" href="quickjs-libc_8h.html#a91edf4ac5981ccc17a1775c4b43e03b3">quickjs-libc.h</a>
+, <a class="el" href="quickjs-libc_8c.html#ab1b439d304c2125490b47ef262b5df67">quickjs-libc.c</a>
 </li>
 <li>js_std_exit()
 : <a class="el" href="quickjs-libc_8c.html#a381d4071fca4ba448947b6acf91bb228">quickjs-libc.c</a>
@@ -2706,8 +2534,8 @@ $(function() {
 : <a class="el" href="quickjs-libc_8c.html#a08cea1a0226b7603e6969e2208d99d55">quickjs-libc.c</a>
 </li>
 <li>js_std_loop()
-: <a class="el" href="quickjs-libc_8h.html#af7480dad10e937004e36b2b409b084a4">quickjs-libc.h</a>
-, <a class="el" href="quickjs-libc_8c.html#af7480dad10e937004e36b2b409b084a4">quickjs-libc.c</a>
+: <a class="el" href="quickjs-libc_8c.html#af7480dad10e937004e36b2b409b084a4">quickjs-libc.c</a>
+, <a class="el" href="quickjs-libc_8h.html#af7480dad10e937004e36b2b409b084a4">quickjs-libc.h</a>
 </li>
 <li>js_std_open()
 : <a class="el" href="quickjs-libc_8c.html#a7af79ae13a636de55a6d58309c0cfa1e">quickjs-libc.c</a>
@@ -2735,8 +2563,8 @@ $(function() {
 : <a class="el" href="quickjs-libc_8c.html#a7aebce2172c6aa4a6645aef600a69e6b">quickjs-libc.c</a>
 </li>
 <li>js_strdup()
-: <a class="el" href="quickjs_8c.html#a23d33b08918485b2208e6af7ad22c5a6">quickjs.c</a>
-, <a class="el" href="quickjs_8h.html#a23d33b08918485b2208e6af7ad22c5a6">quickjs.h</a>
+: <a class="el" href="quickjs_8h.html#a23d33b08918485b2208e6af7ad22c5a6">quickjs.h</a>
+, <a class="el" href="quickjs_8c.html#a23d33b08918485b2208e6af7ad22c5a6">quickjs.c</a>
 </li>
 <li>js_strict_eq()
 : <a class="el" href="quickjs_8c.html#a2c7ed6633056510dfefd7919259f189d">quickjs.c</a>
@@ -2844,15 +2672,6 @@ $(function() {
 <li>js_string_substring()
 : <a class="el" href="quickjs_8c.html#a95e140838dbe5abed1dabaae43f10a6e">quickjs.c</a>
 </li>
-<li>js_string_to_bigdecimal()
-: <a class="el" href="quickjs_8c.html#aa065d694b78eff5e7065075c1bb5dec2">quickjs.c</a>
-</li>
-<li>js_string_to_bigfloat()
-: <a class="el" href="quickjs_8c.html#ac63af686d19db382b407745f76f10480">quickjs.c</a>
-</li>
-<li>js_string_to_bigint()
-: <a class="el" href="quickjs_8c.html#aece01bde59b5a902bb7afa2cbdf333a1">quickjs.c</a>
-</li>
 <li>js_string_toLowerCase()
 : <a class="el" href="quickjs_8c.html#a3e0cdeed1c6f41927e75164d350e25bf">quickjs.c</a>
 </li>
@@ -2861,12 +2680,6 @@ $(function() {
 </li>
 <li>js_string_trim()
 : <a class="el" href="quickjs_8c.html#a62d4bd99d0b9e8200b220818902e5f0d">quickjs.c</a>
-</li>
-<li>JS_StringToBigInt()
-: <a class="el" href="quickjs_8c.html#a9be6ee94017ef3fed9039b7d1e6b994c">quickjs.c</a>
-</li>
-<li>JS_StringToBigIntErr()
-: <a class="el" href="quickjs_8c.html#a47d17af9d9e71cca3eca989aa13656ce">quickjs.c</a>
 </li>
 <li>js_strndup()
 : <a class="el" href="quickjs_8h.html#a3ac482a1947e8b15aabcd775444929b3">quickjs.h</a>
@@ -2914,9 +2727,6 @@ $(function() {
 <li>js_TA_cmp_int32()
 : <a class="el" href="quickjs_8c.html#a0185d25dec22564d1078458be8c980da">quickjs.c</a>
 </li>
-<li>js_TA_cmp_int64()
-: <a class="el" href="quickjs_8c.html#a9974940b16b6ad433dfcafa6d95cafac">quickjs.c</a>
-</li>
 <li>js_TA_cmp_int8()
 : <a class="el" href="quickjs_8c.html#afc104d8d1e8c7bb8d39f27815a508d27">quickjs.c</a>
 </li>
@@ -2925,9 +2735,6 @@ $(function() {
 </li>
 <li>js_TA_cmp_uint32()
 : <a class="el" href="quickjs_8c.html#ad389a9ab6d45b2623bb99a2046dcdcd6">quickjs.c</a>
-</li>
-<li>js_TA_cmp_uint64()
-: <a class="el" href="quickjs_8c.html#ac916b344d6a54b9cf8654002c22647d9">quickjs.c</a>
 </li>
 <li>js_TA_cmp_uint8()
 : <a class="el" href="quickjs_8c.html#a3db8fbf7bd098c80050fc585e436f48f">quickjs.c</a>
@@ -2944,9 +2751,6 @@ $(function() {
 <li>js_TA_get_int32()
 : <a class="el" href="quickjs_8c.html#a484e21f7115571195726fb31af0f3cac">quickjs.c</a>
 </li>
-<li>js_TA_get_int64()
-: <a class="el" href="quickjs_8c.html#ad307af5803c0aeba67d6a449d2a971f2">quickjs.c</a>
-</li>
 <li>js_TA_get_int8()
 : <a class="el" href="quickjs_8c.html#a4bdb631497d9856af9aabb4df8695f55">quickjs.c</a>
 </li>
@@ -2956,20 +2760,8 @@ $(function() {
 <li>js_TA_get_uint32()
 : <a class="el" href="quickjs_8c.html#a36a4c57de89b7bc22b0992f6626eeb2e">quickjs.c</a>
 </li>
-<li>js_TA_get_uint64()
-: <a class="el" href="quickjs_8c.html#ad12defc0fa5c6f05267711f4ff7f3cab">quickjs.c</a>
-</li>
 <li>js_TA_get_uint8()
 : <a class="el" href="quickjs_8c.html#af17fead76d5800358d87b36054e73b6f">quickjs.c</a>
-</li>
-<li>js_thisBigDecimalValue()
-: <a class="el" href="quickjs_8c.html#ab26751a0faccc647bd1510146a6c4c7c">quickjs.c</a>
-</li>
-<li>js_thisBigFloatValue()
-: <a class="el" href="quickjs_8c.html#aaa619d77d6956c20daff7b4e2f1e9574">quickjs.c</a>
-</li>
-<li>js_thisBigIntValue()
-: <a class="el" href="quickjs_8c.html#a86896e3ba601a0a6116c280fbe7fabfe">quickjs.c</a>
 </li>
 <li>js_thisBooleanValue()
 : <a class="el" href="quickjs_8c.html#ae76c55fffe69e4c41425e0d483c20e6c">quickjs.c</a>
@@ -3036,43 +2828,15 @@ $(function() {
 <li>JS_ThrowTypeErrorRevokedProxy()
 : <a class="el" href="quickjs_8c.html#a199d64ccbee0a90d93e1ad12745417f6">quickjs.c</a>
 </li>
-<li>JS_ThrowUnsupportedOperation()
-: <a class="el" href="quickjs_8c.html#a8250f5ea1a9c01ff132d8f205bec74c7">quickjs.c</a>
-</li>
 <li>JS_ToArrayLengthFree()
 : <a class="el" href="quickjs_8c.html#a2ffb9d0277fd9e41a6604834f9c12b6f">quickjs.c</a>
 </li>
-<li>JS_ToBigDecimal()
-: <a class="el" href="quickjs_8c.html#a4be851217be3150ab204864464be00ec">quickjs.c</a>
-</li>
-<li>JS_ToBigDecimalFree()
-: <a class="el" href="quickjs_8c.html#a11df129dda863b23bedd9e59b15ac52b">quickjs.c</a>
-</li>
-<li>JS_ToBigFloat()
-: <a class="el" href="quickjs_8c.html#abe5ce04dc1f7ab5e0a0bfa0b91a48624">quickjs.c</a>
-</li>
-<li>JS_ToBigInt()
-: <a class="el" href="quickjs_8c.html#a3d056f9f8759c9b3765f4778614b3045">quickjs.c</a>
-</li>
 <li>JS_ToBigInt64()
-: <a class="el" href="quickjs_8c.html#a8c831ae1e9cb560b22da6bcd33c8e213">quickjs.c</a>
-, <a class="el" href="quickjs_8h.html#a8c831ae1e9cb560b22da6bcd33c8e213">quickjs.h</a>
-</li>
-<li>JS_ToBigInt64Free()
-: <a class="el" href="quickjs_8c.html#a87b8d619eab9353bf9d183256a6c26b7">quickjs.c</a>
-</li>
-<li>JS_ToBigIntCtorFree()
-: <a class="el" href="quickjs_8c.html#af88b18f6dfaf5dc49b89df9460bdb416">quickjs.c</a>
-</li>
-<li>JS_ToBigIntFree()
-: <a class="el" href="quickjs_8c.html#a3edc603bab6d2519f647b4762a5dad09">quickjs.c</a>
-</li>
-<li>JS_ToBigIntValueFree()
-: <a class="el" href="quickjs_8c.html#a2d5d78b0d76e30e16ede8777a5476688">quickjs.c</a>
+: <a class="el" href="quickjs_8h.html#a8c831ae1e9cb560b22da6bcd33c8e213">quickjs.h</a>
 </li>
 <li>JS_ToBool()
-: <a class="el" href="quickjs_8c.html#a525bb5bdbab2566313d9bcd876838d9d">quickjs.c</a>
-, <a class="el" href="quickjs_8h.html#a525bb5bdbab2566313d9bcd876838d9d">quickjs.h</a>
+: <a class="el" href="quickjs_8h.html#a525bb5bdbab2566313d9bcd876838d9d">quickjs.h</a>
+, <a class="el" href="quickjs_8c.html#a525bb5bdbab2566313d9bcd876838d9d">quickjs.c</a>
 </li>
 <li>JS_ToBoolFree()
 : <a class="el" href="quickjs_8c.html#a2bf30c9cddfe98a32535843202495069">quickjs.c</a>
@@ -3088,15 +2852,15 @@ $(function() {
 , <a class="el" href="quickjs_8h.html#a5388fb59c6bfd37239bfe16f44ca09ee">quickjs.h</a>
 </li>
 <li>JS_ToFloat64()
-: <a class="el" href="quickjs_8c.html#a8cc9386cd04cfa067d0c6bf588c6bb58">quickjs.c</a>
-, <a class="el" href="quickjs_8h.html#a8cc9386cd04cfa067d0c6bf588c6bb58">quickjs.h</a>
+: <a class="el" href="quickjs_8h.html#a8cc9386cd04cfa067d0c6bf588c6bb58">quickjs.h</a>
+, <a class="el" href="quickjs_8c.html#a8cc9386cd04cfa067d0c6bf588c6bb58">quickjs.c</a>
 </li>
 <li>JS_ToFloat64Free()
 : <a class="el" href="quickjs_8c.html#ab1b614ef35f1cea05da0ad4927c53118">quickjs.c</a>
 </li>
 <li>JS_ToIndex()
-: <a class="el" href="quickjs_8h.html#ad52f50dfe0e0e4aeae7003b97c4c0765">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#ad52f50dfe0e0e4aeae7003b97c4c0765">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#ad52f50dfe0e0e4aeae7003b97c4c0765">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#ad52f50dfe0e0e4aeae7003b97c4c0765">quickjs.h</a>
 </li>
 <li>JS_ToInt32()
 : <a class="el" href="quickjs_8h.html#a4073bd2b4f247bf6077cd956759193b9">quickjs.h</a>
@@ -3167,8 +2931,8 @@ $(function() {
 : <a class="el" href="quickjs_8c.html#abac33881bb91f8c31106f616d81b67e8">quickjs.c</a>
 </li>
 <li>JS_ToPropertyKey()
-: <a class="el" href="quickjs_8c.html#a35fd5681625c6d902357336edb6801e5">quickjs.c</a>
-, <a class="el" href="quickjs_8h.html#a35fd5681625c6d902357336edb6801e5">quickjs.h</a>
+: <a class="el" href="quickjs_8h.html#a35fd5681625c6d902357336edb6801e5">quickjs.h</a>
+, <a class="el" href="quickjs_8c.html#a35fd5681625c6d902357336edb6801e5">quickjs.c</a>
 </li>
 <li>JS_ToQuotedString()
 : <a class="el" href="quickjs_8c.html#ae5057ca2d025c62cc64ba12541f7925b">quickjs.c</a>
@@ -3177,8 +2941,8 @@ $(function() {
 : <a class="el" href="quickjs_8c.html#ac5732685af4e38c0c0122b2ab25908e1">quickjs.c</a>
 </li>
 <li>JS_ToString()
-: <a class="el" href="quickjs_8c.html#a7bcb8e1a20cbc8374a5f9ba4a2088cec">quickjs.c</a>
-, <a class="el" href="quickjs_8h.html#a7bcb8e1a20cbc8374a5f9ba4a2088cec">quickjs.h</a>
+: <a class="el" href="quickjs_8h.html#a7bcb8e1a20cbc8374a5f9ba4a2088cec">quickjs.h</a>
+, <a class="el" href="quickjs_8c.html#a7bcb8e1a20cbc8374a5f9ba4a2088cec">quickjs.c</a>
 </li>
 <li>JS_ToStringCheckObject()
 : <a class="el" href="quickjs_8c.html#a4d1d0760c9f9efcb8c0a8db414e46c8a">quickjs.c</a>
@@ -3288,15 +3052,6 @@ $(function() {
 <li>js_typed_array_subarray()
 : <a class="el" href="quickjs_8c.html#a355310420e303302c981eb7c73a222fb">quickjs.c</a>
 </li>
-<li>js_unary_arith_bigdecimal()
-: <a class="el" href="quickjs_8c.html#a572d2550c3d770ff6581399832c83e62">quickjs.c</a>
-</li>
-<li>js_unary_arith_bigfloat()
-: <a class="el" href="quickjs_8c.html#ab8d18512e059b2a9f4a945db33d68af0">quickjs.c</a>
-</li>
-<li>js_unary_arith_bigint()
-: <a class="el" href="quickjs_8c.html#a7e2090dc655aefcf2b11cd8d9e26a596">quickjs.c</a>
-</li>
 <li>js_unary_arith_slow()
 : <a class="el" href="quickjs_8c.html#a6a81009df3c2dbacf14bbe0b69b6a6cd">quickjs.c</a>
 </li>
@@ -3306,28 +3061,19 @@ $(function() {
 <li>js_update_property_flags()
 : <a class="el" href="quickjs_8c.html#a6d48937f79966a773376cc24834c663f">quickjs.c</a>
 </li>
-<li>JS_VALUE_GET_FLOAT64()
-: <a class="el" href="quickjs_8h.html#afe06061716bfb65408ead06e7323fdc5">quickjs.h</a>
-</li>
-<li>JS_VALUE_GET_NORM_TAG()
-: <a class="el" href="quickjs_8h.html#a7bb723173f0b700017d6b5075d58a13c">quickjs.h</a>
-</li>
 <li>JS_VALUE_IS_NAN()
 : <a class="el" href="quickjs_8h.html#ad668ac56e2bd3498ec0f0eddb574d3ff">quickjs.h</a>
 </li>
 <li>JS_ValueToAtom()
-: <a class="el" href="quickjs_8h.html#a859d5c989a2aaecef1653b3ac279e108">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#a859d5c989a2aaecef1653b3ac279e108">quickjs.c</a>
-</li>
-<li>JS_WriteBigNum()
-: <a class="el" href="quickjs_8c.html#a1eba6bc9b55ca38ac5b6b4dd16c3d992">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#a859d5c989a2aaecef1653b3ac279e108">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#a859d5c989a2aaecef1653b3ac279e108">quickjs.h</a>
 </li>
 <li>JS_WriteFunctionBytecode()
 : <a class="el" href="quickjs_8c.html#a394e92f87f41d27e7031eb3150bc35b1">quickjs.c</a>
 </li>
 <li>JS_WriteObject()
-: <a class="el" href="quickjs_8h.html#a8c807d481615ed55818787ae89621a37">quickjs.h</a>
-, <a class="el" href="quickjs_8c.html#a8c807d481615ed55818787ae89621a37">quickjs.c</a>
+: <a class="el" href="quickjs_8c.html#a8c807d481615ed55818787ae89621a37">quickjs.c</a>
+, <a class="el" href="quickjs_8h.html#a8c807d481615ed55818787ae89621a37">quickjs.h</a>
 </li>
 <li>JS_WriteObjectAtoms()
 : <a class="el" href="quickjs_8c.html#a91942742587df191fbf0f17a2ede99ef">quickjs.c</a>

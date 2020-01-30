@@ -30,9 +30,7 @@ var searchData=
   ['modules_5fsize',['modules_size',['../structGetExportNamesState.html#aba0000c83daf34bbec8ffb8e75104c3a',1,'GetExportNamesState']]],
   ['month_5fdays',['month_days',['../quickjs_8c.html#a4f849db7e04089c38b8384ef1a850010',1,'quickjs.c']]],
   ['month_5fnames',['month_names',['../quickjs_8c.html#a3ecb60f6ead34e898267c2f76cfd88e5',1,'quickjs.c']]],
-  ['mp_5fpow_5fdec',['mp_pow_dec',['../libbf_8c.html#ad03649d220b2bae8eec3817f9fed2716',1,'mp_pow_dec():&#160;libbf.c'],['../libbf_8h.html#ad03649d220b2bae8eec3817f9fed2716',1,'mp_pow_dec():&#160;libbf.c']]],
-  ['mp_5fpow_5fdiv',['mp_pow_div',['../libbf_8c.html#ae0d2bda163e220def0f79a4cb457b46e',1,'libbf.c']]],
-  ['mul_5fpow10',['mul_pow10',['../structJSNumericOperations.html#af324fb1a9e706dbadd7d2247950b1410',1,'JSNumericOperations']]],
-  ['mul_5fpow10_5fto_5ffloat64',['mul_pow10_to_float64',['../structJSNumericOperations.html#a52dc16becdb8651d62838f096ce04bb0',1,'JSNumericOperations']]],
+  ['mp_5fpow_5fdec',['mp_pow_dec',['../libbf_8c.html#a034ec82d29369310a1aace2979741e34',1,'mp_pow_dec():&#160;libbf.c'],['../libbf_8h.html#a034ec82d29369310a1aace2979741e34',1,'mp_pow_dec():&#160;libbf.c']]],
+  ['mp_5fpow_5fdiv',['mp_pow_div',['../libbf_8c.html#aba9973bb7500723b22f19d3ef80bb199',1,'libbf.c']]],
   ['multi_5fline',['multi_line',['../structREExecContext.html#a47c89f38e4e2dd3eb80448aef10a0079',1,'REExecContext']]]
 ];

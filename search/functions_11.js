@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['sat_5fadd',['sat_add',['../libbf_8c.html#ac88879c9a9c52b85c282df01636226c8',1,'libbf.c']]],
   ['scan_5fbit_5fnz',['scan_bit_nz',['../libbf_8c.html#ad3d895c95a9ac95ae5fe9ea75ce7291f',1,'libbf.c']]],
   ['scan_5fdigit_5fnz',['scan_digit_nz',['../libbf_8c.html#ae7f6502b4bd952304cb3b880b6350535',1,'libbf.c']]],
   ['seal_5ftemplate_5fobj',['seal_template_obj',['../quickjs_8c.html#a0f23e03f0a367d4b5559a14efbb1f4ee',1,'quickjs.c']]],
@@ -8,7 +9,6 @@ var searchData=
   ['set_5fcycle_5fflag',['set_cycle_flag',['../quickjs_8c.html#a3eb2bd652569b26b83de08a76797afe9',1,'quickjs.c']]],
   ['set_5fdate_5ffield',['set_date_field',['../quickjs_8c.html#a12803d7cccf6345067677bd4d25287ed',1,'quickjs.c']]],
   ['set_5fdate_5ffields',['set_date_fields',['../quickjs_8c.html#acbfcb88375d84711233f4daf89b0c587',1,'quickjs.c']]],
-  ['set_5fdummy_5fnumeric_5fops',['set_dummy_numeric_ops',['../quickjs_8c.html#acd79f55467ffd86e94e35c55a76bd008',1,'quickjs.c']]],
   ['set_5feval_5fret_5fundefined',['set_eval_ret_undefined',['../quickjs_8c.html#ad800cb2de9d84e999957b8c17fe7a90d',1,'quickjs.c']]],
   ['set_5fobject_5fname',['set_object_name',['../quickjs_8c.html#ab87db7e4e299e811a54acab5fe3620a7',1,'quickjs.c']]],
   ['set_5fobject_5fname_5fcomputed',['set_object_name_computed',['../quickjs_8c.html#ab4be9ab54ee78e84e688441cdade690c',1,'quickjs.c']]],
@@ -16,8 +16,8 @@ var searchData=
   ['set_5fvalue',['set_value',['../quickjs_8c.html#a0ec52a675282f321a6f42aa1298a53fe',1,'quickjs.c']]],
   ['shape_5fhash',['shape_hash',['../quickjs_8c.html#a11f047846c1027dc6066a5f1b2ef292a',1,'quickjs.c']]],
   ['shape_5finitial_5fhash',['shape_initial_hash',['../quickjs_8c.html#afeaafcef811076df11d1552bcc7f6a2a',1,'quickjs.c']]],
-  ['shld',['shld',['../libbf_8c.html#a2e376c9f523e45f754f0964385b9540e',1,'libbf.c']]],
-  ['shrd',['shrd',['../libbf_8c.html#a8d9dfbe7bd4a1fbf8c2c7488881a3439',1,'libbf.c']]],
+  ['shld',['shld',['../libbf_8c.html#a3f6a673f7d5af0dc39866e89fe5b56e0',1,'libbf.c']]],
+  ['shrd',['shrd',['../libbf_8c.html#abdac4b251b5dff8824e89468c8b3d196',1,'libbf.c']]],
   ['simple_5fnext_5ftoken',['simple_next_token',['../quickjs_8c.html#abd9d73eefa041a1741277e91ed026746',1,'quickjs.c']]],
   ['skip_5fdead_5fcode',['skip_dead_code',['../quickjs_8c.html#acbe95d57c42782c940f041bd8fa09c73',1,'quickjs.c']]],
   ['skip_5fshebang',['skip_shebang',['../quickjs_8c.html#a20ece19ce8f97880a19f0711a8c2aba2',1,'quickjs.c']]],

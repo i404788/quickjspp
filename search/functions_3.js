@@ -9,6 +9,7 @@ var searchData=
   ['check_5fdefine_5fprop_5fflags',['check_define_prop_flags',['../quickjs_8c.html#a68c7ae36cec3bf8bbf6cc0868a71cc4b',1,'quickjs.c']]],
   ['check_5fexact_5fpower2n',['check_exact_power2n',['../libbf_8c.html#ace5bdd7550302e2fb4b14c3a907dee7b',1,'libbf.c']]],
   ['check_5fexception_5ffree',['check_exception_free',['../quickjs_8c.html#af98c0c68d51e36b9779a0bb215c3a923',1,'quickjs.c']]],
+  ['check_5fexp_5funderflow_5foverflow',['check_exp_underflow_overflow',['../libbf_8c.html#aa6e77d8d722e3fd0540ede79a63e352e',1,'libbf.c']]],
   ['check_5ffunction',['check_function',['../quickjs_8c.html#a59a7e992f228759bf0a56f0aae4f3cc3',1,'quickjs.c']]],
   ['check_5fregexp_5fg_5fflag',['check_regexp_g_flag',['../quickjs_8c.html#a93aaed931ba8fcbf558c02a846fc7844',1,'quickjs.c']]],
   ['chud_5fbs',['chud_bs',['../libbf_8c.html#a81e50b3d7e7a931a93d6ea7e1d630631',1,'libbf.c']]],
