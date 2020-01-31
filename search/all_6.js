@@ -81,6 +81,7 @@ var searchData=
   ['free_5fvar_5fref',['free_var_ref',['../quickjs_8c.html#a9e7b4bccf927d811b0f99b40b08c0472',1,'quickjs.c']]],
   ['free_5fzero_5frefcount',['free_zero_refcount',['../quickjs_8c.html#a8defed3434f60d6b5d6a7ea202cc8f9d',1,'quickjs.c']]],
   ['from_5fhex',['from_hex',['../cutils_8h.html#a6dbaeca250de641ec4e4530808f69df8',1,'cutils.h']]],
+  ['fromjson',['fromJSON',['../classqjs_1_1Context.html#ace3f753ae2ad418064ea2d2382579a9d',1,'qjs::Context']]],
   ['fulfill_5for_5freject_5fpromise',['fulfill_or_reject_promise',['../quickjs_8c.html#abe904d9507d512959fb5570a59453e2e',1,'quickjs.c']]],
   ['fun',['fun',['../classqjs_1_1Context_1_1Module_1_1class__registrar.html#a3ce7ca743f2d5a4b6bce2c0bd54c88e9',1,'qjs::Context::Module::class_registrar::fun(const char *name, F &amp;&amp;f)'],['../classqjs_1_1Context_1_1Module_1_1class__registrar.html#a03e0f9d1e6cace6b982dc1c76f4fdcd7',1,'qjs::Context::Module::class_registrar::fun(const char *name)']]],
   ['func',['func',['../structJSCFunctionListEntry.html#ad427e1801b8b5fe10f50ea69f9bfd248',1,'JSCFunctionListEntry::func()'],['../structJSOSSignalHandler.html#a85600ccd478e83ee01d2e65286f4159a',1,'JSOSSignalHandler::func()'],['../structJSOSTimer.html#af2cad7ea6c767d72e2f8030e0abdd63e',1,'JSOSTimer::func()'],['../structJSObject.html#a9d0c4efd0d50161c01a1f5ee14c0aa94',1,'JSObject::func()'],['../structJSCFunctionDataRecord.html#a9d2bc7c21fda5545e096a67860974881',1,'JSCFunctionDataRecord::func()']]],

@@ -21,6 +21,7 @@ var searchData=
   ['tmp_5fobj_5flist',['tmp_obj_list',['../structJSRuntime.html#a89a469b156942edc96d535887a90f2c6',1,'JSRuntime']]],
   ['to_5fdigit',['to_digit',['../libbf_8c.html#aee06949e4c5ec85b3da174509b93dc65',1,'to_digit(int c):&#160;libbf.c'],['../quickjs_8c.html#aee06949e4c5ec85b3da174509b93dc65',1,'to_digit(int c):&#160;quickjs.c']]],
   ['to_5fnfd_5frec',['to_nfd_rec',['../libunicode_8c.html#ab30f4b72bed0cefc5b1ceeb8caef2afc',1,'libunicode.c']]],
+  ['tojson',['toJSON',['../classqjs_1_1Value.html#aa57193f349f84eb585eebb67c6334be1',1,'qjs::Value']]],
   ['tok',['tok',['../structJSLValue.html#a1ed4c5dcba853d4e0edb6ba1dd968d5f',1,'JSLValue']]],
   ['tok_5fand_5fassign',['TOK_AND_ASSIGN',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9ea905609ee6184370df85238982fcb54b6',1,'quickjs.c']]],
   ['tok_5farrow',['TOK_ARROW',['../quickjs_8c.html#a05589fbab0657f08285ebdfe93f5ec9eadd84d019a5e12b8ead6e91c58a998af7',1,'quickjs.c']]],

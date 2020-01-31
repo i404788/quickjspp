@@ -88,7 +88,7 @@ struct qjs::js_traits&lt; Value &gt;</h3>
 
 <p>Conversion traits for <a class="el" href="classqjs_1_1Value.html" title="JSValue with RAAI semantics. ">Value</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l01180">1180</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l01203">1203</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af767357ec1d8b4f65549d64f7cd769c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af767357ec1d8b4f65549d64f7cd769c6">&#9670;&nbsp;</a></span>unwrap()</h2>
@@ -124,10 +124,10 @@ struct qjs::js_traits&lt; Value &gt;</h3>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l01182">1182</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l01205">1205</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8h.html#a775522f2d084fc8fa0fcb33f390006b4">JS_DupValue()</a>, and <a class="el" href="classqjs_1_1Value.html#a8e2a5be6c89f30cee044b884e30bf819">qjs::Value::Value()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01183"></a><span class="lineno"> 1183</span>&#160;    {</div><div class="line"><a name="l01184"></a><span class="lineno"> 1184</span>&#160;        <span class="keywordflow">return</span> Value{ctx, <a class="code" href="quickjs_8h.html#a775522f2d084fc8fa0fcb33f390006b4">JS_DupValue</a>(ctx, v)};</div><div class="line"><a name="l01185"></a><span class="lineno"> 1185</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a775522f2d084fc8fa0fcb33f390006b4"><div class="ttname"><a href="quickjs_8h.html#a775522f2d084fc8fa0fcb33f390006b4">JS_DupValue</a></div><div class="ttdeci">static JSValue JS_DupValue(JSContext *ctx, JSValueConst v)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8h_source.html#l00633">quickjs.h:633</a></div></div>
+<div class="fragment"><div class="line"><a name="l01206"></a><span class="lineno"> 1206</span>&#160;    {</div><div class="line"><a name="l01207"></a><span class="lineno"> 1207</span>&#160;        <span class="keywordflow">return</span> Value{ctx, <a class="code" href="quickjs_8h.html#a775522f2d084fc8fa0fcb33f390006b4">JS_DupValue</a>(ctx, v)};</div><div class="line"><a name="l01208"></a><span class="lineno"> 1208</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a775522f2d084fc8fa0fcb33f390006b4"><div class="ttname"><a href="quickjs_8h.html#a775522f2d084fc8fa0fcb33f390006b4">JS_DupValue</a></div><div class="ttdeci">static JSValue JS_DupValue(JSContext *ctx, JSValueConst v)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8h_source.html#l00633">quickjs.h:633</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -171,10 +171,10 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l01187">1187</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l01210">1210</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="classqjs_1_1Value.html#aef4d95b41d8e52cd3f2adcde79021d80">qjs::Value::ctx</a>, and <a class="el" href="classqjs_1_1Value.html#ad7677a3e42f8c82bb64b5633a611f2f6">qjs::Value::release()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;    {</div><div class="line"><a name="l01189"></a><span class="lineno"> 1189</span>&#160;        assert(ctx == v.ctx);</div><div class="line"><a name="l01190"></a><span class="lineno"> 1190</span>&#160;        <span class="keywordflow">return</span> v.release();</div><div class="line"><a name="l01191"></a><span class="lineno"> 1191</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
+<div class="fragment"><div class="line"><a name="l01211"></a><span class="lineno"> 1211</span>&#160;    {</div><div class="line"><a name="l01212"></a><span class="lineno"> 1212</span>&#160;        assert(ctx == v.ctx);</div><div class="line"><a name="l01213"></a><span class="lineno"> 1213</span>&#160;        <span class="keywordflow">return</span> v.release();</div><div class="line"><a name="l01214"></a><span class="lineno"> 1214</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="structqjs_1_1js__traits_3_01Value_01_4_af4727ca29ead31139e17d81f8d54fe68_cgraph.svg" width="328" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>

@@ -45,6 +45,7 @@ var searchData=
   ['free_5fvar_5fref',['free_var_ref',['../quickjs_8c.html#a9e7b4bccf927d811b0f99b40b08c0472',1,'quickjs.c']]],
   ['free_5fzero_5frefcount',['free_zero_refcount',['../quickjs_8c.html#a8defed3434f60d6b5d6a7ea202cc8f9d',1,'quickjs.c']]],
   ['from_5fhex',['from_hex',['../cutils_8h.html#a6dbaeca250de641ec4e4530808f69df8',1,'cutils.h']]],
+  ['fromjson',['fromJSON',['../classqjs_1_1Context.html#ace3f753ae2ad418064ea2d2382579a9d',1,'qjs::Context']]],
   ['fulfill_5for_5freject_5fpromise',['fulfill_or_reject_promise',['../quickjs_8c.html#abe904d9507d512959fb5570a59453e2e',1,'quickjs.c']]],
   ['fun',['fun',['../classqjs_1_1Context_1_1Module_1_1class__registrar.html#a3ce7ca743f2d5a4b6bce2c0bd54c88e9',1,'qjs::Context::Module::class_registrar::fun(const char *name, F &amp;&amp;f)'],['../classqjs_1_1Context_1_1Module_1_1class__registrar.html#a03e0f9d1e6cace6b982dc1c76f4fdcd7',1,'qjs::Context::Module::class_registrar::fun(const char *name)']]],
   ['function',['function',['../classqjs_1_1Context_1_1Module.html#af9283cdedd5be80f2a03123df5ee9cff',1,'qjs::Context::Module::function(const char *name)'],['../classqjs_1_1Context_1_1Module.html#aa1275678b079d880cd9f2477552c90a5',1,'qjs::Context::Module::function(const char *name, F &amp;&amp;f)']]]

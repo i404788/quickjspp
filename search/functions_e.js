@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['operator_20const_20char_20_2a',['operator const char *',['../classqjs_1_1detail_1_1js__string.html#ac1925c2589b7bf60b42d8d743959bd73',1,'qjs::detail::js_string']]],
   ['operator_20jsvalue',['operator JSValue',['../classqjs_1_1Value.html#ad04b949f09968e4677fcfc1141b4b180',1,'qjs::Value']]],
   ['operator_20t',['operator T',['../structqjs_1_1detail_1_1property__proxy.html#ae3977f7f157a8a60242089cfd8578d54',1,'qjs::detail::property_proxy::operator T()'],['../classqjs_1_1Value.html#aa0eaa45d4cb0f1d7d7c42bccaef35ef6',1,'qjs::Value::operator T()']]],
   ['operator_20value',['operator Value',['../structqjs_1_1detail_1_1property__proxy.html#af5ab01d0154d84c8f16e93563a37db16',1,'qjs::detail::property_proxy']]],
