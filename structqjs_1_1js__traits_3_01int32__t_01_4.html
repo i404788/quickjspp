@@ -88,7 +88,7 @@ struct qjs::js_traits&lt; int32_t &gt;</h3>
 
 <p>Conversion traits for int32. </p>
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00100">100</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00101">101</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a18943dbc69ceb7871af235be36ade3b6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a18943dbc69ceb7871af235be36ade3b6">&#9670;&nbsp;</a></span>unwrap()</h2>
@@ -130,10 +130,10 @@ struct qjs::js_traits&lt; int32_t &gt;</h3>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00104">104</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00105">105</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8c.html#a4073bd2b4f247bf6077cd956759193b9">JS_ToInt32()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    {</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        int32_t r;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="quickjs_8h.html#a4073bd2b4f247bf6077cd956759193b9">JS_ToInt32</a>(ctx, &amp;r, v))</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="keywordflow">throw</span> exception{};</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">return</span> r;</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a4073bd2b4f247bf6077cd956759193b9"><div class="ttname"><a href="quickjs_8h.html#a4073bd2b4f247bf6077cd956759193b9">JS_ToInt32</a></div><div class="ttdeci">int JS_ToInt32(JSContext *ctx, int32_t *pres, JSValueConst val)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l10450">quickjs.c:10450</a></div></div>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    {</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        int32_t r;</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="quickjs_8h.html#a4073bd2b4f247bf6077cd956759193b9">JS_ToInt32</a>(ctx, &amp;r, v))</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="keywordflow">throw</span> exception{};</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">return</span> r;</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a4073bd2b4f247bf6077cd956759193b9"><div class="ttname"><a href="quickjs_8h.html#a4073bd2b4f247bf6077cd956759193b9">JS_ToInt32</a></div><div class="ttdeci">int JS_ToInt32(JSContext *ctx, int32_t *pres, JSValueConst val)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l10450">quickjs.c:10450</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -177,10 +177,10 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00112">112</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00113">113</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8h.html#a2050bc428da1c65ac7eb87c3fa3b0392">JS_NewInt32()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    {</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#a2050bc428da1c65ac7eb87c3fa3b0392">JS_NewInt32</a>(ctx, i);</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a2050bc428da1c65ac7eb87c3fa3b0392"><div class="ttname"><a href="quickjs_8h.html#a2050bc428da1c65ac7eb87c3fa3b0392">JS_NewInt32</a></div><div class="ttdeci">static js_force_inline JSValue JS_NewInt32(JSContext *ctx, int32_t val)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8h_source.html#l00501">quickjs.h:501</a></div></div>
+<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    {</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#a2050bc428da1c65ac7eb87c3fa3b0392">JS_NewInt32</a>(ctx, i);</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_a2050bc428da1c65ac7eb87c3fa3b0392"><div class="ttname"><a href="quickjs_8h.html#a2050bc428da1c65ac7eb87c3fa3b0392">JS_NewInt32</a></div><div class="ttdeci">static js_force_inline JSValue JS_NewInt32(JSContext *ctx, int32_t val)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8h_source.html#l00501">quickjs.h:501</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

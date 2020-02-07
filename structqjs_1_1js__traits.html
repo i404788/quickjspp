@@ -136,6 +136,12 @@ template&lt;typename R &gt; </div>
   </table>
   </dd>
 </dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">exception</td><td>in case of conversion error </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -176,7 +182,7 @@ template&lt;typename R &gt; </div>
 </div><div class="memdoc">
 
 <p>Create <a class="el" href="structJSValue.html">JSValue</a> from an object of type R and <a class="el" href="structJSContext.html">JSContext</a>. </p>
-<p>This function is intentionally not implemented. User should implement this function for their own type. </p><dl class="section return"><dt>Returns</dt><dd>Returns <a class="el" href="structJSValue.html">JSValue</a> which should be freed by the caller. </dd></dl>
+<p>This function is intentionally not implemented. User should implement this function for their own type. </p><dl class="section return"><dt>Returns</dt><dd>Returns <a class="el" href="structJSValue.html">JSValue</a> which should be freed by the caller or JS_EXCEPTION in case of error. </dd></dl>
 
 </div>
 </div>

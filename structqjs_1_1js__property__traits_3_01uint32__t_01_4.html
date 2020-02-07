@@ -84,7 +84,7 @@ Static Public Member Functions</h2></td></tr>
 struct qjs::js_property_traits&lt; uint32_t &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00672">672</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00680">680</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a80956064f81774837d511e8321056418"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80956064f81774837d511e8321056418">&#9670;&nbsp;</a></span>set_property()</h2>
@@ -132,10 +132,10 @@ struct qjs::js_property_traits&lt; uint32_t &gt;</h3>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00674">674</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00682">682</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8c.html#aae909eaec829081b270012adfcd717a4">JS_SetPropertyUint32()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;    {</div><div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;        <span class="keywordtype">int</span> err = <a class="code" href="quickjs_8h.html#aae909eaec829081b270012adfcd717a4">JS_SetPropertyUint32</a>(ctx, this_obj, idx, value);</div><div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;        <span class="keywordflow">if</span>(err &lt; 0)</div><div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;            <span class="keywordflow">throw</span> exception{};</div><div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_aae909eaec829081b270012adfcd717a4"><div class="ttname"><a href="quickjs_8h.html#aae909eaec829081b270012adfcd717a4">JS_SetPropertyUint32</a></div><div class="ttdeci">int JS_SetPropertyUint32(JSContext *ctx, JSValueConst this_obj, uint32_t idx, JSValue val)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l08344">quickjs.c:8344</a></div></div>
+<div class="fragment"><div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    {</div><div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;        <span class="keywordtype">int</span> err = <a class="code" href="quickjs_8h.html#aae909eaec829081b270012adfcd717a4">JS_SetPropertyUint32</a>(ctx, this_obj, idx, value);</div><div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;        <span class="keywordflow">if</span>(err &lt; 0)</div><div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;            <span class="keywordflow">throw</span> exception{};</div><div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_aae909eaec829081b270012adfcd717a4"><div class="ttname"><a href="quickjs_8h.html#aae909eaec829081b270012adfcd717a4">JS_SetPropertyUint32</a></div><div class="ttdeci">int JS_SetPropertyUint32(JSContext *ctx, JSValueConst this_obj, uint32_t idx, JSValue val)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l08344">quickjs.c:8344</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -185,10 +185,10 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00681">681</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quickjspp_8hpp_source.html#l00689">689</a> of file <a class="el" href="quickjspp_8hpp_source.html">quickjspp.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="quickjs_8c.html#aeb97957655d979e9fe56c955da2b2d4b">JS_GetPropertyUint32()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;    {</div><div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#aeb97957655d979e9fe56c955da2b2d4b">JS_GetPropertyUint32</a>(ctx, this_obj, idx);</div><div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_aeb97957655d979e9fe56c955da2b2d4b"><div class="ttname"><a href="quickjs_8h.html#aeb97957655d979e9fe56c955da2b2d4b">JS_GetPropertyUint32</a></div><div class="ttdeci">JSValue JS_GetPropertyUint32(JSContext *ctx, JSValueConst this_obj, uint32_t idx)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l07512">quickjs.c:7512</a></div></div>
+<div class="fragment"><div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;    {</div><div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="quickjs_8h.html#aeb97957655d979e9fe56c955da2b2d4b">JS_GetPropertyUint32</a>(ctx, this_obj, idx);</div><div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    }</div><div class="ttc" id="quickjs_8h_html_aeb97957655d979e9fe56c955da2b2d4b"><div class="ttname"><a href="quickjs_8h.html#aeb97957655d979e9fe56c955da2b2d4b">JS_GetPropertyUint32</a></div><div class="ttdeci">JSValue JS_GetPropertyUint32(JSContext *ctx, JSValueConst this_obj, uint32_t idx)</div><div class="ttdef"><b>Definition:</b> <a href="quickjs_8c_source.html#l07512">quickjs.c:7512</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
